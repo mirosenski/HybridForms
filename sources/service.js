@@ -606,6 +606,18 @@ router.post('/userdata', (req, res) => {
     res.status(200).send(demoUser);
 });
 
+router.get('/userdata', (req, res) => {
+    demoUser.displayName = demoUser.displayName ? demoUser.displayName : os.userInfo().username.toUpperCase();
+    demoUser.accountName = demoUser.accountName ? demoUser.accountName : os.hostname();
+    demoUser.options = null;
+    const serverKeys = path.join(__dirname, '../appSettings.json');
+    if (fs.existsSync(serverKeys)) {
+        demoUser.options = fs.readJSONSync(serverKeys);
+    }
+
+    res.status(200).send(demoUser);
+});
+
 router.post('/counter/:counterId', (req, res) => {
     const { counterId } = req.params;
     const { options } = req.body;
