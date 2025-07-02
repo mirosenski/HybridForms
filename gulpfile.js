@@ -60,6 +60,7 @@ const reload = () => {
 /** livereload port is needed to able to watch for the file  */
 gulp.task('formdev', function (done) {
     connect.server({
+        host: '0.0.0.0',
         livereload: {
             port: 8183,
         },

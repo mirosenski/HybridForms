@@ -667,8 +667,8 @@ router.get('/health', (req, res) => {
 
 app.use('/api', router);
 
-const server = app.listen('8182', () => {
-    console.log(chalk.green.bold('Services, started http://localhost:8182') + '\n');
+const server = app.listen(8182, '0.0.0.0', () => {
+    console.log(chalk.green.bold('Services, started http://0.0.0.0:8182') + '\n');
 });
 
 function randomNumber(digits) {
