@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Draft",
+        "description": "Formular im Entwurfsstatus",
+        "color": "#6c757d",
+        "isActive": true,
+        "isDefault": true,
+        "permissions": {
+            "canEdit": true,
+            "canDelete": true,
+            "canApprove": false,
+            "canReject": false
+        }
+    },
+    {
+        "id": 2,
+        "name": "In Review",
+        "description": "Formular wird überprüft",
+        "color": "#ffc107",
+        "isActive": true,
+        "isDefault": false,
+        "permissions": {
+            "canEdit": false,
+            "canDelete": false,
+            "canApprove": true,
+            "canReject": true
+        }
+    },
+    {
+        "id": 3,
+        "name": "Approved",
+        "description": "Formular genehmigt",
+        "color": "#28a745",
+        "isActive": true,
+        "isDefault": false,
+        "permissions": {
+            "canEdit": false,
+            "canDelete": false,
+            "canApprove": false,
+            "canReject": false
+        }
+    },
+    {
+        "id": 4,
+        "name": "Rejected",
+        "description": "Formular abgelehnt",
+        "color": "#dc3545",
+        "isActive": true,
+        "isDefault": false,
+        "permissions": {
+            "canEdit": true,
+            "canDelete": true,
+            "canApprove": false,
+            "canReject": false
+        }
+    }
+] 

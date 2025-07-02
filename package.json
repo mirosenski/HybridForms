@@ -15,7 +15,17 @@
         "generateTranslations": "node node_modules/hf-formtranslator/bin/index.js",
         "compareTranslations": "node sources/translationCompare.js",
         "hybridforms": "node node_modules/hybridforms/bin/hybridforms.js",
-        "email": "mjml"
+        "email": "mjml",
+        "dev": "npm start",
+        "build": "npm run export -- --formDefPath=./form-templates --outputPath=./build",
+        "clean": "rm -rf export build",
+        "lint": "eslint . --ext .ts,.js",
+        "lint:fix": "eslint . --ext .ts,.js --fix",
+        "format": "prettier --write .",
+        "test:export": "npm run export -- --formDefPath=./form-templates/TestForm --outputPath=./test-export",
+        "migrate:v9": "node sources/htmlMigrateV9.js",
+        "migrate:template": "node sources/htmlMigrateTemplate.js",
+        "setup": "npm install && npm run clean"
     },
     "engines": {
         "node": ">=20.0"
