@@ -1,0 +1,135 @@
+
+                <!DOCTYPE html>
+                    <html>
+                    <head>
+                        
+    <title>QATestFormTemplate</title>
+
+                    </head>
+                    <body>
+                        
+
+    <!-- PAGE 2 - Repeating 1 - Block 1 -->
+    <div id="repeating1HeaderBlock1" data-win-control="WinJS.Binding.Template">
+
+        <div class="grid column1 hf-bg-highlight hf-text-dark">
+            <div class="r1 c1">
+                <h3 class="{{prefix}} ru-headings">Header</h3>
+                <h4>for ALL Repeating Units of Tab "{{Placeholder1}}"</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="repeating1HeaderBlock2" data-win-control="WinJS.Binding.Template">
+        <div id="cond_ruheader" data-win-control="HFWinJSCtrl.Condition" data-hf-condition="{
+                &quot;cond&quot;: [{
+                    &quot;type&quot;: &quot;stage&quot;,
+                    &quot;id&quot;: &quot;ST3&quot;,
+                    &quot;val&quot;: true
+                }],
+                &quot;else&quot;: &quot;disabled&quot;
+            }">
+
+            <div class="grid column1 hf-bg-highlight">
+                <div class="r1 c1">
+                    <input type="text" id="repeat1HeaderBlock2_textfield" data-win-control="HFWinJSCtrl.TextField" data-win-options="{
+                            label: '{{Placeholder2}} Header'
+                        }">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PAGE 2 - Repeating 1 - FooterBlock 1 -->
+    <div id="repeating1FooterBlock1" data-win-control="WinJS.Binding.Template">
+        <div class="grid column1 {{prefix}}class">
+            <div class="r1 c1">
+                <h3 class="{{prefix}}headings">{{Placeholder1}}</h3>
+                <h4>for ALL Repeating Units of Tab "Repeating {{Placeholder3}}"</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE 2 - Repeating 1 - FooterBlock 2 -->
+    <div id="repeating1FooterBlock2" data-win-control="WinJS.Binding.Template">
+        <div class="grid column2">
+            <div class="r1 c1">
+                <input type="text" id="repeat1FooterBlock2_textfield" data-win-control="HFWinJSCtrl.TextField" data-win-options="{
+                                    label: '{{Placeholder2}}',
+                        validator: {
+                            maxlength: 200
+                        }
+        }">
+            </div>
+            <div class="r1 c2">
+                <div id="lbl_skiptests" data-win-control="HFWinJSCtrl.Label" data-win-options="{
+                        label: 'Skip Custom Tests'
+                    }"></div>
+                <input id="skiptest" type="checkbox" value="Skip Custom Tests" data-win-control="HFWinJSCtrl.CheckBox" data-win-options="{
+                        htmlLabel: 'yes - skip stage 3 and go to stage 4',
+                        tooltip: 'The activation of this checkbox skips stage three containing custom control tests, you are forwarded to the final stage 4.',
+                        defaultValue: false
+                    }">
+            </div>
+        </div>
+    </div>
+
+    <!-- ###### FRAGMENTS ###### -->
+    <div id="address-includeFragment">
+
+        <div class="r1 c1 cspan2">
+            <input type="text" id="address_city" class="float-getloc-next-city" data-win-control="HFWinJSCtrl.TextField" data-win-options="{
+                                    label: '{{@address-city | toUppercase}}',
+                        validator: {
+                            maxlength: 20
+                        }
+        }">
+            <div id="reverseGeolocator" class="pdf-hide" data-win-control="HFWinJSCtrl.ReverseGeolocatorButton" data-win-options="{
+                    buttonLabel: 'Get Location',
+                    buttonType: 'small',
+                    targetFields: {
+                        '{{idPrefix}}zip_code': 'postal_code',
+                        '{{idPrefix}}address_city': 'locality',
+                        '{{idPrefix}}address_street': 'route + street_number'
+                    },
+                    typesSeperator: ', ',
+                    nextToField: '{{idPrefix}}address_city',
+                    watcher: {}
+                }"></div>
+        </div>
+        <div class="r1 c3">
+            <input type="text" id="zip_code" data-win-control="HFWinJSCtrl.TextField" data-win-options="{
+                    label: 'ZIP Codes',
+                }">
+        </div>
+        <div class="r1 c4 pdf-hide">
+            <div id="mapButton2" class="pdf-hide" data-win-control="HFWinJSCtrl.MapButton" data-win-options="{
+                    cityId: '{{idPrefix}}address_city',
+                    zipCodeId: '{{idPrefix}}zip_code',
+                    streetId: '{{idPrefix}}address_street',
+                    buttonHeading: 'Navigation',
+                    buttonLabel: 'Route',
+                    buttonType: 'large'
+                }">
+            </div>
+        </div>
+        <div class="r2 c1 cspan3">
+            <input type="text" id="address_street" data-win-control="HFWinJSCtrl.TextField" data-win-options="{
+                    label: 'Address: Street name + no.'
+                }">
+        </div>
+        <div class="r2 c4 pdf-hide">
+            <div id="phoneButton" class="pdf-hide" data-win-control="HFWinJSCtrl.PhoneButton" data-win-options="{
+                    phoneId: '{{idPrefix}}phone_shadow',
+                    buttonHeading: 'Customer',
+                    buttonLabel: 'Call',
+                    buttonType: 'large'
+                }"></div>
+        </div>
+    </div>
+
+
+                    </body>
+                    </html>
