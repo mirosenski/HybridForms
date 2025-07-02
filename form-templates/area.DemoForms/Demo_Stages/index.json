@@ -1,0 +1,72 @@
+{
+    "title": "Demo Stages",
+    "culture": "en-US",
+    "attachments": [
+        "DemoQAStagesHelpers.js",
+        "waterworks-80x80.svg",
+        "demo-stages.css",
+        "DemoQA_Stages.html",
+        "customer-logo.css",
+        "form-logo.png",
+        "water-meter-350.png",
+        "index.json",
+        "stages.json"
+    ],
+    "flags": {
+        "Form.New": true,
+        "Form.ConflictHandling": false,
+        "Form.Copy": true,
+        "Form.Delete": true,
+        "Form.ReturnToGroup": true,
+        "Form.Save": true,
+        "Form.View": true,
+        "Feature.Audio": true,
+        "Feature.Document": true,
+        "Feature.Map": true,
+        "Feature.Picture": true,
+        "Feature.Sketch": true,
+        "Document.ReadOnly": false,
+        "Audio.ReadOnly": false,
+        "Picture.ReadOnly": false,
+        "Sketch.ReadOnly": false,
+        "Map.ReadOnly": false,
+        "PDF": true,
+        "PDF.Audio": true,
+        "PDF.Map": true,
+        "PDF.PageCounter": true,
+        "PDF.Picture": true,
+        "PDF.Sketch": true,
+        "PDF.Document": true
+    }, 
+    "stageDefinition": {
+        "stages": {
+            "S1": {
+                "first": true,			
+                "label": "Service task pending",			
+                "next": {
+                    "stage": "S2",
+                    "workflows": [],
+                    "buttonLabel": "Assign task",
+                    "dialogTitle": "Task assignment",
+                    "dialogMessage": "Customer data controlled and service task assigned to selected technician."
+                    }
+            },
+            "S2": {
+                "label": "Service field work",
+                "next": {
+                    "stage": "S3",
+                    "workflows": [],
+                    "buttonLabel": "Finish service",
+                    "dialogTitle": "Finish service",
+                    "dialogMessage": "Service field work finished."
+                }			
+            },
+            "S3": {
+                "label": "Accounting",			
+                "next": {		
+                    "workflows": []
+                }
+            }			
+        }
+    }
+}

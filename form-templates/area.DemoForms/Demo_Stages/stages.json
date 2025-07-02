@@ -1,0 +1,47 @@
+{
+	"stages": {
+	    "S1": {
+			"first": true,			
+			"label": "Service task pending",			
+			"next": {
+				"stage": "S2",
+				"workflows": [],
+				"buttonLabel": "Assign task",
+				"dialogTitle": "Task assignment",
+				"dialogMessage": "Customer data controlled and service task assigned to selected technician."
+				}
+		},
+		"S2": {
+			"label": "Service field work",
+			"next": {
+				"stage": "S3",
+				"workflows": [],
+				"buttonLabel": "Finish service",
+				"dialogTitle": "Finish service",
+				"dialogMessage": "Service field work finished."
+			}			
+		},
+		"S3": {
+			"label": "Accounting",			
+			"next": {		
+				"workflows": ["wf_email"],
+				"buttonLabel": "Approve",
+				"dialogTitle": "Confirmation",
+				"dialogMessage": "Submit the form?"
+			}
+		}			
+	},
+	"workflows": {
+		"wf_email": {
+			"type": "email",
+            "from": "service@hybridforms.net",
+			"to": "{EditorEmail}",
+            "subject": "Basistest Stages",
+			"bodyFile": "mailtemplate.txt",
+			"attachimages": false,
+			"errorAction": "ignore",
+			"errorNotify" : "{EditorEmail}" 
+		}
+    }
+
+}

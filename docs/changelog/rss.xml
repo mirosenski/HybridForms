@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>HybridForms Blog</title>
+        <link>https://manuals.hybridforms.net/changelog</link>
+        <description>HybridForms Blog</description>
+        <lastBuildDate>Fri, 25 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>Copyright © 2025 icomedias GmbH</copyright>
+        <item>
+            <title><![CDATA[10.1]]></title>
+            <link>https://manuals.hybridforms.net/changelog/10.1</link>
+            <guid>https://manuals.hybridforms.net/changelog/10.1</guid>
+            <pubDate>Fri, 25 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Changelog for HybridForms v10.1.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[10.0]]></title>
+            <link>https://manuals.hybridforms.net/changelog/10.0</link>
+            <guid>https://manuals.hybridforms.net/changelog/10.0</guid>
+            <pubDate>Mon, 24 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Changelog for HybridForms v10.0.]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v1000---2025-03-12">v10.0.0 - 2025-03-12<a href="https://manuals.hybridforms.net/changelog/10.0#v1000---2025-03-12" class="hash-link" aria-label="Direct link to v10.0.0 - 2025-03-12" title="Direct link to v10.0.0 - 2025-03-12">​</a></h2>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="added">Added<a href="https://manuals.hybridforms.net/changelog/10.0#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added">​</a></h3>
+<ul>
+<li>
+<p>**HFF-7801: ** <em>(Task)</em><br>
+<!-- -->Forms are marked as “New” on the dashboard and list page as well.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-9792: Enable Support for HEIC Images</strong> <em>(Task)</em><br>
+<!-- -->Added functionality to allow the upload and processing of HEIC images, ensuring compatibility with modern image formats and improving user experience.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-9560: MultiSelect form control added</strong> <em>(Task)</em><br>
+<!-- -->Add new form control to select multiple entries of a catalog.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-controls/multiselect">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10682: DateTimePicker form control added</strong> <em>(Task)</em><br>
+<!-- -->Add form control to enter combination of date and time input<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-controls/datetimepicker">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10683: Added Theming Support with Modern Input Fields and Custom Themes</strong> <em>(Task)</em><br>
+<!-- -->Introduced theming capabilities, including support for dark and light modes. Modernized input fields to adapt to theme settings and enabled custom theme configurations for greater UI flexibility.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/custom-styling-guide/theming">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10365: New Control: Dynamic Repeating Unit</strong> <em>(Task)</em><br>
+<!-- -->Dynamic repeating units function similarly to standard repeating units, as a repeatable set of controls at the tab level. However, with dynamic repeating units, each repeating unit is generated based on a provided data source. This allows you to create repeating sets of data corresponding to the rows of a data source.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-templates/features/dynamicrepeatingunits">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10118: Automatic Block Title Placement</strong> <em>(Task)</em><br>
+<!-- -->Implemented automated placement of block titles to ensure consistent formatting and improved readability.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-templates/html-template-file/structure">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10255: New Control: SignatureLight</strong> <em>(Task)</em><br>
+<!-- -->Like our Signature control, the SignatureLight control captures signatures. However, the SignatureLight control does not capture biometric data but only stores the user’s signature as an image.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-controls/signaturelight">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10464: New Option to Place Buttons Next to Input Fields</strong> <em>(Bug)</em><br>
+<!-- -->Added a new configuration option that allows buttons to be positioned next to input fields, improving UI flexibility and usability.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-controls/buttoncontrol#nextToField">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10555: OpenLayers support for multiple views (eg. Sattelite, Hybrid, Streets etc.)</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-templates/features/integrate-maps">read more</a></p>
+</li>
+<li>
+<p><strong>HFF-10561: MapLibre GL Support for multiple views (eg. Sattelite, Hybrid, Streets etc.)</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-templates/features/integrate-maps">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="changed">Changed<a href="https://manuals.hybridforms.net/changelog/10.0#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-8861: Fix for too low timeout during login on windows authentication</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-9403: Standardized and Improved PDF Overlay</strong> <em>(Task)</em><br>
+<!-- -->Unified the PDF overlay functionality for consistency across all use cases and enhanced its performance and visual clarity.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-9945: Reachout - Request timeout  increased to 15 minutes</strong> <em>(Task)</em><br>
+<!-- -->Tags: <code>Reachout</code></p>
+</li>
+<li>
+<p><strong>HFF-10282: Action Sheet (Bottom Sheet) for media features</strong> <em>(Task)</em><br>
+<!-- -->On small device sizes (e.g., phones), the metadata of all media features is displayed in a bottom sheet on the detail view instead of in the non-visible scroll area of the page.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10457: Adjust Email Validator to Disallow Special Characters Like Umlauts and ß</strong> <em>(Task)</em><br>
+<!-- -->Updated the email validation logic to prevent the use of special characters such as umlauts (ä, ö, ü) and the sharp ß, ensuring compliance with standard email formatting rules.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10513: Approved and Archived Forms does not get validated anymore</strong> <em>(Bug)</em><br>
+<!-- -->Since approved and archived forms are already finalised and not allowed to store anything it´s unnecessary to validate them.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10634: Removed full validation of additional HFValue fields of Radioboxes and Checkboxes</strong> <em>(Task)</em><br>
+<!-- -->The additional “_HFValue”-fields that gets saved with Radiobox- and Checkbox-Controls gets not fully validated anymore (type and length validations are still operated). This should make changes to these value fields easier without loosing any security.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fixed">Fixed<a href="https://manuals.hybridforms.net/changelog/10.0#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-9396: Simple API title generation improvements</strong> <em>(Bug)</em><br>
+<!-- -->Resolved multiple issues that led to title generation failures caused by missing tags or improper text formatting.<br>
+<!-- -->Tags: <code>Server</code></p>
+</li>
+<li>
+<p><strong>HFF-10121: after switching systems listpage is cut off</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10111: Signature Allowed Without Location Permission</strong> <em>(Bug)</em><br>
+<!-- -->Removed the dependency on location permissions for the signature functionality, providing a more flexible user experience.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10242: Listpage - Grouping: Groups Disappear After Fast Scrolling</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10307: NumericField: Default Value Cannot Be Set to 0</strong> <em>(Bug)</em><br>
+<!-- -->Fixed an issue where the defaultValue of a NumericField could not be set to 0, ensuring proper handling of zero as a valid default input.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-controls/numericfields">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10382: App log not always deleted after logging out</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10393: Image Compression: jpgQuality Not Working</strong> <em>(Bug)</em><br>
+<!-- -->Fixed an issue where the jpgQuality parameter was not being applied correctly during image compression, ensuring proper quality adjustments for JPG images.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/form-templates/html-template-file/variables#picture-compression">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-10455: PDF Viewer Always Displays in German</strong> <em>(Bug)</em><br>
+<!-- -->Fixed an issue where the PDF Viewer was consistently shown in German, ensuring proper language selection based on user preferences and system settings.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[9.5]]></title>
+            <link>https://manuals.hybridforms.net/changelog/9.5</link>
+            <guid>https://manuals.hybridforms.net/changelog/9.5</guid>
+            <pubDate>Thu, 21 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Changelog for HybridForms v9.5.]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v950---2024-04-17">v9.5.0 - 2024-04-17<a href="https://manuals.hybridforms.net/changelog/9.5#v950---2024-04-17" class="hash-link" aria-label="Direct link to v9.5.0 - 2024-04-17" title="Direct link to v9.5.0 - 2024-04-17">​</a></h2>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="added">Added<a href="https://manuals.hybridforms.net/changelog/9.5#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-8724: ListTemplate with new callback option</strong> <em>(Task)</em><br>
+<!-- -->With the <code>callback</code>-option you can define a function in custom code that is called after the list template for the form item is rendered. The form item element and the data object of the form item are provided as arguments to the callback function.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/templateobjects#callback">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8050: Added validation error texts depending on the type</strong> <em>(Task)</em><br>
+<!-- -->Enhanced Validation Error Texts: Improved clarity with type-specific error messages for a more user-friendly experience.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/formfieldsvalidations">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code></p>
+</li>
+<li>
+<p><strong>HFF-8163: Added more functionality to TabMenu</strong> <em>(Task)</em><br>
+<!-- -->Form designers can now enjoy enhanced flexibility with the introduction of two new options - "disable fixed menu" and "scrollable menu." This update empowers users to customize their TabMenu experience by choosing between a fixed or scrollable layout, catering to diverse design preferences and improving overall usability.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/variables#tabmenu-settings">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8297: Media-Feature Conditions</strong> <em>(Task)</em><br>
+<!-- -->Now forms can also control the visibility and edibility of your media libraries (pictures, sketches, audio, maps, documents, models) by using conditions.
+The same rules apply as for <a href="http://localhost:3000/docs/form-definition/conditions" target="_blank" rel="noopener noreferrer">form control conditions</a>. Only the property <code>addNewMedia}} is specific to the media library conditions. If the property {{addNewMedia}} is set to {{true</code> the user can add new media files to the library even if the condition is not met.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/variables#feature-conditions">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8305: Added hidden option to FormControls</strong> <em>(Task)</em><br>
+<!-- -->Hide FormControls by providing a hidden option which is also available in the FormDefinition structure.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/category/form-controls">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code></p>
+</li>
+<li>
+<p><strong>HFF-8319: Added OptionManger methods to FormAPI</strong> <em>(Task)</em><br>
+<!-- -->Get server keys in custom code through OptionManager methods.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/form-api">read more</a><br>
+<!-- -->Tags: <code>FormAPI</code></p>
+</li>
+<li>
+<p><strong>HFF-8342: Switch between media items on detail view</strong> <em>(Task)</em><br>
+<!-- -->For the user, there is now the option to jump directly to the next (or previous) media file from the media detail view.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8371: Added htmlFor option to Label control</strong> <em>(Task)</em><br>
+<!-- -->Implemented the "htmlFor" option for the Label control, providing form designers with enhanced flexibility in associating labels with form elements. This addition allows for more precise and accessible labeling within the application.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/label">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8375: Added context menu and spell checker to desktop native apps</strong> <em>(Task)</em><br>
+<!-- -->Tags: <code>Mac</code> <code>Windows</code></p>
+</li>
+<li>
+<p><strong>HFF-8431: Added setLabel method to Label control</strong> <em>(Task)</em><br>
+<!-- -->Introduced the "setLabel" method to the Label control, offering a convenient way to dynamically set labels for form elements. This addition enhances flexibility and ease of use within the application, allowing for dynamic label updates as needed.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/form-api">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8445: Translation: Improvements and unified handling of Strings with HTML-Content</strong> <em>(Task)</em><br>
+<!-- -->The handling of quotes in translations now works as follows:</p>
+<p>Always use normal quotation marks in translation content (do not use HTML entities like <code>quot;}} or escape quotes like {{\"</code>).</p>
+<p>If quotes are included in the <code>data-win-options</code> translation content, they must be escaped:</p>
+<div class="language-html codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-html codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">data-win-options="{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  label: '{TranslationKeyWithQuotes | escape}'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}"</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/translation#translation-pipes">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8464: Added before unload message in Reachout</strong> <em>(Task)</em><br>
+<!-- -->Implemented a proactive user prompt to inform and guide users before they navigate away from Reachout, enhancing user experience and preventing unintended actions and data loss.<br>
+<!-- -->Tags: <code>Reachout</code></p>
+</li>
+<li>
+<p><strong>HFF-8512: Added rich text editor to HtmlContainer control</strong> <em>(Task)</em><br>
+<!-- -->Now includes a feature-rich text editor for seamless content creation and editing within the HtmlContainer, enhancing user interaction and flexibility.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/htmlcontainer">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8776: Set Whitelist of allowed characters for form control inputs</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/variables#character-white-list">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8609: Added translation for iOS native messages</strong> <em>(Task)</em><br>
+<!-- -->Tags: <code>iOS</code></p>
+</li>
+<li>
+<p><strong>HFF-8640: Added native file upload for documents, audio and model feature on iOS</strong> <em>(Task)</em><br>
+<!-- -->Tags: <code>iOS</code></p>
+</li>
+<li>
+<p><strong>HFF-8644: FormAPI: new Method to get all values connected with a form control</strong> <em>(Task)</em></p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">let ctrl = HybridForms.API.FormControls.getCtrl('formcontrol_id');</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ctrl.getAllValues();</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Documentation: <a href="https://manuals.hybridforms.net/form-api">read more</a><br>
+<!-- -->Tags: <code>FormAPI</code></p>
+</li>
+<li>
+<p><strong>HFF-8645: ComboBox: New metadata shadow field "isAnytext"</strong> <em>(Task)</em><br>
+<!-- -->There is now a new metadata field called <code>isAnytext</code> which is set with the field-ID '[combobox*id]*HFMetadata' and describes whether the combobox allows free-text inputs or not."<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8649: Added style class definition for FormButton coloring</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/style-guide/button#button-colors">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8651: Added DataControl form control</strong> <em>(Task)</em><br>
+<!-- -->Introduced the DataControl form control, facilitating the efficient storage of data objects within the application. This addition enhances data management capabilities for a more streamlined and effective workflow.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/datacontrol">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8680: Added callback function to PicturePicker to get feature data</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/picturepicker#dataCallback">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8764: Added tooltipTemplate option to FormControls</strong> <em>(Task)</em><br>
+<!-- -->Implemented the "tooltipTemplate" option for FormControls, providing form designers with the ability to customize tooltip templates. This addition enhances the user interface by allowing for personalized and informative tooltips in alignment with specific application requirements.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/textfield#tooltipTemplate">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8767: Excel Field Mapping of FormControl options</strong> <em>(Task)</em><br>
+<!-- -->This feature is intended to parse an Excel file where IDs (of controls/fields) are defined along with validators (or other data-win-option properties) in another column. These validators are then mapped to the corresponding controls during export and on-the-fly in FormDev.</p>
+<p>To achieve this, you need:</p>
+<ul>
+<li>An Excel file (an example is attached) located with the form definition and ending with "*.mapping.xlsx."</li>
+<li>A configuration JSON file also located with the form definition (an example is attached):</li>
+</ul>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-json codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"fieldsToMap"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"fieldName"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"data-win-options.validator"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            </span><span class="token property" style="color:#36acaa">"columnName"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"D"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"idColumn"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token property" style="color:#36acaa">"name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"A"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token property" style="color:#36acaa">"startRow"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"worksheetName"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Mapping"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><code>{ "fieldsToMap": [ { "fieldName": "data-win-options.validator", "columnName": "D" } ], "idColumn": { "name": "A", "startRow": 2 }, "worksheetName": "Mapping" }</code></p>
+<p>You could set these fields described in the JSON via the exporter's CLI options, but the above method is recommended.</p>
+<p>However, what needs to be set through the exporter's CLI is the flag <code>--mapExcelFields=true</code>:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">npm run export -- --formDefPath=../../../Shared/FormDefinitions/area.PolizeiDE-TH/OWOZGInc_AndereStrafanzeige --outputPath=../../../Shared/FormDefinitions/area.PolizeiDE-TH/Exported --mapExcelFields=true</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/formdev/devtools#excel-field-mapper">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8781: Character length restriction for uploaded files</strong> <em>(Task)</em></p>
+<div class="language-html codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-html codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag" style="color:#00009f">var</span><span class="token tag" style="color:#00009f"> </span><span class="token tag attr-name" style="color:#00a4db">data-hf</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">data-hf-maxfilenamelength</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">20</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag" style="color:#00009f">var</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/variables#max-filename-length">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8782: FormControl FileUploader: Support for video and audio files settings</strong> <em>(Task)</em><br>
+<!-- -->There are now new options for the fileuploader control that has been added especially for audio and video files:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">minDurationSec</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">maxDurationSec</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">minVideoPixel</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">maxVideoPixel</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/fileuploader">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8837: Set a filename character whitelist for all text formcontrol inputs</strong> <em>(Task)</em><br>
+<!-- -->Use this option to set a white list of allowed characters for all media files the user is uploading. You can use the regular expression or the string version of the white list. If both are provided the regular expression is used. Optionally you can provide your own error text for the invalid character error message. If you want to give the user a hint what characters are not accepted in the current input you can use the placeholder <code>{0}</code> in your error text (E.g: "The following characters are invalid: 0"). You can also provide translation keys. If no error text is provided a default error message is used.</p>
+<div class="language-html codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-html codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag" style="color:#00009f">var</span><span class="token tag" style="color:#00009f"> </span><span class="token tag attr-name" style="color:#00a4db">data-hf-name</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">MediaSettings</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag" style="color:#00009f"></span><br></span><span class="token-line" style="color:#393A34"><span class="token tag" style="color:#00009f">  </span><span class="token tag attr-name" style="color:#00a4db">data-hf-characterWhiteListRegExp</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">[a-zA-Z0-9äöüßÄÖÜ\-.,;:*![](@#%&amp;()?'`+=]</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag" style="color:#00009f"> </span><span class="token tag attr-name" style="color:#00a4db">data-hf-characterWhiteList</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789äöüßÄÖÜ\-.,;:*)@#%&amp;()?'`+=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag" style="color:#00009f"> </span><span class="token tag attr-name" style="color:#00a4db">data-hf-invalidCharacterErrorText</span><span class="token tag attr-value punctuation attr-equals" style="color:#393A34">=</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag attr-value" style="color:#e3116c">{{@InvalidCharsErrorText}}</span><span class="token tag attr-value punctuation" style="color:#393A34">"</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag" style="color:#00009f">var</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Additionally, two properties can be set on the File Uploader:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_m3Ux"><pre tabindex="0" class="prism-code language-text codeBlock_qGQc thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_p187"><span class="token-line" style="color:#393A34"><span class="token plain">allowedCharacters: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">allowedCharactersRegExp: '[a-zA-Z0-9]'</span><br></span></code></pre><div class="buttonGroup_6DOT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The allowed characters for the File Uploader are determined as follows:</p>
+<ol>
+<li>If the whitelist property is set in the data-win-options of the FileUploader, this setting is used.</li>
+<li>Next, it is  checked if Media-Settings are defined, and if so, those are used.</li>
+<li>If no MediaSettings are defined, it is checked if FormSettings are defined.</li>
+<li>Otherwise, all characters are allowed.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/variables#character-white-list-1">read more</a><br>
+<!-- -->Tags: <code>Core</code></li>
+</ol>
+</li>
+<li>
+<p><strong>HFF-8785: Added logout section to debug overlay</strong> <em>(Task)</em><br>
+<!-- -->Implemented a logout section within the debug overlay, enhancing debugging capabilities by providing a dedicated space for logout-related information. This addition streamlines the debugging process and facilitates efficient troubleshooting for improved system management.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8780: FileUploader FormControl: Configuration for character length restriction</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/fileuploader#maxFilenameLength">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8865: Added Regula ID scanner</strong> <em>(Task)</em><br>
+<!-- -->Implemented Regula ID scanner for enhanced identification capabilities, improving the accuracy and efficiency of the scanning process.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-controls/scanbuttonidscanner">read more</a><br>
+<!-- -->Tags: <code>Android</code> <code>iOS</code></p>
+</li>
+<li>
+<p><strong>HFF-8891: Added sync if App was suspended more than 5 minutes</strong> <em>(Task)</em><br>
+<!-- -->Tags: <code>Android</code> <code>Mac</code> <code>Windows</code> <code>iOS</code></p>
+</li>
+<li>
+<p><strong>HFF-8337: Added stage depending Reachout strings</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/variables#reachout-strings">read more</a><br>
+<!-- -->Tags: <code>Reachout</code></p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="changed">Changed<a href="https://manuals.hybridforms.net/changelog/9.5#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-8582: Improve nested conditions handling</strong> <em>(Task)</em><br>
+<!-- -->Enhanced nested conditions handling to support recursive nesting, improving the overall management and processing of complex condition structures within the application. This improvement ensures more robust and flexible handling of nested conditions for various scenarios.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/conditions#nested-conditions">read more</a><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8798: Improved FormDefinition unsubscribe handling</strong> <em>(Task)</em><br>
+<!-- -->Enhanced FormDefinition unsubscribe handling to expedite database deletion, improving efficiency in managing data and subscriptions.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8799: [BREAKING CHANGE]: Handling of invalid fields</strong> <em>(Task)</em><br>
+<!-- -->Invalid fields are treated differently in version v9.5.0 when the form is initially opened.</p>
+<p>Previously: Field values that were validated as invalid when opening the form were deleted from the form data structure, and the field value was irreversibly lost. As this led to data loss, we have changed this behavior:</p>
+<ul>
+<li>Invalid fields are still marked in red when opening the form, an error message is displayed (if available), BUT the field value is not deleted in the background. The invalid input remains, but it must be manually corrected by the user to complete the form.</li>
+<li><strong>Dropdowns and Comboboxes:</strong>
+<ul>
+<li>If the catalog is not present or if the oData source couldn't be loaded: No deletion of the associated data structure occurs. A yellow highlight is displayed with a custom error message: "Catalog could not be loaded. Please try again later or contact your administrator."
+Completion is also not possible in this case.</li>
+<li>If the catalog or oData source is present but the value is not found in the data source, the ComboBox/Dropdown behaves the same as described above: It is marked in red with an error message, but the associated field data is not deleted.<br>
+<!-- -->Tags: <code>Core</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>HFF-8844: Changed default setting of audio feedback of FormButtons</strong> <em>(Task)</em><br>
+<!-- -->Adjusted the default setting for audio feedback on FormButtons, with the new default being set to "off." This change aims to provide a more muted auditory experience by default, offering users a quieter interaction with FormButtons.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8870: Automatically sync all added media library files.</strong> <em>(Task)</em><br>
+<!-- -->From now on, the form gets automatically synched immediately after adding new media elements. This should avoid synching conflicts.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8878: [BREAKING CHANGE]: Filename length now includes the length of the extension</strong> <em>(Bug)</em><br>
+<!-- -->Until know any filename length validation have not included the lenght of the extension. this has been changed.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fixed">Fixed<a href="https://manuals.hybridforms.net/changelog/9.5#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-7198: Fixed disabled condition visibility in PDF</strong> <em>(Task)</em><br>
+<!-- -->Improved display of Conditions with "else" type set to "disabled" for a more accurate representation.<br>
+<!-- -->Tags: <code>PDF</code></p>
+</li>
+<li>
+<p><strong>HFF-8721: Bugfix: Form-Backup could not be downloaded</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7432: Fixed memory leak of iOS App if many forms are synced</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>iOS</code></p>
+</li>
+<li>
+<p><strong>HFF-7645: Fixed DropDownList opening behavior on tablets</strong> <em>(Bug)</em><br>
+<!-- -->Corrected DropDownList opening behavior on tablets to address an issue where errors occurred when the keyboard was open. This fix ensures a smoother user experience by resolving the interference between the DropDownList and the open keyboard on tablet devices.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8508: Fixed syncing of deleted form on server</strong> <em>(Bug)</em><br>
+<!-- -->Resolved the synchronization issue related to deleted forms on the server. Users will now receive an informative message confirming the successful syncing process when a form is deleted, ensuring accurate and transparent communication between the client and server components.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8625: Fixed layout shift of TimePicker popup</strong> <em>(Bug)</em><br>
+<!-- -->Addressed an issue where the TimePicker popup was being overlapped by the navigation drawer. The fix ensures that the TimePicker popup displays properly without interference from the navigation drawer, resulting in a more visually cohesive and user-friendly interface.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8697: Fixed Apple Pen keyboard handling</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>iOS</code></p>
+</li>
+<li>
+<p><strong>HFF-8803: Fixed last page of the PDF may be empty</strong> <em>(Bug)</em><br>
+<!-- -->Corrected an issue where the last page of the PDF could be empty. This fix ensures the accurate rendering of the entire document, resolving any instances where the final page was not displaying content as expected.<br>
+<!-- -->Tags: <code>PDF</code></p>
+</li>
+<li>
+<p><strong>HFF-8805: Fixed PDF content may be overlapped by footer</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>PDF</code></p>
+</li>
+<li>
+<p><strong>HFF-8856: Fixed language selection dialog for only one active language</strong> <em>(Task)</em><br>
+<!-- -->Resolved an issue ensuring that the language selection dialog now functions correctly when there is only one active language.<br>
+<!-- -->Tags: <code>Reachout</code></p>
+</li>
+<li>
+<p><strong>HFF-8900: Fixed issue where date classes are not replaced properly in PDF header and footer</strong> <em>(Bug)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.5/form-definition/createpdf#adding-form-values">read more</a><br>
+<!-- -->Tags: <code>PDF</code></p>
+</li>
+<li>
+<p><strong>HFF-9103: Fixed ExtendedRead setting is globally set</strong> <em>(Bug)</em><br>
+<!-- -->Resolved the issue where the ExtendedRead setting was globally set and modified it to operate on a FormDefinition basis. This refinement ensures a more granular control over ExtendedRead settings, allowing users to customize this feature on a per-FormDefinition level for improved flexibility and configuration.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-9117: Fixed closing of navigation drawer on menu button click</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-9143: Fixed missing Signature background image of empty controls in PDF</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>PDF</code></p>
+</li>
+<li>
+<p><strong>HFF-9148: Fixed error on Android devices if FormDefinition includes files with whitespaces in its name.</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Android</code></p>
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[9.4]]></title>
+            <link>https://manuals.hybridforms.net/changelog/9.4</link>
+            <guid>https://manuals.hybridforms.net/changelog/9.4</guid>
+            <pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Changelog for HybridForms v9.4.]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v940---2023-06-29">v9.4.0 - 2023-06-29<a href="https://manuals.hybridforms.net/changelog/9.4#v940---2023-06-29" class="hash-link" aria-label="Direct link to v9.4.0 - 2023-06-29" title="Direct link to v9.4.0 - 2023-06-29">​</a></h2>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="added">Added<a href="https://manuals.hybridforms.net/changelog/9.4#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-7892: Added ObjectLink from Attachments to PDF</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-6154: PicturePicker reference can be extended with custom text</strong> <em>(Task)</em><br>
+<!-- -->Custom text can be displayed on feature detail page for referenced attachments.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.4/form-controls/picturepicker">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-7036: Added font size selector for text in drawing feature</strong> <em>(Task)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7581: Renaming of attachments added.</strong> <em>(Task)</em><br>
+<!-- -->The possibility of renaming pictures, audio files and documents was added to the detail page.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7833: Improved location map of pictures</strong> <em>(Task)</em><br>
+<!-- -->Open the picture location in Google Maps on click on the map image.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7894: Added "unsaved changes" message to maps feauture</strong> <em>(Task)</em><br>
+<!-- -->If there are unsaved changes on a map, ask the user for confirmation before leaving the site without saving.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7922: Added MSI and NSIS install parameters</strong> <em>(Task)</em><br>
+<!-- -->If the Windows app is installed via the command line, an activation URL can be provided.</p>
+<ul>
+<li>MSI: ACTIVATIONURL=your.server.net</li>
+<li>NSIS: /ACTIVATIONURL=your.server.net<br>
+<!-- -->Tags: <code>Windows</code></li>
+</ul>
+</li>
+<li>
+<p><strong>HFF-7957: Added placement of Google Maps marker by clicking</strong> <em>(Task)</em><br>
+<!-- -->It is now possible to place a Google Maps marker by double click on the map.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7958: Added "beforeApprove" event to FormAPI</strong> <em>(Task)</em><br>
+<!-- -->Provide promise-based callbacks which are resolved before the form is approved.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/form-api">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-7968: Style guide for Buttons updated</strong> <em>(Task)</em><br>
+<!-- -->Example for <strong>hf-button-inline</strong> field with error message added.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.4/style-guide/button#button-inline">read more</a><br>
+<!-- -->Tags: <code>Documentation</code></p>
+</li>
+<li>
+<p><strong>HFF-7971: Added character counter for text areas</strong> <em>(Task)</em><br>
+<!-- -->An option to display a remaning character counter for textareas was added.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.4/form-controls/textfield">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-7980: Added a reverse proxy to FormDev to request catalogs directly from HF Server</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.4/formdev/service#proxy">read more</a><br>
+<!-- -->Tags: <code>Documentation</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-8153: Added form disposed event</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/form-api">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-8306: Added multiple scan option to ScanButton</strong> <em>(Task)</em><br>
+<!-- -->A new option was added to Barcode/QR-code ScanButton to scan multiple times.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.4/form-controls/scanbuttonbarcode">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code></p>
+</li>
+<li>
+<p><strong>HFF-8315: HybridForms changelog added</strong> <em>(Task)</em><br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/changelog">read more</a><br>
+<!-- -->Tags: <code>Documentation</code></p>
+</li>
+<li>
+<p><strong>HFF-8341: Improved actions in attachment galleries</strong> <em>(Task)</em><br>
+<!-- -->More actions were added for bulk edit of attachments.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="changed">Changed<a href="https://manuals.hybridforms.net/changelog/9.4#changed" class="hash-link" aria-label="Direct link to Changed" title="Direct link to Changed">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-7671: Increased default maxlength of textareas.</strong> <em>(Task)</em><br>
+<!-- -->The default maxlength of textarea was increased to 5000.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.4/form-definition/form-processing/formfieldsvalidations">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-5294: Restructured Documentation</strong> <em>(Task)</em></p>
+<ul>
+<li>FormDev guide section added. <a href="https://manuals.hybridforms.net/docs/9.4/formdev/quickstart">read more</a></li>
+<li>Development tools documented in more detail. <a href="https://manuals.hybridforms.net/docs/9.4/formdev/devtools">read more</a><br>
+<!-- -->Tags: <code>Documentation</code></li>
+</ul>
+</li>
+<li>
+<p><strong>HFF-7776: Updated in-app icons</strong> <em>(Task)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7967: Improved masked textfields</strong> <em>(Task)</em><br>
+<!-- -->Kendo control was replaced by iMaskJS for less overhead and flexibility. There is a new option (maskOptions) to define the behavior of the mask.<br>
+<!-- -->Documentation: <a href="https://manuals.hybridforms.net/docs/9.4/form-controls/textfield">read more</a><br>
+<!-- -->Tags: <code>Core</code> <code>Documentation</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-8015: Added check if all forms are synced before logout</strong> <em>(Bug)</em><br>
+<!-- -->If unsynced forms are present, logout is aborted to prevent data loss.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fixed">Fixed<a href="https://manuals.hybridforms.net/changelog/9.4#fixed" class="hash-link" aria-label="Direct link to Fixed" title="Direct link to Fixed">​</a></h3>
+<ul>
+<li>
+<p><strong>HFF-7826: Fixed  filename label of FileUploader</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7882: Improved Drag&amp;Drop handling for attachments</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7883: Improved handling of form deletion while syncing</strong> <em>(Bug)</em><br>
+<!-- -->There was an unpredictable behavior trying to delete a form while syncing it. This was fixed by preventing the deletion of currently syncing forms.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7886: Prevented starting Kioskmode multiple times</strong> <em>(Bug)</em><br>
+<!-- -->On slow devices, it was possible to start Kioskmode multiple times. This could cause layout issues and app problems.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-7959: Improved page break in the PDF</strong> <em>(Bug)</em><br>
+<!-- -->Always try to stick the form field content and its label together.<br>
+<!-- -->Tags: <code>Core</code> <code>PDF</code></p>
+</li>
+<li>
+<p><strong>HFF-7969: Fixed textarea height</strong> <em>(Bug)</em><br>
+<!-- -->Textareas with min-height of 30px and one row were a little bit taller than other fields.<br>
+<!-- -->Tags: <code>Core</code> <code>FormDev</code></p>
+</li>
+<li>
+<p><strong>HFF-8016: Blocked new forms buttons to prevent multiple form creation</strong> <em>(Bug)</em><br>
+<!-- -->It was possible to add multiple new forms by clicking the add button multiple times fast.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8018: Fixed default validation range of DatePicker</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8042: Improved SimpleAPI to upload attachments and set PicturePicker in one call</strong> <em>(Bug)</em><br>
+<!-- -->To set a PicturePicker value and upload the attachment two API calls were necessary. It is now possible to do this in one call. A PicturePicker can also be set by file name not only by attachment id.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8156: Fixed condition handling in RepeatingUnits</strong> <em>(Bug)</em><br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+<li>
+<p><strong>HFF-8324: Fixed complex requiredFields option of Label control</strong> <em>(Bug)</em><br>
+<!-- -->In RepeatingUnits it was not possible to define complex requiredFields option.<br>
+<!-- -->Tags: <code>Core</code></p>
+</li>
+</ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

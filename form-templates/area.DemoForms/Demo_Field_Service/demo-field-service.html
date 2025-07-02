@@ -1,0 +1,2256 @@
+﻿<!DOCTYPE html>
+<!-- Letztes Update 15.03.2018 -->
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet"
+        data-hf-href="fieldservice.css" />
+    <link rel="stylesheet"
+        data-hf-href="customer-logo.css" />
+
+    <script data-hf-src="FieldServiceHelpers.js"></script>
+    <script data-hf-src="s2l.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        WinJS.Namespace.define("HFFormdefinition.DemoFieldServiceHelpers", {});
+    </script>
+
+    <form>
+        <var data-hf-name="info"
+            data-hf-version="1.0.1"
+            data-hf-date="2020-09-11T10:30:00"
+            data-hf-min-app-version="9.3.0"
+            data-hf-min-server-version="9.3.0">
+        </var>
+
+        <!-- landscape title -->
+        <var data-hf-name="Title">Field Service</var>
+
+        <!-- first level - pages -->
+        <ol>
+            <li data-hf-title="Operation & Customer"
+                id="operation">
+                <!-- second level - tabs -->
+                <ol>
+                    <li data-hf-title="Operation"
+                        id="tab_operation">
+                        <!-- third level - blocks -->
+
+                        <a href="#operation-block1"></a>
+                        <a href="#operation-block2"></a>
+                    </li>
+
+                    <li data-hf-title="Customer"
+                        data-hf-removeIf="S1"
+                        data-hf-expandable="true"
+                        data-hf-expandableid="expand_kunde"
+                        data-hf-expandabledefault="expanded">
+                        <!-- third level - blocks -->
+                        <a href="#customer-block1"></a>
+                        <a href="#customer-block2"></a>
+                        <a href="#customer-block3"></a>
+                        <a href="#customer-block4"></a>
+                    </li>
+
+                    <li data-hf-title="Repair">
+                        <!-- third level - blocks -->
+                        <a href="#repair-block1"></a>
+                        <a href="#repair-block2"
+                            data-hf-removeIf="S1"></a>
+                    </li>
+                </ol>
+            </li>
+
+            <li data-hf-title="Material & Order"
+                id="material">
+                <!-- second level - tabs -->
+                <ol>
+
+                    <li data-hf-title="Spare Parts"
+                        data-hf-repeatable="true"
+                        data-hf-repeatablemin="0"
+                        data-hf-repeatablelabel="Spare Parts used"
+                        data-hf-repeatablelabeladd="Add"
+                        data-hf-repeatablelabelremove="Remove"
+                        id="tab_spare_parts">
+                        <!-- third level - blocks -->
+                        <a href="#spare-parts-block1"></a>
+                        <a href="#spare-parts-block2"></a>
+                    </li>
+
+                    <li data-hf-title="Add. Parts"
+                        data-hf-repeatable="true"
+                        data-hf-repeatablemin="1"
+                        data-hf-repeatablelabel="Additional Parts and Service"
+                        data-hf-repeatablelabeladd="Add"
+                        data-hf-repeatablelabelremove="Remove"
+                        id="tab_add_parts"
+                        data-hf-repeatableanchors="false">
+                        <!-- third level - blocks -->
+                        <a href="#add-parts-block1"></a>
+                        <a href="#add-parts-block2"></a>
+                    </li>
+                    <li data-hf-title="Sign">
+                        <!-- third level - blocks -->
+                        <a href="#comment-sign-block1"></a>
+                        <a href="#comment-sign-block2"></a>
+                    </li>
+                </ol>
+            </li>
+
+            <li data-hf-title="Travel & Time"
+                id="travel">
+                <ol>
+                    <li data-hf-title="Travel">
+                        <a href="#travel-time-block1"></a>
+                        <a href="#travel-time-block2"></a>
+                    </li>
+                    <li data-hf-title="Working time"
+                        data-hf-repeatable="true"
+                        data-hf-repeatablemin="1"
+                        data-hf-repeatablemax="5"
+                        data-hf-repeatablelabel="Work Time"
+                        data-hf-repeatablelabeladd="Add"
+                        data-hf-repeatablelabelremove="Remove"
+                        id="work-time">
+                        <a href="#labour-time-block1"></a>
+                        <a href="#labour-time-block2"></a>
+                    </li>
+                </ol>
+            </li>
+            <!--  -->
+            <li data-hf-title="Service Notes"
+                data-hf-removeIf="S1"
+                data-hf-condition='{
+                    "cond": [{
+                        "type": "stage",
+                        "id": "S1",
+                        "val": "false"
+                    }],
+                    "else": "invisible"
+                }'
+                data-hf-type="evaluation">
+                <!-- second level - tabs -->
+                <ol>
+                    <li data-hf-title="Evaluation">
+                        <!-- third level - blocks -->
+                        <a href="#selfevaluation-block1"></a>
+                        <a href="#selfevaluation-block2"></a>
+                        <a href="#selfevaluation-block3"></a>
+                        <a href="#selfevaluation-block4"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "support_required",
+                                    "val": true
+                                }],
+                                "else": "invisible"
+                            }'>
+                        </a>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </form>
+
+    <div id="titleTemplate"
+        data-win-control="WinJS.Binding.Template">
+        <h1 data-win-control="HFWinJSCtrl.Spacer">
+            <span data-win-control="HFWinJSCtrl.ObserveField"
+                data-win-options="{
+                    fieldId: 'customer_name'
+                }"></span>
+            <span class="spacer">|</span>
+            <span data-win-control="HFWinJSCtrl.ObserveField"
+                data-win-options="{
+                    fieldId: 'operation_id'
+                }"></span>
+        </h1>
+    </div>
+
+    <div id="listTemplate"
+        data-win-control="WinJS.Binding.Template"
+        data-win-options="{
+            img: 'industry-listensymbol-repair-80x80.svg',
+            showMainImage: true
+        }">
+
+        <div class="row-1">
+            <h3>
+                <span data-win-control="HFWinJSCtrl.Spacer">
+                    <span data-win-bind="textContent: listData.operation_date"
+                        data-win-control="HFWinJSCtrl.DateFormater"
+                        data-win-options="{
+                            dateFormat: 'dd/MM/yyyy',
+                            dateOnly: true
+                        }"></span>
+                    <span class="spacer"> | </span>
+                    <span data-win-bind="textContent: listData.operation_time_start_HFTime"></span>
+                    <span class="spacer"> | </span>
+                    <span data-win-bind="textContent: listData.operation_id"></span>
+                </span>
+            </h3>
+        </div>
+
+        <div class="row-2">
+            <h4 data-win-control="HFWinJSCtrl.Spacer">
+                <strong>Customer: </strong>
+                <span data-win-bind="textContent: listData.customer_name"></span>
+            </h4>
+        </div>
+
+        <div class="row-3">
+            <h5 data-win-control="HFWinJSCtrl.Spacer">
+                <strong>Damage: </strong>
+                <span data-win-control="HFWinJSCtrl.Spacer">
+                    <span data-win-bind="textContent: listData.schaden_fuellventil_gebrochen_HFValue"></span>
+                    <span class="spacer"> | </span>
+                    <span data-win-bind="textContent: listData.schaden_dichtungen_poroes_HFValue"></span>
+                    <span class="spacer"> | </span>
+                    <span data-win-bind="textContent: listData.schaden_druckzylinder_defekt_HFValue"></span>
+                    <span class="spacer"> | </span>
+                    <span data-win-bind="textContent: listData.schaden_rueckluftrohr_defekt_HFValue"></span>
+                    <span class="spacer"> | </span>
+                    <span data-win-bind="textContent: listData.schaden_elektronik_HFValue"></span>
+                </span>
+            </h5>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer operation block 1-->
+    <div id="operation-block1"
+        data-win-control="WinJS.Binding.Template">
+
+        <div class="grid column3 set-background-yellow">
+            <div class="r1 c1">
+                <div id="operation_date"
+                    data-win-control="HFWinJSCtrl.DatePicker"
+                    class="show_disabled"
+                    data-win-options="{
+                        required: false,
+                        label: 'Date',
+                        defaultValue: 'now',
+                        emptyContent: 'Select...',
+                        list: true,
+                        displayValueFormat: 'dd/MM/yyyy'
+                    }"></div>
+            </div>
+
+            <div class="r1 c2">
+                <input type="text"
+                    id="operation_id"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    class="show_disabled"
+                    data-win-options="{
+                        list: true,
+                        tooltip: 'The operation ID allows an unique identification of your field work. Please fill in this form field according to the specifications of your company/organisation.',
+                        label: 'Operation ID',
+                        validator: {
+                            pattern: '[0-9]{4}',
+                            errorText: 'Please use 4 digits'
+                        }
+                    }" />
+            </div>
+
+            <div class="r1 c3">
+                <input type="text"
+                    id="operation_technician"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Technician',
+                        disabled: true
+                    }" />
+
+                <div id="operation_technician_getuser"
+                    data-win-control="HFFormdefinition.DemoFieldServiceHelpers.User"
+                    class="pdf-hide"
+                    data-win-options="{
+                        userId: 'operation_technician'
+                    }"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer operation block 2-->
+    <div id="operation-block2"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column4">
+            <div class="r1 c1">
+                <div id="operation_time_start"
+                    data-win-control="HFWinJSCtrl.TimePicker"
+                    data-win-options="{
+                        required: true,
+                        list: true,
+                        label: 'Start',
+                        defaultValue: 'now',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDuration,
+                        calcDurationOptions: 'operation_time_start,operation_time_end,operation_duration'
+                    }"></div>
+            </div>
+            <div class="r1 c2">
+                <div id="operation_time_end"
+                    data-win-control="HFWinJSCtrl.TimePicker"
+                    data-win-options="{
+                        required: true,
+                        label: 'End',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDuration,
+                        calcDurationOptions: 'operation_time_start,operation_time_end,operation_duration'
+                    }"></div>
+            </div>
+            <div class="r1 c3">
+                <input type="text"
+                    id="operation_duration"
+                    class="disabled"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Duration',
+                        disabled: true
+                    }" />
+            </div>
+            <div class="r1 c4">
+                <div id="callBtn"
+                    class="button-mt"></div>
+                <!-- <div id="callBtn"
+                    data-win-control="HFWinJSCtrl.ButtonControl"
+                    data-win-options="{
+                        buttonType: 'large',
+                        buttonHeading: 'Call',
+                        buttonLabel: 'Assistance',
+                        callback: callback,
+                    }"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer customer block 1-->
+    <div id="customer-block1"
+        data-win-control="WinJS.Binding.Template">
+
+        <div class="grid column1">
+            <div class="r1 c1">
+                <input type="text"
+                    id="customer_name"
+                    class="show_disabled"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        required: true,
+                        list: true,
+                        label: 'Customer/Contact person',
+                        validator: {
+                            maxlength: 30,
+                            pattern: '[A-Za-zÀ-ÿäöüßÄÖÜẞ\\-\'\\s]{0,30}',
+                            errorText: 'Your input contains invalid characters.'
+                        }
+                    }" />
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer customer block 2-->
+    <div id="customer-block2"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column2">
+            <div class="r1 c1">
+                <input type="email"
+                    id="customer_email"
+                    class="show_disabled"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Email',
+                        validator: {
+                            type: 'email',
+                            errorText: 'Please provide a valid email address.'
+                        }
+                    }" />
+            </div>
+            <div class="r1 c2">
+                <input type="text"
+                    id="customer_phone_number"
+                    class="show_disabled"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Phone',
+                        tooltip: 'Please enter the phone number according to this scheme: &quot;<strong>+</strong> country-code area-code (without leading 0) number&quot;.',
+                        validator: {
+                            pattern: '[+]{1}[0-9]{1,3}([\\s]{1})?([\\(]{1})?[0-9]{1,3}([\\)]{1})?([\\s]{1})?[0-9\\s]*',
+                            errorHTML: 'Please enter a valid phone number.'
+                        }
+                    }" />
+            </div>
+        </div>
+    </div>
+
+    <div id="customer-block3"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column1">
+            <div class="r1 c1">
+                <textarea id="customer_problem_by_customer"
+                    class="show_disabled"
+                    style="min-height:110px; height:auto;"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Customer details and problem reported'
+                    }"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div id="customer-block4"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column4">
+            <div class="r1 c1 cspan2 get-location-row">
+                <input type="text"
+                    id="customer_adress_city"
+                    class="show_disabled text-btnsmall"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Address: Location'
+                    }" />
+                <div id="get_location"
+                    data-win-control="HFWinJSCtrl.ReverseGeolocatorButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        targetFields: {
+                            'customer_zip_code': 'postal_code',
+                            'customer_adress_city': 'locality',
+                            'customer_adress_street_name': 'route + street_number'
+                        },
+                        nextToField: 'customer_adress_city'
+                    }"
+                    class="pdf-hide"></div>
+            </div>
+            <div class="r1 c3">
+                <input type="text"
+                    id="customer_zip_code"
+                    class="show_disabled"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'ZIP'
+                    }" />
+            </div>
+            <div class="r1 c4 pdf-hide">
+                <div id="mapButton"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.MapButton"
+                    data-win-options="{
+                        cityId: 'customer_adress_city',
+                        zipCodeId: 'customer_zip_code',
+                        streetId: 'customer_adress_street_name',
+                        buttonLabel: 'Route',
+                        buttonType: 'large',
+                        buttonHeading: 'Navigation'
+                    }">
+                </div>
+            </div>
+            <div class="r2 c1 cspan3">
+                <input type="text"
+                    id="customer_adress_street_name"
+                    class="show_disabled"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Address: Street + no.'
+                    }" />
+            </div>
+            <div class="r2 c4 pdf-hide">
+                <div id="phoneButton1"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.PhoneButton"
+                    data-win-options="{
+                        phoneId: 'customer_phone_number',
+                        buttonHeading: 'Customer',
+                        buttonLabel: 'Call',
+                        buttonType: 'large'
+                    }">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer repair block 1-->
+    <div id="repair-block1"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column2 c2auto">
+            <div class="r1 c1 no-margin-top">
+                <fieldset>
+                    <legend id="damage"
+                        data-win-control="HFWinJSCtrl.Label"
+                        data-win-options="{
+                            label: 'Damage',
+                            tooltip: 'Please indicate at least one cause of damage.',
+                            required: true,
+                            requiredFields: 'schaden_fuellventil_gebrochen,schaden_dichtungen_poroes,schaden_druckzylinder_defekt,schaden_rueckluftrohr_defekt,schaden_elektronik'
+                        }">
+                    </legend>
+
+                    <input id="schaden_fuellventil_gebrochen"
+                        type="checkbox"
+                        data-win-control="HFWinJSCtrl.CheckBox"
+                        value="Regulator valve"
+                        data-win-options="{
+                            label: 'Regulator valve 1',
+                            list: true
+                        }">
+                    <input id="schaden_dichtungen_poroes"
+                        type="checkbox"
+                        data-win-control="HFWinJSCtrl.CheckBox"
+                        value="Joint gaskets"
+                        data-win-options="{
+                            label: 'Joint gaskets',
+                            list: true
+                        }">
+                    <input id="schaden_druckzylinder_defekt"
+                        type="checkbox"
+                        data-win-control="HFWinJSCtrl.CheckBox"
+                        value="Pressure cylinder"
+                        data-win-options="{
+                            label: 'Pressure cylinder',
+                            list: true
+                        }">
+                    <input id="schaden_rueckluftrohr_defekt"
+                        type="checkbox"
+                        data-win-control="HFWinJSCtrl.CheckBox"
+                        value="Air ducts"
+                        data-win-options="{
+                            label: 'Air ducts',
+                            list: true
+                        }">
+                    <input id="schaden_elektronik"
+                        type="checkbox"
+                        data-win-control="HFWinJSCtrl.CheckBox"
+                        value="Electrical system"
+                        data-win-options="{
+                            label: 'Electrical system',
+                            list: true
+                        }">
+                </fieldset>
+                <div class="remark-wrapper">
+                    <textarea id="repair_remark"
+                        style="min-height:110px; height:auto;"
+                        data-win-control="HFWinJSCtrl.TextField"
+                        data-win-options="{
+                            label: 'Remarks'
+                        }">                    </textarea>
+                </div>
+            </div>
+            <div class="r1 c2">
+                <div id="mark_damage_label"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Type'
+                    }"
+                    style="min-width: 270px;"></div>
+
+                <div class="grid column2 c2auto">
+                    <div class="r1 c1 ml-flucht">
+                        <input type="radio"
+                            data-win-control="HFWinJSCtrl.RadioBox"
+                            value="FRC"
+                            id="type1"
+                            name="regulator-type"
+                            data-win-options="{
+                                label: 'FRC',
+                                defaultValue: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <input type="radio"
+                            data-win-control="HFWinJSCtrl.RadioBox"
+                            id="type2"
+                            value="true"
+                            name="regulator-type"
+                            data-win-options="{
+                                label: 'MSB'
+                            }" />
+                    </div>
+                </div>
+
+                <div id="cond_image_frc"
+                    data-win-control="HFWinJSCtrl.Condition"
+                    data-hf-condition='{
+                        "cond": [{
+                            "type": "field",
+                            "id": "type1",
+                            "val": true
+                        }]
+                    }'>
+
+                    <div id="mark_damage_frc"
+                        class="bg-white"
+                        data-win-control="HFWinJSCtrl.DrawingControl"
+                        data-win-options="{
+                            tooltip: 'You can additionally mark the position of the damage. The image with your annotations will be attached to the form.',
+                            width: 270,
+                            height: 270,
+                            defaultColor: '0, 255, 50, 0',
+                            image: '{{HFFormPath}}/Festo-FRC-D_EN-6.png',
+                            clearButton: true
+                        }">
+                    </div>
+                    <div id="manualBtn_frc"></div>
+                </div>
+
+                <div id="cond_image_msb"
+                    data-win-control="HFWinJSCtrl.Condition"
+                    data-hf-condition='{
+                        "cond": [{
+                            "type": "field",
+                            "id": "type2",
+                            "val": true
+                        }]
+                    }'>
+                    <div id="mark_damage_msb"
+                        data-win-control="HFWinJSCtrl.DrawingControl"
+                        data-win-options="{
+                            tooltip: 'You can additionally mark the position of the damage. The image with your annotations will be attached to the form.',
+                            width: 270,
+                            height: 270,
+                            defaultColor: '0, 255, 50, 0',
+                            image: '{{HFFormPath}}/Festo-MS-COMBINATION_EN-9.png',
+                            clearButton: true
+                        }">
+                    </div>
+                    <div id="manualBtn_msb"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer repair block 2-->
+    <div id="repair-block2"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column4">
+            <div class="r1 c1 cspan4">
+                <div id="pictures_label"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Media'
+                    }">
+                </div>
+            </div>
+            <div class="r2 c1">
+                <div id="pic1"
+                    data-win-control="HFWinJSCtrl.PicturePicker"
+                    data-win-options="{
+                        features: ['picture'],
+                        size: 1
+                    }"></div>
+            </div>
+            <div class="r2 c2">
+                <div id="pic2"
+                    data-win-control="HFWinJSCtrl.PicturePicker"
+                    data-win-options="{
+                        features: ['picture', 'camera'],
+                        size: 1
+                    }"></div>
+            </div>
+            <div class="r2 c3">
+                <div id="pic3"
+                    data-win-control="HFWinJSCtrl.PicturePicker"
+                    data-win-options="{
+                        features: ['picture', 'sketch', 'map', 'document'],
+                        size: 1
+                    }"></div>
+            </div>
+            <div class="r2 c4">
+                <div id="pic4"
+                    data-win-control="HFWinJSCtrl.PicturePicker"
+                    data-win-options="{
+                        features: ['map'],
+                        size: 1
+                    }"></div>
+            </div>
+            <div class="r3 c1 cspan4 sign-row label-fix">
+                <div id="repair_customer_sign"
+                    data-win-control="HFWinJSCtrl.Signature"
+                    data-win-options="{
+                        label: 'Customer\'s signature',
+                        required: false,
+                        width: 460,
+                        height: 160,
+                        saveTimeout: 2,
+                        locationRequestTimeout: 5,
+                        openInOverlay: {
+                            type: 'always',
+                            rotateToLandscape: true,
+                        },
+                        clearButton: true,
+                        signingAsCallback: HFFormdefinition.DemoFieldServiceHelpers.getSigner,
+                        highAccuracyLocation: false,
+                        getSignerOptions: 'customer_name'
+                    }">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="spare-parts-block1"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="spare_parts_item1"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Repair eq \'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'spare_parts_item1,spare_parts_price1,spare_parts_amount1,spare_parts_stored1'
+                    }">
+                </div>
+                <input type="text"
+                    id="barcode"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{}"
+                    class="hidden" />
+                <div id="scanBtn1"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    title="Scanning is only supported on mobile devices."
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'spare_parts_item1',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="spare_parts_price1"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="spare_parts_amount1"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "spare_parts_item1"
+                                }],
+                                "else": "optional"
+                            }'>
+                        </div>
+                        <input type="text"
+                            id="spare_parts_stored1"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="spare_parts_item2"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Repair eq \'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'spare_parts_item2,spare_parts_price2,spare_parts_amount2,spare_parts_stored2'
+                    }">
+                </div>
+                <div id="scanBtn2"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'spare_parts_item2',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true
+                        }
+                    }"></div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="spare_parts_price2"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="spare_parts_amount2"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "spare_parts_item2"
+                                }],
+                                "else": "optional"
+                            }'>
+
+                        </div>
+                        <input type="text"
+                            id="spare_parts_stored2"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="spare-parts-block2"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="spare_parts_item3"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Repair eq \'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'spare_parts_item3,spare_parts_price3,spare_parts_amount3,spare_parts_stored3'
+                    }">
+                </div>
+                <div id="scanBtn3"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'spare_parts_item3',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true,
+                            callback: 'HFFormdefinition.DemoFieldService.S2L.customQRScanButton'
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="spare_parts_price3"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="spare_parts_amount3"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "spare_parts_item3"
+                                }],
+                                "else": "optional"
+                            }'>
+
+                        </div>
+                        <input type="text"
+                            id="spare_parts_stored3"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="spare_parts_item4"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Repair eq \'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'spare_parts_item4,spare_parts_price4,spare_parts_amount4,spare_parts_stored4'
+                    }">
+                </div>
+                <div id="scanBtn4"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'spare_parts_item4',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true,
+                            callback: 'HFFormdefinition.DemoFieldService.S2L.customQRScanButton'
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="spare_parts_price4"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="spare_parts_amount4"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "spare_parts_item4"
+                                }],
+                                "else": "optional"
+                            }'>
+                        </div>
+                        <input type="text"
+                            id="spare_parts_stored4"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="pdf-hide"
+             data-win-control="HFFormdefinition.DemoFieldServiceHelpers.Initializr"
+             data-win-options="{  
+                callback: HFFormdefinition.DemoFieldServiceHelpers.setPartsAmounts,
+                baseItemId: 'spare_parts_stored',
+                baseAmountId: 'spare_parts_amount'  
+            }">
+        </div> -->
+    </div>
+
+    <div id="add-parts-block1"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="add_parts_item1"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Sell%20eq%20\'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'add_parts_item1,add_parts_price1,add_parts_amount1,add_amount_stored1'
+                    }">
+                </div>
+                <div id="scanBtn5"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'add_parts_item1',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true,
+                            callback: 'HFFormdefinition.DemoFieldService.S2L.customQRScanButton'
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="add_parts_price1"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="add_parts_amount1"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "add_parts_item1"
+                                }],
+                                "else": "optional"
+                            }'>
+                        </div>
+                        <input type="text"
+                            id="add_amount_stored1"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="add_parts_item2"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Sell eq \'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'add_parts_item2,add_parts_price2,add_parts_amount2,add_amount_stored2'
+                    }">
+                </div>
+                <div id="scanBtn6"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'add_parts_item2',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true,
+                            callback: 'HFFormdefinition.DemoFieldService.S2L.customQRScanButton'
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="add_parts_price2"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="add_parts_amount2"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "add_parts_item2"
+                                }],
+                                "else": "optional"
+                            }'>
+                        </div>
+                        <input type="text"
+                            id="add_amount_stored2"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="add-parts-block2"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="add_parts_item3"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Sell eq \'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'add_parts_item3,add_parts_price3,add_parts_amount3,add_amount_stored3'
+                    }">
+                </div>
+                <div id="scanBtn7"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'add_parts_item3',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true,
+                            callback: 'HFFormdefinition.DemoFieldService.S2L.customQRScanButton'
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="add_parts_price3"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="add_parts_amount3"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "add_parts_item3"
+                                }],
+                                "else": "optional"
+                            }'>
+                        </div>
+                        <input type="text"
+                            id="add_amount_stored3"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid column3">
+            <div class="r1 c1 cspan2 get-row-combo">
+                <div id="add_parts_item4"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Item',
+                        url: '/api/catalogs/InventoryDB?$select=Title,Description,Stock,Price,Repair,Sell&$orderby=Title&$top=5000&$filter=Sell eq \'1\'',
+                        dataTextField: 'Description',
+                        dataValueField: 'Title',
+                        itemTemplate: HFFormdefinition.DemoFieldServiceHelpers.setPartsComboBoxTemplate,
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.provideAmounts,
+                        provideAmountsOptions: 'add_parts_item4,add_parts_price4,add_parts_amount4,add_amount_stored4'
+                    }">
+                </div>
+                <div id="scanBtn8"
+                    class="pdf-hide"
+                    data-win-control="HFWinJSCtrl.ScanButton"
+                    data-win-options="{
+                        buttonType: 'small',
+                        buttonIcon: 'fa-barcode-scan',
+                        scan: {
+                            comboBoxId: 'add_parts_item4',
+                            'scanType': 'BARCODE',
+                            'config': {
+                                preferFrontCamera: false,
+                                showFlipCameraButton: true,
+                                showTorchButton: true,
+                                saveHistory: false,
+                                prompt: 'Please scan the appropriate barcode...',
+                                resultDisplayDuration: 500,
+                                formats: 'QR_CODE,AZTEC',
+                                disableAnimations: true,
+                                disableSuccessBeep: false
+                            },
+                            audioFeedback: true,
+                            vibrationFeedback: true,
+                            callbackFeedback: true,
+                            callback: 'HFFormdefinition.DemoFieldService.S2L.customQRScanButton'
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="text"
+                            id="add_parts_price4"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                disabled: true
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <div id="add_parts_amount4"
+                            data-win-control="HFWinJSCtrl.ComboBox"
+                            data-win-options="{
+                                label: '#',
+                                dataSource: [{
+                                    key: '0'
+                                }],
+                                dataTextField: 'key',
+                                dataValueField: 'key',
+                                required: true
+                            }"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "add_parts_item4"
+                                }],
+                                "else": "optional"
+                            }'>
+                        </div>
+                        <input type="text"
+                            id="add_amount_stored4"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            class="hidden"
+                            data-win-options="{
+                                defaultValue: '0'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="add_parts_init"
+             class="pdf-hide"
+             data-win-control="HFFormdefinition.DemoFieldServiceHelpers.Initializr"
+             data-win-options="{  
+            callback: HFFormdefinition.DemoFieldServiceHelpers.setPartsAmounts,
+            baseItemId: 'add_amount_stored',
+            baseAmountId: 'add_parts_amount'
+        }"></div> -->
+
+    </div>
+
+    <div id="comment-sign-block1"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column1">
+            <div class="r1 c1">
+                <textarea id="parts_comment"
+                    style="min-height:130px; height:auto"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Comment'
+                    }"></textarea>
+            </div>
+        </div>
+        <div class="grid column1">
+            <div class="r1 c1 hide-in-pdf">
+                <div id="downloadBtn"></div>
+                <div id="btnInitializr2"
+                    class="pdf-hide"
+                    data-win-control="HFFormdefinition.DemoFieldServiceHelpers.ButtonInitializr"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="comment-sign-block2"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column1">
+            <div class="r1 c1">
+                <div id="parts_signature"
+                    data-win-control="HFWinJSCtrl.Signature"
+                    data-win-options="{
+                        label: 'Signature',
+                        width: 460,
+                        height: 160,
+                        clearButton: true,
+                        signingAsCallback: HFFormdefinition.DemoFieldServiceHelpers.getSigner,
+                        getSignerOptions: 'operation_technician'
+                    }">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-win-control="WinJS.Binding.Template"
+        id="travel-time-block1">
+        <div class="grid column1">
+            <div class="r1 c1">
+                <h3>Outward trip</h3>
+            </div>
+        </div>
+        <div class="grid column4">
+            <div class="r1 c1 cspan4">
+                <div id="travel_to_lbl"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Means of travel'
+                    }"></div>
+            </div>
+            <div class="r2 c1">
+                <input id="travel_to_plane"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Aircraft',
+                        floatLeft: true
+                    }" />
+            </div>
+            <div class="r2 c2">
+                <input id="travel_to_train"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Train',
+                        floatLeft: true
+                    }" />
+            </div>
+            <div class="r2 c3">
+                <input id="travel_to_vehicle"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Vehicle',
+                        floatLeft: true
+                    }" />
+            </div>
+            <div class="r2 c4">
+                <input id="travel_to_ship"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Ship',
+                        floatLeft: true
+                    }" />
+            </div>
+        </div>
+
+        <div class="grid column3">
+            <div class="r1 c1 cspan2">
+                <input type="text"
+                    id="travel_to_comment"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Remarks'
+                    }" />
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="number"
+                            id="km1_summe_to"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: 'Dist.'
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <input type="number"
+                            id="reisekosten_to"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                tooltip: 'Expenses in €'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid column3 mt-2">
+            <div class="r1 c1 cspan2">
+                <div class="grid column2">
+                    <div class="r1 c1 cspan2">
+                        <div id="anreisezeit1_label"
+                            data-win-control="HFWinJSCtrl.Label"
+                            data-win-options="{
+                                label: 'Start'
+                            }"></div>
+                    </div>
+                    <div class="r2 c1">
+                        <div data-win-control="HFWinJSCtrl.DatePicker"
+                            id="anreise1_datum"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: true,
+                                emptyContent: 'Select ...',
+                                defaultValueDate: 'now',
+                                displayValueFormat: 'dd/MM/yyyy',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'anreise1_datum,anreise1_uhrzeit_von,anreise2_datum,anreise2_uhrzeit_bis,offset_anreise,anreise1_summe',
+                            }">
+                        </div>
+
+                    </div>
+                    <div class="r2 c2">
+                        <div data-win-control="HFWinJSCtrl.TimePicker"
+                            id="anreise1_uhrzeit_von"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: false,
+                                emptyContent: 'hh:mm',
+                                format: 'HH:mm',
+                                defaultValueTime: '06:00',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'anreise1_datum,anreise1_uhrzeit_von,anreise2_datum,anreise2_uhrzeit_bis,offset_anreise,anreise1_summe',
+                                validator: {
+                                    custom: 'HFFormdefinition.DemoFieldServiceHelpers.setTimeValidator',
+                                    errorText: 'Please enter a valid time (24-hour notation).'
+                                }
+                            }">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div id="label_offset_anreise"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Time zone +/-',
+                        tooltip: '',
+                        required: false,
+                        requiredFields: '',
+                    }"></div>
+                <select id="offset_anreise"
+                    data-win-control="HFWinJSCtrl.SelectBox"
+                    data-win-options="{
+                        defaultValue: '0',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                        calcDurationOptions: 'anreise1_datum,anreise1_uhrzeit_von,anreise2_datum,anreise2_uhrzeit_bis,offset_anreise,anreise1_summe'
+                    }">
+                    <option value="-15">UTC -15:00</option>
+                    <option value="-14">UTC -14:00</option>
+                    <option value="-13">UTC -13:00</option>
+                    <option value="-12">UTC -12:00</option>
+                    <option value="-11">UTC -11:00</option>
+                    <option value="-10">UTC -10:00</option>
+                    <option value="-9">UTC -09:00</option>
+                    <option value="-8">UTC -08:00</option>
+                    <option value="-7">UTC -07:00</option>
+                    <option value="-6">UTC -06:00</option>
+                    <option value="-5">UTC -05:00</option>
+                    <option value="-4">UTC -04:00</option>
+                    <option value="-3">UTC -03:00</option>
+                    <option value="-2">UTC -02:00</option>
+                    <option value="-1">UTC -01:00</option>
+                    <option value="0">UTC +/-00:00</option>
+                    <option value="1">UTC +01:00</option>
+                    <option value="2">UTC +02:00</option>
+                    <option value="3">UTC +03:00</option>
+                    <option value="4">UTC +04:00</option>
+                    <option value="5">UTC +05:00</option>
+                    <option value="6">UTC +06:00</option>
+                    <option value="7">UTC +07:00</option>
+                    <option value="8">UTC +08:00</option>
+                    <option value="9">UTC +09:00</option>
+                    <option value="10">UTC +10:00</option>
+                    <option value="11">UTC +11:00</option>
+                    <option value="12">UTC +12:00</option>
+                    <option value="13">UTC +13:00</option>
+                    <option value="14">UTC +14:00</option>
+                    <option value="15">UTC +15:00</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="grid column3">
+            <div class="r1 c1 cspan2">
+                <div class="grid column2">
+                    <div class="r1 c1 cspan2">
+                        <div id="anreisezeit2_label"
+                            data-win-control="HFWinJSCtrl.Label"
+                            data-win-options="{
+                                label: 'End'
+                            }"></div>
+                    </div>
+                    <div class="r2 c1">
+                        <div data-win-control="HFWinJSCtrl.DatePicker"
+                            id="anreise2_datum"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: true,
+                                emptyContent: 'Select ...',
+                                defaultValueDate: 'now',
+                                displayValueFormat: 'dd/MM/yyyy',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'anreise1_datum,anreise1_uhrzeit_von,anreise2_datum,anreise2_uhrzeit_bis,offset_anreise,anreise1_summe'
+                            }">
+                        </div>
+                    </div>
+                    <div class="r2 c2">
+                        <div data-win-control="HFWinJSCtrl.TimePicker"
+                            id="anreise2_uhrzeit_bis"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: false,
+                                emptyContent: 'hh:mm',
+                                defaultValueTime: '06:00',
+                                format: 'HH:mm',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'anreise1_datum,anreise1_uhrzeit_von,anreise2_datum,anreise2_uhrzeit_bis,offset_anreise,anreise1_summe',
+                                validator: {
+                                    custom: 'HFFormdefinition.DemoFieldServiceHelpers.setTimeValidator',
+                                    errorText: 'Please enter a valid time (24-hour notation).'
+                                }
+                            }">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div id="travel_time_label"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Travel time',
+                        tooltip: '',
+                        required: false,
+                        requiredFields: '',
+                    }"></div>
+                <input type="text"
+                    id="anreise1_summe"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        disabled: true,
+                        validator: {
+                            type: 'text',
+                            pattern: '([0-1]?[0-9]|2[0-3]):[0-5][0-9]',
+                            errorText: 'Please check your entries: incomputable time span.'
+                        },
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateTotalZeit,
+                        fieldsToCalculate: ['anreise1_summe', 'rueckreise1_summe'],
+                        totalField: 'arbeitszeit_summe_vorbereitung_reise'
+                    }" />
+            </div>
+        </div>
+    </div>
+
+    <div data-win-control="WinJS.Binding.Template"
+        id="travel-time-block2">
+        <div class="grid column1">
+            <div class="r1 c1">
+                <h3>Return trip</h3>
+            </div>
+        </div>
+
+        <div class="grid column4">
+            <div class="r1 c1 cspan4">
+                <div id="travel_from_lbl"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Means of travel'
+                    }"></div>
+            </div>
+            <div class="r2 c1">
+                <input id="travel_from_plane"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Aircraft',
+                        floatLeft: true
+                    }" />
+            </div>
+            <div class="r2 c2">
+                <input id="travel_from_train"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Train',
+                        floatLeft: true
+                    }" />
+            </div>
+            <div class="r2 c3">
+                <input id="travel_from_vehicle"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Vehicle',
+                        floatLeft: true
+                    }" />
+            </div>
+            <div class="r2 c4">
+                <input id="travel_from_ship"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="value"
+                    data-win-options="{
+                        label: 'Ship',
+                        floatLeft: true
+                    }" />
+            </div>
+        </div>
+        <div class="grid column3">
+            <div class="r1 c1 cspan2">
+                <input type="text"
+                    id="travel_from_comment"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Remarks'
+                    }" />
+            </div>
+            <div class="r1 c3">
+                <div class="grid column2">
+                    <div class="r1 c1">
+                        <input type="number"
+                            id="km1_summe_from"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: 'Dist.'
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <input type="number"
+                            id="reisekosten_from"
+                            data-win-control="HFWinJSCtrl.TextField"
+                            data-win-options="{
+                                label: '€',
+                                tooltip: 'Expenses in €'
+                            }" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid column3 mt-2">
+            <div class="r1 c1 cspan2">
+                <div class="grid column2">
+                    <div class="r1 c1 cspan2">
+                        <div id="rueckreise1_label"
+                            data-win-control="HFWinJSCtrl.Label"
+                            data-win-options="{
+                                label: 'Start'
+                            }"></div>
+                    </div>
+                    <div class="r2 c1">
+                        <div data-win-control="HFWinJSCtrl.DatePicker"
+                            id="rueckreise1_datum"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: true,
+                                emptyContent: 'Select ...',
+                                defaultValueDate: 'now',
+                                displayValueFormat: 'dd/MM/yyyy',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'rueckreise1_datum,rueckreise1_uhrzeit_von,rueckreise1_2_datum,rueckreise1_2_uhrzeit_bis,offset_rueckreise,rueckreise1_summe'
+                            }">
+                        </div>
+                    </div>
+                    <div class="r2 c2">
+                        <div data-win-control="HFWinJSCtrl.TimePicker"
+                            id="rueckreise1_uhrzeit_von"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: false,
+                                emptyContent: 'hh:mm',
+                                format: 'HH:mm',
+                                defaultValueTime: '06:00',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'rueckreise1_datum,rueckreise1_uhrzeit_von,rueckreise1_2_datum,rueckreise1_2_uhrzeit_bis,offset_rueckreise,rueckreise1_summe',
+                                validator: {
+                                    custom: 'HFFormdefinition.DemoFieldServiceHelpers.setTimeValidator',
+                                    errorText: 'Please enter a valid time (24-hour notation).'
+                                }
+                            }">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div id="label_offset_rueckreise"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Time zone +/-',
+                        tooltip: '',
+                        required: false,
+                        requiredFields: '',
+                    }"></div>
+                <select id="offset_rueckreise"
+                    data-win-control="HFWinJSCtrl.SelectBox"
+                    data-win-options="{
+                        defaultValue: '0',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                        calcDurationOptions: 'rueckreise1_datum,rueckreise1_uhrzeit_von,rueckreise1_2_datum,rueckreise1_2_uhrzeit_bis,offset_rueckreise,rueckreise1_summe'
+                    }">
+                    <option value="-15">UTC -15:00</option>
+                    <option value="-14">UTC -14:00</option>
+                    <option value="-13">UTC -13:00</option>
+                    <option value="-12">UTC -12:00</option>
+                    <option value="-11">UTC -11:00</option>
+                    <option value="-10">UTC -10:00</option>
+                    <option value="-9">UTC -09:00</option>
+                    <option value="-8">UTC -08:00</option>
+                    <option value="-7">UTC -07:00</option>
+                    <option value="-6">UTC -06:00</option>
+                    <option value="-5">UTC -05:00</option>
+                    <option value="-4">UTC -04:00</option>
+                    <option value="-3">UTC -03:00</option>
+                    <option value="-2">UTC -02:00</option>
+                    <option value="-1">UTC -01:00</option>
+                    <option value="0">UTC +/-00:00</option>
+                    <option value="1">UTC +01:00</option>
+                    <option value="2">UTC +02:00</option>
+                    <option value="3">UTC +03:00</option>
+                    <option value="4">UTC +04:00</option>
+                    <option value="5">UTC +05:00</option>
+                    <option value="6">UTC +06:00</option>
+                    <option value="7">UTC +07:00</option>
+                    <option value="8">UTC +08:00</option>
+                    <option value="9">UTC +09:00</option>
+                    <option value="10">UTC +10:00</option>
+                    <option value="11">UTC +11:00</option>
+                    <option value="12">UTC +12:00</option>
+                    <option value="13">UTC +13:00</option>
+                    <option value="14">UTC +14:00</option>
+                    <option value="15">UTC +15:00</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="grid column3">
+            <div class="r1 c1 cspan2">
+                <div class="grid column2">
+                    <div class="r1 c1 cspan2">
+                        <div id="rueckreise2_label"
+                            data-win-control="HFWinJSCtrl.Label"
+                            data-win-options="{
+                                label: 'End'
+                            }"></div>
+                    </div>
+                    <div class="r2 c1">
+                        <div data-win-control="HFWinJSCtrl.DatePicker"
+                            data-hf-condition
+                            id="rueckreise1_2_datum"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: true,
+                                emptyContent: 'Select ...',
+                                defaultValueDate: 'now',
+                                displayValueFormat: 'dd/MM/yyyy',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'rueckreise1_datum,rueckreise1_uhrzeit_von,rueckreise1_2_datum,rueckreise1_2_uhrzeit_bis,offset_rueckreise,rueckreise1_summe'
+                            }">
+                        </div>
+                    </div>
+                    <div class="r2 c2">
+                        <div data-win-control="HFWinJSCtrl.TimePicker"
+                            id="rueckreise1_2_uhrzeit_bis"
+                            data-win-options="{
+                                defaultValue: 'now',
+                                required: false,
+                                emptyContent: 'hh:mm',
+                                format: 'HH:mm',
+                                defaultValueTime: '06:00',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                                calcDurationOptions: 'rueckreise1_datum,rueckreise1_uhrzeit_von,rueckreise1_2_datum,rueckreise1_2_uhrzeit_bis,offset_rueckreise,rueckreise1_summe',
+                                validator: {
+                                    custom: 'HFFormdefinition.DemoFieldServiceHelpers.setTimeValidator',
+                                    errorText: 'Please enter a valid time (24-hour notation).'
+                                }
+                            }">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div id="id_travel_time_label_rueckreise"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Travel Time',
+                        tooltip: '',
+                        required: false,
+                        requiredFields: '',
+                    }"></div>
+                <input type="text"
+                    id="rueckreise1_summe"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        disabled: true,
+                        validator: {
+                            type: 'text',
+                            pattern: '([0-1]?[0-9]|2[0-3]):[0-5][0-9]',
+                            errorText: 'Please check your entries: incomputable time span.'
+                        },
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateTotalZeit,
+                        fieldsToCalculate: ['rueckreise1_summe', 'rueckreise1_summe'],
+                        totalField: 'arbeitszeit_summe_vorbereitung_reise',
+                        copyToFields: ['SVC_rueckreise1_summe']
+                    }" />
+            </div>
+        </div>
+    </div>
+
+    <div data-win-control="WinJS.Binding.Template"
+        id="labour-time-block1">
+        <div class="grid column1 clear-header">
+            <div class="r1 c1">
+                <div id="arbeitszeit_label"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Daily labor time',
+                        tooltip: 'Please use 12-hour notation.'
+                    }">
+                </div>
+            </div>
+        </div>
+
+        <div class="grid column3">
+            <div class="r1 c1">
+                <div data-win-control="HFWinJSCtrl.DatePicker"
+                    id="arbeitszeit_datum"
+                    data-win-options="{
+                        defaultValue: 'now',
+                        required: true,
+                        emptyContent: 'Select ...',
+                        defaultValueDate: 'now',
+                        displayValueFormat: 'dd/MM/yyyy',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDurationOverDays,
+                        calcDurationOptions: 'anreise1_datum,anreise1_uhrzeit_von,anreise2_datum,anreise2_uhrzeit_bis,offset_anreise,anreise1_summe'
+                    }">
+                </div>
+            </div>
+            <div class="r1 c2">
+                <div data-win-control="HFWinJSCtrl.TimePicker"
+                    id="arbeitszeit_uhrzeit_von"
+                    data-win-options="{
+                        required: false,
+                        emptyContent: 'hh:mm',
+                        format: 'hh:mm tt',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDuration,
+                        calcDurationOptions: 'arbeitszeit_uhrzeit_von,arbeitszeit_uhrzeit_bis,arbeitszeit_summe_ohne',
+                        validator: {
+                            custom: 'HFFormdefinition.DemoFieldServiceHelpers.setTimeValidator',
+                            errorText: 'Please enter a valid time (12-hour notation).'
+                        }
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <div data-win-control="HFWinJSCtrl.TimePicker"
+                    id="arbeitszeit_uhrzeit_bis"
+                    data-win-options="{
+                        required: false,
+                        emptyContent: 'hh:mm',
+                        format: 'hh:mm tt',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateDuration,
+                        calcDurationOptions: 'arbeitszeit_uhrzeit_von,arbeitszeit_uhrzeit_bis,arbeitszeit_summe_ohne',
+                        validator: {
+                            custom: 'HFFormdefinition.DemoFieldServiceHelpers.setTimeValidator',
+                            errorText: 'Please enter a valid time (12-hour notation).'
+                        }
+                    }">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-win-control="WinJS.Binding.Template"
+        id="labour-time-block2">
+        <div class="grid column3">
+            <div class="r1 c1">
+                <div id="arbeitszeit_pause_lbl"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Break'
+                    }"></div>
+            </div>
+            <div class="r1 c2">
+                <div id="arbeitszeit_summe_ohne_lbl"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Working hours'
+                    }"></div>
+            </div>
+            <div class="r1 c3">
+                <div id="arbeitszeit_chargable_lbl"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Chargeable hours'
+                    }"></div>
+            </div>
+        </div>
+        <div class="grid column3">
+            <div class="r1 c1">
+                <div class="grid column2 mt-radiobox-label">
+                    <div class="r1 c1">
+                        <input type="radio"
+                            name="arbeitszeit_pause"
+                            id="arbeitszeit_pause_halb"
+                            value="30"
+                            data-win-control="HFWinJSCtrl.RadioBox"
+                            data-win-options="{
+                                htmlLabel: '&#189; h',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateArbeitszeit
+                            }" />
+                    </div>
+                    <div class="r1 c2">
+                        <input type="radio"
+                            name="arbeitszeit_pause"
+                            id="arbeitszeit_pause_voll"
+                            value="60"
+                            data-win-control="HFWinJSCtrl.RadioBox"
+                            data-win-options="{
+                                htmlLabel: '1 h',
+                                onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateArbeitszeit
+                            }" />
+                    </div>
+                </div>
+            </div>
+            <div class="r1 c2">
+                <input type="text"
+                    id="arbeitszeit_summe_ohne"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        defaultValue: '00:00',
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateArbeitszeit,
+                        disabled: true
+                    }" />
+            </div>
+            <div class="r1 c3">
+                <input type="text"
+                    id="arbeitszeit_summe_gesamt"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        onChanged: HFFormdefinition.DemoFieldServiceHelpers.calculateTotalArbeitszeit,
+                        fieldsToCalculate: ['arbeitszeit_summe_gesamt'],
+                        totalField: 'arbeitszeit_summe_alles',
+                        disabled: true
+                    }" />
+            </div>
+        </div>
+    </div>
+
+    <div id="selfevaluation-block1"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column2 c1auto">
+            <div class="r1 c1">
+                <p>
+                    <img src="{{HFFormPath}}/self-evaluation-130x130.svg"
+                        class="self-evaluation" />
+                </p>
+            </div>
+            <div class="r1 c2">
+                <p>
+                    <strong>Quality & Support</strong>
+                    <br /> In addition to the official content of the form, please state your personal remarks and
+                    recommendations for service and quality improvements.
+                    <br />
+                    <span class="red">
+                        <strong>Data privacy: This section is strictly confidential and will not be printed as part of
+                            the form.</strong>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--andritz ag selfevaluation block 2-->
+    <div id="selfevaluation-block2"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column1">
+            <div class="r1 c1">
+                <textarea id="eval_description"
+                    style="min-height:90px; height:auto"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Remarks'
+                    }"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <!--andritz ag selfevaluation block 3-->
+    <div id="selfevaluation-block3"
+        data-win-control="WinJS.Binding.Template">
+
+        <div class="grid column2">
+            <div class="r1 c1">
+                <input id="eval_categorization"
+                    type="text"
+                    data-win-control="HFWinJSCtrl.TextField"
+                    data-win-options="{
+                        label: 'Assessment',
+                    }" />
+
+            </div>
+            <div class="r1 c2">
+                <div id="post_operation"
+                    data-win-control="HFWinJSCtrl.Label"
+                    data-win-options="{
+                        label: 'Post operation'
+                    }">
+                </div>
+                <input id="support_required"
+                    type="checkbox"
+                    data-win-control="HFWinJSCtrl.CheckBox"
+                    value="Support required"
+                    data-win-options="{
+                        label: 'Support required'
+                    }" />
+            </div>
+        </div>
+
+        <div id="cond1"
+            data-win-control="HFWinJSCtrl.Condition"
+            data-hf-condition='{
+                "cond": [{
+                    "type": "field",
+                    "id": "eval_categorization"
+                }],
+                "else": "invisible"
+            }'>
+
+            <div class="grid column2">
+                <div class="r1 c1">
+                    <div id="eval_categorization2"
+                        data-win-control="HFWinJSCtrl.ComboBox"
+                        data-win-options="{
+                            label: 'Assessment',
+                            dataSource: [{
+                                name: 'Standard',
+                                code: 'Standard'
+                            }, {
+                                name: 'Technical problems',
+                                code: 'Technical problems'
+                            }, {
+                                name: 'Mental stress',
+                                code: 'Mental stress'
+                            }],
+                            dataTextField: 'name',
+                            dataValueField: 'code'
+                        }">
+                    </div>
+                </div>
+                <div class="r1 c2">
+                    <div id="cond2"
+                        data-win-control="HFWinJSCtrl.Condition"
+                        data-hf-condition='{
+                            "cond": [{
+                                "type": "field",
+                                "id": "eval_categorization2"
+                            }],
+                            "else": "invisible"
+                        }'>
+
+                        <div id="post_operation2"
+                            data-win-control="HFWinJSCtrl.Label"
+                            data-win-options="{
+                                label: 'Post operation'
+                            }">
+                        </div>
+                        <input id="support_required2"
+                            type="checkbox"
+                            data-win-control="HFWinJSCtrl.CheckBox"
+                            value="Support required"
+                            data-win-options="{
+                                label: 'Support required'
+                            }" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--andritz ag selfevaluation block 4-->
+    <div id="selfevaluation-block4"
+        data-win-control="WinJS.Binding.Template">
+        <div class="grid column1">
+            <div class="r1 c1">
+                <div id="eval_action"
+                    data-win-control="HFWinJSCtrl.ComboBox"
+                    data-win-options="{
+                        label: 'Recommended action',
+                        dataSource: [{
+                            name: 'No actions needed',
+                            code: 'No actions needed'
+                        }, {
+                            name: 'Contact recommended',
+                            code: 'Contact recommended'
+                        }, {
+                            name: 'Urgent need for contact',
+                            code: 'Urgent need for contact'
+                        }],
+                        dataTextField: 'name',
+                        dataValueField: 'code'
+                    }">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

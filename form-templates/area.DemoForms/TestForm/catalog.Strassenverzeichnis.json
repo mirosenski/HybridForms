@@ -1,0 +1,6620 @@
+[
+  {
+    "Title": "200000",
+    "Strassenbezeichnung": "Altneugasse",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200001",
+    "Strassenbezeichnung": "Am Ludwigsgymnasium",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200002",
+    "Strassenbezeichnung": "Am Ludwigsplatz",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200003",
+    "Strassenbezeichnung": "Am Schloßberg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200004",
+    "Strassenbezeichnung": "An der Friedenskirche",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200005",
+    "Strassenbezeichnung": "Dragonerstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200006",
+    "Strassenbezeichnung": "Eisenbahnstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200007",
+    "Strassenbezeichnung": "Franz-Josef-Röder-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200008",
+    "Strassenbezeichnung": "Gabelsbergerstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200009",
+    "Strassenbezeichnung": "Gutenbergstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200010",
+    "Strassenbezeichnung": "Hardenbergstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200011",
+    "Strassenbezeichnung": "Hintergassentreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200012",
+    "Strassenbezeichnung": "Hohenzollernstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200013",
+    "Strassenbezeichnung": "Keplerstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200014",
+    "Strassenbezeichnung": "Kirchgasse",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200015",
+    "Strassenbezeichnung": "Küfergasse",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200016",
+    "Strassenbezeichnung": "Laurettentreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200017",
+    "Strassenbezeichnung": "Löwengasse",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200018",
+    "Strassenbezeichnung": "Markthallenstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200019",
+    "Strassenbezeichnung": "Mathias-Iven-Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200020",
+    "Strassenbezeichnung": "Nanteser Platz",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200021",
+    "Strassenbezeichnung": "Neugeländstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200022",
+    "Strassenbezeichnung": "Neumarkt",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200023",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Schloßplatz",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200024",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Schloßplatz",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200025",
+    "Strassenbezeichnung": "Pestelstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200026",
+    "Strassenbezeichnung": "Präsident-Baltz-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200027",
+    "Strassenbezeichnung": "Probsteigasse",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200028",
+    "Strassenbezeichnung": "Roonstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200029",
+    "Strassenbezeichnung": "Saaruferstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200030",
+    "Strassenbezeichnung": "Schloßplatz",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200031",
+    "Strassenbezeichnung": "Schloßstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200032",
+    "Strassenbezeichnung": "Spichererbergstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200033",
+    "Strassenbezeichnung": "Stengelstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200034",
+    "Strassenbezeichnung": "Suppengasse",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200035",
+    "Strassenbezeichnung": "Talstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200036",
+    "Strassenbezeichnung": "Trillerweg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200037",
+    "Strassenbezeichnung": "Vorstadtstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200038",
+    "Strassenbezeichnung": "Wilhelm-Heinrich-Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200039",
+    "Strassenbezeichnung": "Yorckstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200040",
+    "Strassenbezeichnung": "Zähringerstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200041",
+    "Strassenbezeichnung": "Am Grafenhof",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200042",
+    "Strassenbezeichnung": "Am Grüneberg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200043",
+    "Strassenbezeichnung": "Bozener Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200044",
+    "Strassenbezeichnung": "Charlottenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200045",
+    "Strassenbezeichnung": "Eleonorenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200046",
+    "Strassenbezeichnung": "Elisabethenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200047",
+    "Strassenbezeichnung": "Feldmannstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200048",
+    "Strassenbezeichnung": "Himmelsleiter",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200049",
+    "Strassenbezeichnung": "Hintertaltreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200050",
+    "Strassenbezeichnung": "Hohe Wacht",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200051",
+    "Strassenbezeichnung": "Laurettenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200052",
+    "Strassenbezeichnung": "Lohmeyerstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200053",
+    "Strassenbezeichnung": "Mathildenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200054",
+    "Strassenbezeichnung": "Meraner Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200055",
+    "Strassenbezeichnung": "Meraner Treppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200056",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Reppersberg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200057",
+    "Strassenbezeichnung": "Nußbergstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200058",
+    "Strassenbezeichnung": "Nußbergtreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200059",
+    "Strassenbezeichnung": "Philippinenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200060",
+    "Strassenbezeichnung": "Philippinentreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200061",
+    "Strassenbezeichnung": "Reppersbergstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200062",
+    "Strassenbezeichnung": "Reppersbergtreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200063",
+    "Strassenbezeichnung": "Rodenhoferdell",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200064",
+    "Strassenbezeichnung": "Alvenslebenstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200065",
+    "Strassenbezeichnung": "Am Schanzenberg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200066",
+    "Strassenbezeichnung": "Am Tummelplatz",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200067",
+    "Strassenbezeichnung": "Deutschherrnstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200068",
+    "Strassenbezeichnung": "Ebersteinstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200069",
+    "Strassenbezeichnung": "Francoisstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200070",
+    "Strassenbezeichnung": "Gärtnerstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200071",
+    "Strassenbezeichnung": "Gersweilerstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200072",
+    "Strassenbezeichnung": "Goebenstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200073",
+    "Strassenbezeichnung": "Heuduckstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200074",
+    "Strassenbezeichnung": "Hildebrandtstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200075",
+    "Strassenbezeichnung": "Im Wittum",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200076",
+    "Strassenbezeichnung": "Kamekestraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200077",
+    "Strassenbezeichnung": "Malstatter Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200078",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Malstatter Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200079",
+    "Strassenbezeichnung": "Reuterstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200080",
+    "Strassenbezeichnung": "Sauerwiesweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200081",
+    "Strassenbezeichnung": "Schanzenbergbrücke",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200082",
+    "Strassenbezeichnung": "Schwarzeich",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200083",
+    "Strassenbezeichnung": "Werderstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200084",
+    "Strassenbezeichnung": "Am Franzenbrunnen",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200085",
+    "Strassenbezeichnung": "Am Jakobsgärtchen",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200086",
+    "Strassenbezeichnung": "Am Triller",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200087",
+    "Strassenbezeichnung": "Diedenhofer Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200088",
+    "Strassenbezeichnung": "Dolomitensteig",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200089",
+    "Strassenbezeichnung": "Echternacher Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200090",
+    "Strassenbezeichnung": "Elsa-Brandström-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200091",
+    "Strassenbezeichnung": "Escher Weg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200092",
+    "Strassenbezeichnung": "Fliederstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200093",
+    "Strassenbezeichnung": "Graf-Philipp-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200094",
+    "Strassenbezeichnung": "Höhenpfad",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200095",
+    "Strassenbezeichnung": "Hyazinthenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200096",
+    "Strassenbezeichnung": "Im Gebück",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200097",
+    "Strassenbezeichnung": "In der Galgendell",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200098",
+    "Strassenbezeichnung": "Karl-Schurz-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200099",
+    "Strassenbezeichnung": "Lerchesflurweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200100",
+    "Strassenbezeichnung": "Lerchessteig",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200101",
+    "Strassenbezeichnung": "Lilienstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200102",
+    "Strassenbezeichnung": "Lothringer Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200103",
+    "Strassenbezeichnung": "Metzer Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200104",
+    "Strassenbezeichnung": "Mondorfer Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200105",
+    "Strassenbezeichnung": "Narzissenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200106",
+    "Strassenbezeichnung": "Nelkenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200107",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Triller",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200108",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Triller",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200109",
+    "Strassenbezeichnung": "Papestraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200110",
+    "Strassenbezeichnung": "Schultze-Kathrin-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200111",
+    "Strassenbezeichnung": "Schutzbergstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200112",
+    "Strassenbezeichnung": "Sonnenweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200113",
+    "Strassenbezeichnung": "St. Avolder Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200114",
+    "Strassenbezeichnung": "Steubenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200115",
+    "Strassenbezeichnung": "Stieringer Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200116",
+    "Strassenbezeichnung": "Tiroler Weg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200117",
+    "Strassenbezeichnung": "Trillertreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200118",
+    "Strassenbezeichnung": "Zollamtstreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200119",
+    "Strassenbezeichnung": "Alstinger Weg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200120",
+    "Strassenbezeichnung": "Am Dienstadter Weiher",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200121",
+    "Strassenbezeichnung": "Am Drahtzugweiher",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200122",
+    "Strassenbezeichnung": "Am Glockenwald",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200123",
+    "Strassenbezeichnung": "Am Knieschinner",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200124",
+    "Strassenbezeichnung": "An der Habsterkirch",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200125",
+    "Strassenbezeichnung": "An der Neuen Bremm",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200126",
+    "Strassenbezeichnung": "Behrener Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200127",
+    "Strassenbezeichnung": "Bei der Goldenen Bremm",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200128",
+    "Strassenbezeichnung": "Deutschmühlental",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200129",
+    "Strassenbezeichnung": "Dr.-Vogeler-Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200130",
+    "Strassenbezeichnung": "Ehrentalweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200131",
+    "Strassenbezeichnung": "Folsterweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200132",
+    "Strassenbezeichnung": "Habsterhöhe",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200133",
+    "Strassenbezeichnung": "Heidenhübel",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200134",
+    "Strassenbezeichnung": "Hirtenwies",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200135",
+    "Strassenbezeichnung": "Im Ehrental",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200136",
+    "Strassenbezeichnung": "Königsbruch",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200137",
+    "Strassenbezeichnung": "Mockenhübel",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200138",
+    "Strassenbezeichnung": "Mockentalweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200139",
+    "Strassenbezeichnung": "Mockenweiherweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200140",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Glockenwald",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200141",
+    "Strassenbezeichnung": "Oben am Mockenweiher",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200142",
+    "Strassenbezeichnung": "Robert-Bosch-Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200143",
+    "Strassenbezeichnung": "Römerstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200144",
+    "Strassenbezeichnung": "Südring",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200145",
+    "Strassenbezeichnung": "Untertürkheimer Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200146",
+    "Strassenbezeichnung": "Vogelsborn",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200147",
+    "Strassenbezeichnung": "Zinzinger Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200148",
+    "Strassenbezeichnung": "Zum Zollstock",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200149",
+    "Strassenbezeichnung": "Abtsdell",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200150",
+    "Strassenbezeichnung": "Am Gottwill",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200151",
+    "Strassenbezeichnung": "Am Hagen",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200152",
+    "Strassenbezeichnung": "Am Ordensgut",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200153",
+    "Strassenbezeichnung": "Am Versorgungshaus",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200154",
+    "Strassenbezeichnung": "An der Fels",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200155",
+    "Strassenbezeichnung": "Bruchschneidersdell",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200156",
+    "Strassenbezeichnung": "Dellengartenstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200157",
+    "Strassenbezeichnung": "Dellengartentreppe",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200158",
+    "Strassenbezeichnung": "Deutschhausweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200159",
+    "Strassenbezeichnung": "Deutschherrnpfad",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200160",
+    "Strassenbezeichnung": "Dornierstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200161",
+    "Strassenbezeichnung": "Dr.-Eckener-Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200162",
+    "Strassenbezeichnung": "Ehrentalweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200163",
+    "Strassenbezeichnung": "Forbacher Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200164",
+    "Strassenbezeichnung": "Friedhofsallee",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200165",
+    "Strassenbezeichnung": "Graf-Simon-Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200166",
+    "Strassenbezeichnung": "Heinkelstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200167",
+    "Strassenbezeichnung": "Hinter dem Deutschhaus",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200168",
+    "Strassenbezeichnung": "Im Mittleren Gottwill",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200169",
+    "Strassenbezeichnung": "Junkersstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200170",
+    "Strassenbezeichnung": "Kolonnenweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200171",
+    "Strassenbezeichnung": "Komtursteig",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200172",
+    "Strassenbezeichnung": "Komturstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200173",
+    "Strassenbezeichnung": "Lilienthalstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200174",
+    "Strassenbezeichnung": "Lulustein",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200175",
+    "Strassenbezeichnung": "Moltkestraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200176",
+    "Strassenbezeichnung": "n.n.b. Alt-Saarbrücken / Bellevue",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200177",
+    "Strassenbezeichnung": "Ober der Deutschmühl",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200178",
+    "Strassenbezeichnung": "Oberer Hagen",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200179",
+    "Strassenbezeichnung": "Ordenspfad",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200180",
+    "Strassenbezeichnung": "Ordenstreppe",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200181",
+    "Strassenbezeichnung": "Parsevalstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200182",
+    "Strassenbezeichnung": "Peter-Michely-Straße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200183",
+    "Strassenbezeichnung": "Pfählerstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200184",
+    "Strassenbezeichnung": "Richtweg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200185",
+    "Strassenbezeichnung": "Ring am Gottwill",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200186",
+    "Strassenbezeichnung": "Steinmetzstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200187",
+    "Strassenbezeichnung": "Unterer Hagen",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200188",
+    "Strassenbezeichnung": "Zeppelinstraße",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200189",
+    "Strassenbezeichnung": "Alte Bergstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200190",
+    "Strassenbezeichnung": "Am Emmersberg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200191",
+    "Strassenbezeichnung": "Am Hof",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200192",
+    "Strassenbezeichnung": "Am Ludwigsberg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200193",
+    "Strassenbezeichnung": "Am Schönental",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200194",
+    "Strassenbezeichnung": "Am Torhaus",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200195",
+    "Strassenbezeichnung": "Amselstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200196",
+    "Strassenbezeichnung": "Bahnhof Neuhaus",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200197",
+    "Strassenbezeichnung": "Camphauser Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200198",
+    "Strassenbezeichnung": "Drosselweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200199",
+    "Strassenbezeichnung": "Endchensbrunnen",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200200",
+    "Strassenbezeichnung": "Finkenstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200201",
+    "Strassenbezeichnung": "Fischbachstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200202",
+    "Strassenbezeichnung": "Forsthaus Neuhaus",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200203",
+    "Strassenbezeichnung": "Forsthaus Wolfsgarten",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200204",
+    "Strassenbezeichnung": "Heinrichshaus",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200205",
+    "Strassenbezeichnung": "Heinrichshausweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200206",
+    "Strassenbezeichnung": "Hellenschlag",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200207",
+    "Strassenbezeichnung": "Im Bachwinkel",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200208",
+    "Strassenbezeichnung": "Im Grund",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200209",
+    "Strassenbezeichnung": "Jungfleischhütte",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200210",
+    "Strassenbezeichnung": "Kirschheck",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200211",
+    "Strassenbezeichnung": "Kolbenhofstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200212",
+    "Strassenbezeichnung": "Lebacher Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200213",
+    "Strassenbezeichnung": "Netzbachtal",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200214",
+    "Strassenbezeichnung": "Neuhaus",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200215",
+    "Strassenbezeichnung": "Neuhauser Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200216",
+    "Strassenbezeichnung": "n.n.b. Malstatt / Rußhütte",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200217",
+    "Strassenbezeichnung": "Rußhütter Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200218",
+    "Strassenbezeichnung": "Sonnenhügel",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200219",
+    "Strassenbezeichnung": "Starenstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200220",
+    "Strassenbezeichnung": "Steinbachstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200221",
+    "Strassenbezeichnung": "An der Johannisbrücke",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200222",
+    "Strassenbezeichnung": "An der Saarlandhalle",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200223",
+    "Strassenbezeichnung": "An der Schlucht",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200224",
+    "Strassenbezeichnung": "Birkenfelder Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200225",
+    "Strassenbezeichnung": "Edenstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200226",
+    "Strassenbezeichnung": "Friedrichsthaler Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200227",
+    "Strassenbezeichnung": "Gräffstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200228",
+    "Strassenbezeichnung": "Grülingsstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200229",
+    "Strassenbezeichnung": "Hagenbeckstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200230",
+    "Strassenbezeichnung": "Heinrich-Koehl-Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200231",
+    "Strassenbezeichnung": "Idarweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200232",
+    "Strassenbezeichnung": "Jägersfreuder Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200233",
+    "Strassenbezeichnung": "Kalkoffenstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200234",
+    "Strassenbezeichnung": "Kalmanstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200235",
+    "Strassenbezeichnung": "Leharstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200236",
+    "Strassenbezeichnung": "Neunkircher Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200237",
+    "Strassenbezeichnung": "n.n.b. Malstatt / Rodenhof",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200238",
+    "Strassenbezeichnung": "Obersteiner Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200239",
+    "Strassenbezeichnung": "Offenbergstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200240",
+    "Strassenbezeichnung": "Ottweilerstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200241",
+    "Strassenbezeichnung": "Paul-Lincke-Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200242",
+    "Strassenbezeichnung": "Schweringstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200243",
+    "Strassenbezeichnung": "Sittersweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200244",
+    "Strassenbezeichnung": "St. Wendeler Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200245",
+    "Strassenbezeichnung": "St. Albert Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200246",
+    "Strassenbezeichnung": "Stadionweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200247",
+    "Strassenbezeichnung": "Türkismühler Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200248",
+    "Strassenbezeichnung": "Usenerstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200249",
+    "Strassenbezeichnung": "Wolfshumes",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200250",
+    "Strassenbezeichnung": "Ziegelstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200251",
+    "Strassenbezeichnung": "Alte-Kirchhof-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200252",
+    "Strassenbezeichnung": "An der Gaschbach",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200253",
+    "Strassenbezeichnung": "Angela-Braun-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200254",
+    "Strassenbezeichnung": "Annenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200255",
+    "Strassenbezeichnung": "Auf der Werth",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200256",
+    "Strassenbezeichnung": "Breite Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200257",
+    "Strassenbezeichnung": "Breitenbacherplatz",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200258",
+    "Strassenbezeichnung": "Breitenbacherstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200259",
+    "Strassenbezeichnung": "Brückenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200260",
+    "Strassenbezeichnung": "Dr.-Maurer-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200261",
+    "Strassenbezeichnung": "Frankenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200262",
+    "Strassenbezeichnung": "Gasweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200263",
+    "Strassenbezeichnung": "Große Schachtstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200264",
+    "Strassenbezeichnung": "Große Schulstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200265",
+    "Strassenbezeichnung": "Häfnergasse",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200266",
+    "Strassenbezeichnung": "Hochstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200267",
+    "Strassenbezeichnung": "Im Rotfeld",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200268",
+    "Strassenbezeichnung": "Im Schacht",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200269",
+    "Strassenbezeichnung": "In der Röth",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200270",
+    "Strassenbezeichnung": "Jahnplatz",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200271",
+    "Strassenbezeichnung": "Katharinenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200272",
+    "Strassenbezeichnung": "Katharinenweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200273",
+    "Strassenbezeichnung": "Kirchbergstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200274",
+    "Strassenbezeichnung": "Kirchenpfad",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200275",
+    "Strassenbezeichnung": "Klausenerstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200276",
+    "Strassenbezeichnung": "Kleine Schachtstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200277",
+    "Strassenbezeichnung": "Kleine Schulstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200278",
+    "Strassenbezeichnung": "Köllnerstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200279",
+    "Strassenbezeichnung": "Ludwigstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200280",
+    "Strassenbezeichnung": "Malstatter Brücke",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200281",
+    "Strassenbezeichnung": "Malstatter Markt",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200282",
+    "Strassenbezeichnung": "Marienstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200283",
+    "Strassenbezeichnung": "Metzdorfstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200284",
+    "Strassenbezeichnung": "Molschder Trepp",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200285",
+    "Strassenbezeichnung": "Neustraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200286",
+    "Strassenbezeichnung": "n.n.b. Malstatt / Unteres Malstatt",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200287",
+    "Strassenbezeichnung": "Obere Hohlgasse",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200288",
+    "Strassenbezeichnung": "Paul-Schmook-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200289",
+    "Strassenbezeichnung": "Pfarrer-Bungarten-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200290",
+    "Strassenbezeichnung": "Pfarrer-Köllner-Treppe",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200291",
+    "Strassenbezeichnung": "Pferchgasse",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200292",
+    "Strassenbezeichnung": "Poststraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200293",
+    "Strassenbezeichnung": "St. Johanner Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200294",
+    "Strassenbezeichnung": "St. Josef Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200295",
+    "Strassenbezeichnung": "Steinstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200296",
+    "Strassenbezeichnung": "Stromstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200297",
+    "Strassenbezeichnung": "Turnerstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200298",
+    "Strassenbezeichnung": "Untere Hohlgasse",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200299",
+    "Strassenbezeichnung": "Westspange",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200300",
+    "Strassenbezeichnung": "Wiesenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200301",
+    "Strassenbezeichnung": "Wilhelm-Meyer-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200302",
+    "Strassenbezeichnung": "Zur Malstatt",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200303",
+    "Strassenbezeichnung": "Donaustraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200304",
+    "Strassenbezeichnung": "Dresdener Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200305",
+    "Strassenbezeichnung": "Ferdinand-Dietzsch-Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200306",
+    "Strassenbezeichnung": "Friedrich-Engels-Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200307",
+    "Strassenbezeichnung": "Friedrich-Hecker-Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200308",
+    "Strassenbezeichnung": "Gaschhübel",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200309",
+    "Strassenbezeichnung": "Hambacher Platz",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200310",
+    "Strassenbezeichnung": "Kleiststraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200311",
+    "Strassenbezeichnung": "Leipziger Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200312",
+    "Strassenbezeichnung": "Mainstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200313",
+    "Strassenbezeichnung": "n.n.b. Malstatt / Leipziger Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200314",
+    "Strassenbezeichnung": "Parallelstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200315",
+    "Strassenbezeichnung": "Rheinstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200316",
+    "Strassenbezeichnung": "Robert-Blum-Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200317",
+    "Strassenbezeichnung": "Schillstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200318",
+    "Strassenbezeichnung": "Schlettstadter Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200319",
+    "Strassenbezeichnung": "Siebenpfeifferstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200320",
+    "Strassenbezeichnung": "Waldstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200321",
+    "Strassenbezeichnung": "Weidenstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200322",
+    "Strassenbezeichnung": "Wirthstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200323",
+    "Strassenbezeichnung": "Wörther Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200324",
+    "Strassenbezeichnung": "Alte Lebacher Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200325",
+    "Strassenbezeichnung": "Am Wallenbaum",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200326",
+    "Strassenbezeichnung": "An der Schleifmühle",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200327",
+    "Strassenbezeichnung": "Bülowstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200328",
+    "Strassenbezeichnung": "Cottbuser Platz",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200329",
+    "Strassenbezeichnung": "Donnersbergstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200330",
+    "Strassenbezeichnung": "Erbeskopfstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200331",
+    "Strassenbezeichnung": "Göttelborner Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200332",
+    "Strassenbezeichnung": "Heusweilerstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200333",
+    "Strassenbezeichnung": "Hunsrückstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200334",
+    "Strassenbezeichnung": "Jenneweg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200335",
+    "Strassenbezeichnung": "Josef-Wagner-Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200336",
+    "Strassenbezeichnung": "Meiersdell",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200337",
+    "Strassenbezeichnung": "n.n.b. Malstatt / Jenneweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200338",
+    "Strassenbezeichnung": "Nürburgstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200339",
+    "Strassenbezeichnung": "Pariser Platz",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200340",
+    "Strassenbezeichnung": "Pfarrer-Bleek-Platz",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200341",
+    "Strassenbezeichnung": "Riegelsberger Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200342",
+    "Strassenbezeichnung": "Tauentzienstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200343",
+    "Strassenbezeichnung": "Taunusstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200344",
+    "Strassenbezeichnung": "Trifelsstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200345",
+    "Strassenbezeichnung": "Wendel-Schorr-Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200346",
+    "Strassenbezeichnung": "Westrichweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200347",
+    "Strassenbezeichnung": "Ahrstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200348",
+    "Strassenbezeichnung": "Alfener Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200349",
+    "Strassenbezeichnung": "Am Gilbenkopf",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200350",
+    "Strassenbezeichnung": "Am Heubügel",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200351",
+    "Strassenbezeichnung": "Am Hölzersbach",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200352",
+    "Strassenbezeichnung": "Am Rothenbüsch",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200353",
+    "Strassenbezeichnung": "Ayler Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200354",
+    "Strassenbezeichnung": "Beilsteiner Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200355",
+    "Strassenbezeichnung": "Bernkasteler Platz",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200356",
+    "Strassenbezeichnung": "Bliesweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200357",
+    "Strassenbezeichnung": "Briedeler Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200358",
+    "Strassenbezeichnung": "Cochemer Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200359",
+    "Strassenbezeichnung": "Eifelstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200360",
+    "Strassenbezeichnung": "Enkircher Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200361",
+    "Strassenbezeichnung": "Erdener Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200362",
+    "Strassenbezeichnung": "Graacher Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200363",
+    "Strassenbezeichnung": "Hauschildweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200364",
+    "Strassenbezeichnung": "Hochwaldstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200365",
+    "Strassenbezeichnung": "Hubert-Müller-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200366",
+    "Strassenbezeichnung": "Illweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200367",
+    "Strassenbezeichnung": "Im Knappenroth",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200368",
+    "Strassenbezeichnung": "Irscher Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200369",
+    "Strassenbezeichnung": "Kanzemer Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200370",
+    "Strassenbezeichnung": "Kaseler Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200371",
+    "Strassenbezeichnung": "Köllertalstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200372",
+    "Strassenbezeichnung": "Lahnstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200373",
+    "Strassenbezeichnung": "Lebacher Landstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200374",
+    "Strassenbezeichnung": "Lieserer Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200375",
+    "Strassenbezeichnung": "Mehringer Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200376",
+    "Strassenbezeichnung": "Moselstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200377",
+    "Strassenbezeichnung": "Nahestraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200378",
+    "Strassenbezeichnung": "Neumagener Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200379",
+    "Strassenbezeichnung": "n.n.b. Malstatt / Rastpfuhl",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200380",
+    "Strassenbezeichnung": "Oberer Jenneweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200381",
+    "Strassenbezeichnung": "Ockfener Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200382",
+    "Strassenbezeichnung": "Pasteurschacht",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200383",
+    "Strassenbezeichnung": "Piesporter Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200384",
+    "Strassenbezeichnung": "Primsweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200385",
+    "Strassenbezeichnung": "Rastbachweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200386",
+    "Strassenbezeichnung": "Rastpfuhl",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200387",
+    "Strassenbezeichnung": "Reiler Treppe",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200388",
+    "Strassenbezeichnung": "Rhönweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200389",
+    "Strassenbezeichnung": "Schaumbergstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200390",
+    "Strassenbezeichnung": "Siebenbürger Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200391",
+    "Strassenbezeichnung": "Trarbacher Platz",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200392",
+    "Strassenbezeichnung": "Trittenheimer Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200393",
+    "Strassenbezeichnung": "Unterer Jenneweg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200394",
+    "Strassenbezeichnung": "Ürziger Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200395",
+    "Strassenbezeichnung": "Wehlener Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200396",
+    "Strassenbezeichnung": "Wiltinger Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200397",
+    "Strassenbezeichnung": "Zeller Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200398",
+    "Strassenbezeichnung": "Zeltinger Weg",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200399",
+    "Strassenbezeichnung": "Am Hauptbahnhof",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200400",
+    "Strassenbezeichnung": "Am Steg",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200401",
+    "Strassenbezeichnung": "Bahnhofstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200402",
+    "Strassenbezeichnung": "Beethovenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200403",
+    "Strassenbezeichnung": "Berliner Promenade",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200404",
+    "Strassenbezeichnung": "Birnengäßchen",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200405",
+    "Strassenbezeichnung": "Bormannspfad",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200406",
+    "Strassenbezeichnung": "Dudweilerstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200407",
+    "Strassenbezeichnung": "Faktoreistraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200408",
+    "Strassenbezeichnung": "Fritz-Dobisch-Straße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200409",
+    "Strassenbezeichnung": "Futterstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200410",
+    "Strassenbezeichnung": "Hafenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200411",
+    "Strassenbezeichnung": "Kaiserstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200412",
+    "Strassenbezeichnung": "Karcherstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200413",
+    "Strassenbezeichnung": "Karl-Marx-Straße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200414",
+    "Strassenbezeichnung": "Knappenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200415",
+    "Strassenbezeichnung": "Kohlwaagstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200416",
+    "Strassenbezeichnung": "Lampertstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200417",
+    "Strassenbezeichnung": "Lortzingstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200418",
+    "Strassenbezeichnung": "Luisenbrücke",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200419",
+    "Strassenbezeichnung": "Lützelbachstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200420",
+    "Strassenbezeichnung": "Mozartstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200421",
+    "Strassenbezeichnung": "Mühlenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200422",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Hauptbahnhof",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200423",
+    "Strassenbezeichnung": "Passagestraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200424",
+    "Strassenbezeichnung": "Reichsstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200425",
+    "Strassenbezeichnung": "Richard-Wagner-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200426",
+    "Strassenbezeichnung": "Rotenhofstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200427",
+    "Strassenbezeichnung": "Schifferstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200428",
+    "Strassenbezeichnung": "Schubertstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200429",
+    "Strassenbezeichnung": "Sophienstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200430",
+    "Strassenbezeichnung": "Sulzbachstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200431",
+    "Strassenbezeichnung": "Trierer Straße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200432",
+    "Strassenbezeichnung": "Ufergasse",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200433",
+    "Strassenbezeichnung": "Ursulinenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200434",
+    "Strassenbezeichnung": "Viktoriastraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200435",
+    "Strassenbezeichnung": "Blumenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200436",
+    "Strassenbezeichnung": "Brauerstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200437",
+    "Strassenbezeichnung": "Brentanostraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200438",
+    "Strassenbezeichnung": "Bruchwiesenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200439",
+    "Strassenbezeichnung": "Cecilienstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200440",
+    "Strassenbezeichnung": "Echelmeyerpark",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200441",
+    "Strassenbezeichnung": "Egon-Reinert-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200442",
+    "Strassenbezeichnung": "Fichtestraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200443",
+    "Strassenbezeichnung": "Försterstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200444",
+    "Strassenbezeichnung": "Großherzog-Friedrich-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200445",
+    "Strassenbezeichnung": "Grünstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200446",
+    "Strassenbezeichnung": "Johannisstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200447",
+    "Strassenbezeichnung": "Kantstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200448",
+    "Strassenbezeichnung": "Kurze Straße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200449",
+    "Strassenbezeichnung": "Landwehrplatz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200450",
+    "Strassenbezeichnung": "Martin-Luther-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200451",
+    "Strassenbezeichnung": "Max-Ophüls-Platz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200452",
+    "Strassenbezeichnung": "Nassauerstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200453",
+    "Strassenbezeichnung": "Nauwieserplatz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200454",
+    "Strassenbezeichnung": "Nauwieserstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200455",
+    "Strassenbezeichnung": "Neikesstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200456",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Nauwieser Viertel",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200457",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Nauwieser Viertel",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200458",
+    "Strassenbezeichnung": "Parkstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200459",
+    "Strassenbezeichnung": "Rathausplatz",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200460",
+    "Strassenbezeichnung": "Rotenbergstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200461",
+    "Strassenbezeichnung": "Rotenbergtreppe",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200462",
+    "Strassenbezeichnung": "Schmollerstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200463",
+    "Strassenbezeichnung": "Schopenhauerstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200464",
+    "Strassenbezeichnung": "Schumannstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200465",
+    "Strassenbezeichnung": "Schützenstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200466",
+    "Strassenbezeichnung": "Seilerstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200467",
+    "Strassenbezeichnung": "Stephanstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200468",
+    "Strassenbezeichnung": "Alte Brücke",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200469",
+    "Strassenbezeichnung": "Am Stadtgraben",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200470",
+    "Strassenbezeichnung": "Am Stiefel",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200471",
+    "Strassenbezeichnung": "Betzenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200472",
+    "Strassenbezeichnung": "Bismarckstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200473",
+    "Strassenbezeichnung": "Bleichstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200474",
+    "Strassenbezeichnung": "Discontopassage",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200475",
+    "Strassenbezeichnung": "Ev.-Kirch-Straße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200476",
+    "Strassenbezeichnung": "Faßstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200477",
+    "Strassenbezeichnung": "Fröschengasse",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200478",
+    "Strassenbezeichnung": "Fürstenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200479",
+    "Strassenbezeichnung": "Gerberplatz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200480",
+    "Strassenbezeichnung": "Gerberstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200481",
+    "Strassenbezeichnung": "Gustav-Regler-Platz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200482",
+    "Strassenbezeichnung": "Herbergsgasse",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200483",
+    "Strassenbezeichnung": "Kaltenbachstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200484",
+    "Strassenbezeichnung": "Kappenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200485",
+    "Strassenbezeichnung": "Karlstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200486",
+    "Strassenbezeichnung": "Kath.-Kirch-Straße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200487",
+    "Strassenbezeichnung": "Kronenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200488",
+    "Strassenbezeichnung": "Kupfergasse",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200489",
+    "Strassenbezeichnung": "Mainzer Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200490",
+    "Strassenbezeichnung": "Neugäßchen",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200491",
+    "Strassenbezeichnung": "n.n.b. St. Johann / St. Johanner Markt",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200492",
+    "Strassenbezeichnung": "Obertorstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200493",
+    "Strassenbezeichnung": "Paul-Marien-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200494",
+    "Strassenbezeichnung": "Richard-Wenzel-Platz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200495",
+    "Strassenbezeichnung": "Rosenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200496",
+    "Strassenbezeichnung": "Saarstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200497",
+    "Strassenbezeichnung": "Schillerplatz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200498",
+    "Strassenbezeichnung": "Schreinergasse",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200499",
+    "Strassenbezeichnung": "St. Johanner Markt",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200500",
+    "Strassenbezeichnung": "Tifliser Platz",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200501",
+    "Strassenbezeichnung": "Türkenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200502",
+    "Strassenbezeichnung": "Wallgasse",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200503",
+    "Strassenbezeichnung": "Wilhelm-Heinrich-Brücke",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200504",
+    "Strassenbezeichnung": "Am Staden",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200505",
+    "Strassenbezeichnung": "Arndtstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200506",
+    "Strassenbezeichnung": "Bismarckbrücke",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200507",
+    "Strassenbezeichnung": "Geibelstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200508",
+    "Strassenbezeichnung": "Goethestraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200509",
+    "Strassenbezeichnung": "Graf-Johann-Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200510",
+    "Strassenbezeichnung": "Halbergstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200511",
+    "Strassenbezeichnung": "Heinestraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200512",
+    "Strassenbezeichnung": "Heinrich-Böcking-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200513",
+    "Strassenbezeichnung": "Hellwigstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200514",
+    "Strassenbezeichnung": "Lessingstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200515",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Am Staden",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200516",
+    "Strassenbezeichnung": "Obere Lauerfahrt",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200517",
+    "Strassenbezeichnung": "Rückertstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200518",
+    "Strassenbezeichnung": "Uhlandstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200519",
+    "Strassenbezeichnung": "Am Holzbrunnen",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200520",
+    "Strassenbezeichnung": "Am Kieselhumes",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200521",
+    "Strassenbezeichnung": "Am Römerkastell",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200522",
+    "Strassenbezeichnung": "Am Zoo",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200523",
+    "Strassenbezeichnung": "An der Römerbrücke",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200524",
+    "Strassenbezeichnung": "Bertha-von-Suttner-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200525",
+    "Strassenbezeichnung": "Brebacher Landstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200526",
+    "Strassenbezeichnung": "Breslauer Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200527",
+    "Strassenbezeichnung": "Daarler Brück",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200528",
+    "Strassenbezeichnung": "Die Lach",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200529",
+    "Strassenbezeichnung": "Eschbergerweg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200530",
+    "Strassenbezeichnung": "Fasanerieweg",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200531",
+    "Strassenbezeichnung": "Graf-Stauffenberg-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200532",
+    "Strassenbezeichnung": "Hanna-Kirchner-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200533",
+    "Strassenbezeichnung": "Heidenkopferdell",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200534",
+    "Strassenbezeichnung": "Im Helmerswald",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200535",
+    "Strassenbezeichnung": "Leuschnerstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200536",
+    "Strassenbezeichnung": "Lyonerring",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200537",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Kaninchenberg",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200538",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Kaninchenberg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200539",
+    "Strassenbezeichnung": "Ostspange",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200540",
+    "Strassenbezeichnung": "Pater-Delp-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200541",
+    "Strassenbezeichnung": "Peter-Zimmer-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200542",
+    "Strassenbezeichnung": "Quellenstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200543",
+    "Strassenbezeichnung": "Römerstadt",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200544",
+    "Strassenbezeichnung": "Schneidershof",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200545",
+    "Strassenbezeichnung": "Schroten",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200546",
+    "Strassenbezeichnung": "Straße des 13.Januar",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200547",
+    "Strassenbezeichnung": "Strombergweg",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200548",
+    "Strassenbezeichnung": "Taubfeld",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200549",
+    "Strassenbezeichnung": "Am Bruchhübel",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200550",
+    "Strassenbezeichnung": "Am Hügel",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200551",
+    "Strassenbezeichnung": "Am Kaninchenberg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200552",
+    "Strassenbezeichnung": "Am Schwarzenbergbad",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200553",
+    "Strassenbezeichnung": "Am Stadtwald",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200554",
+    "Strassenbezeichnung": "Am Strummersbrunnen",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200555",
+    "Strassenbezeichnung": "An der Trift",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200556",
+    "Strassenbezeichnung": "Auf der Schlecht",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200557",
+    "Strassenbezeichnung": "August-Klein-Pfad",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200558",
+    "Strassenbezeichnung": "August-Klein-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200559",
+    "Strassenbezeichnung": "Blieskasteler Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200560",
+    "Strassenbezeichnung": "Bruchbrunnenstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200561",
+    "Strassenbezeichnung": "Bruchbrunnenweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200562",
+    "Strassenbezeichnung": "Dr.-Schoenemann-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200563",
+    "Strassenbezeichnung": "Dürkheimer Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200564",
+    "Strassenbezeichnung": "Ernst-Wagner-Weg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200565",
+    "Strassenbezeichnung": "Falkenweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200566",
+    "Strassenbezeichnung": "Gustav-Bruch-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200567",
+    "Strassenbezeichnung": "Habichtsweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200568",
+    "Strassenbezeichnung": "Haldystraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200569",
+    "Strassenbezeichnung": "Hasseler Weg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200570",
+    "Strassenbezeichnung": "Heimgartentreppe",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200571",
+    "Strassenbezeichnung": "Ilseplatz",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200572",
+    "Strassenbezeichnung": "Ilsestraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200573",
+    "Strassenbezeichnung": "Im Heimeck",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200574",
+    "Strassenbezeichnung": "Im Heimgarten",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200575",
+    "Strassenbezeichnung": "Kaiserslauterer Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200576",
+    "Strassenbezeichnung": "Kaninchenbergpfad",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200577",
+    "Strassenbezeichnung": "Kieselpfad",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200578",
+    "Strassenbezeichnung": "Kobenhüttenweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200579",
+    "Strassenbezeichnung": "Kohlweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200580",
+    "Strassenbezeichnung": "Landauer Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200581",
+    "Strassenbezeichnung": "Lüderitzstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200582",
+    "Strassenbezeichnung": "Max-Braun-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200583",
+    "Strassenbezeichnung": "Meerwiesertalweg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200584",
+    "Strassenbezeichnung": "Meißenwies",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200585",
+    "Strassenbezeichnung": "Neffstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200586",
+    "Strassenbezeichnung": "Neugrabenweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200587",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Rotenbühl",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200588",
+    "Strassenbezeichnung": "Oberer Kohlweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200589",
+    "Strassenbezeichnung": "Pirmasenser Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200590",
+    "Strassenbezeichnung": "Rentrischer Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200591",
+    "Strassenbezeichnung": "Riottestraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200592",
+    "Strassenbezeichnung": "Rotenbühlerweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200593",
+    "Strassenbezeichnung": "Rotenbühltreppe",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200594",
+    "Strassenbezeichnung": "Scheidter Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200595",
+    "Strassenbezeichnung": "Schwarzenbergstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200596",
+    "Strassenbezeichnung": "Senator-Richard-Becker-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200597",
+    "Strassenbezeichnung": "Sperberweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200598",
+    "Strassenbezeichnung": "Sportplatzweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200599",
+    "Strassenbezeichnung": "Sprebenwäldchen",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200600",
+    "Strassenbezeichnung": "St. Ingberter Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200601",
+    "Strassenbezeichnung": "Steinhübel",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200602",
+    "Strassenbezeichnung": "Turmweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200603",
+    "Strassenbezeichnung": "Waldhausweg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200604",
+    "Strassenbezeichnung": "Walter-Gieseking-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200605",
+    "Strassenbezeichnung": "Willi-Graf-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200606",
+    "Strassenbezeichnung": "Würzbacher Weg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200607",
+    "Strassenbezeichnung": "Zweibrücker Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200608",
+    "Strassenbezeichnung": "Am Homburg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200609",
+    "Strassenbezeichnung": "An der Homburger Höh",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200610",
+    "Strassenbezeichnung": "Benzstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200611",
+    "Strassenbezeichnung": "Borsigstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200612",
+    "Strassenbezeichnung": "Bunsenstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200613",
+    "Strassenbezeichnung": "Daimlerstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200614",
+    "Strassenbezeichnung": "Dieselstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200615",
+    "Strassenbezeichnung": "Dudweiler Landstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200616",
+    "Strassenbezeichnung": "Einsteintreppe",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200617",
+    "Strassenbezeichnung": "Florastraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200618",
+    "Strassenbezeichnung": "Friedensstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200619",
+    "Strassenbezeichnung": "Gaußstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200620",
+    "Strassenbezeichnung": "Geißlerstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200621",
+    "Strassenbezeichnung": "Guerickestraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200622",
+    "Strassenbezeichnung": "Hauberrisserstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200623",
+    "Strassenbezeichnung": "Herkommertreppe",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200624",
+    "Strassenbezeichnung": "Homburgtreppe",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200625",
+    "Strassenbezeichnung": "Im Sauerbrod",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200626",
+    "Strassenbezeichnung": "Johannisbrücke",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200627",
+    "Strassenbezeichnung": "Knobelsdorffstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200628",
+    "Strassenbezeichnung": "Krämersweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200629",
+    "Strassenbezeichnung": "Liebigstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200630",
+    "Strassenbezeichnung": "Liebigtreppe",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200631",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Am Homburg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200632",
+    "Strassenbezeichnung": "Ohmsteg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200633",
+    "Strassenbezeichnung": "Ohmstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200634",
+    "Strassenbezeichnung": "Pfitzersteige",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200635",
+    "Strassenbezeichnung": "Philipp-Neufang-Straße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200636",
+    "Strassenbezeichnung": "Röntgenstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200637",
+    "Strassenbezeichnung": "Schinkelstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200638",
+    "Strassenbezeichnung": "Schlüterweg",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200639",
+    "Strassenbezeichnung": "Semperstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200640",
+    "Strassenbezeichnung": "Siemensstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200641",
+    "Strassenbezeichnung": "Stuhlsatzenhausweg",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200642",
+    "Strassenbezeichnung": "Waldwiese",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200643",
+    "Strassenbezeichnung": "Wallotstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200644",
+    "Strassenbezeichnung": "Weinbrennerstraße",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200645",
+    "Strassenbezeichnung": "Bayernstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200646",
+    "Strassenbezeichnung": "Hessenweg",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200647",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Bruchwiese",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200648",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Bruchwiese",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200649",
+    "Strassenbezeichnung": "Preußenstraße",
+    "PLZ": "66111",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200650",
+    "Strassenbezeichnung": "Sachsenweg",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200651",
+    "Strassenbezeichnung": "Thüringer Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200652",
+    "Strassenbezeichnung": "Fuchstälchen",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200653",
+    "Strassenbezeichnung": "Hermann-Neuberger-Sportschule",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200654",
+    "Strassenbezeichnung": "Jägerheim",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200655",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Universität",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200656",
+    "Strassenbezeichnung": "Science Park",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200657",
+    "Strassenbezeichnung": "Universität",
+    "PLZ": "66123",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200658",
+    "Strassenbezeichnung": "Bonhoefferstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200659",
+    "Strassenbezeichnung": "Brandenburger Platz",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200660",
+    "Strassenbezeichnung": "Danziger Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200661",
+    "Strassenbezeichnung": "Erfurter Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200662",
+    "Strassenbezeichnung": "Eschberger Hofplatz",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200663",
+    "Strassenbezeichnung": "Glogauer Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200664",
+    "Strassenbezeichnung": "Goerdelerstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200665",
+    "Strassenbezeichnung": "Hallesche Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200666",
+    "Strassenbezeichnung": "Ilmpfad",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200667",
+    "Strassenbezeichnung": "Königsberger Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200668",
+    "Strassenbezeichnung": "Küstriner Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200669",
+    "Strassenbezeichnung": "Leberstraße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200670",
+    "Strassenbezeichnung": "Liegnitzer Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200671",
+    "Strassenbezeichnung": "Magdeburger Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200672",
+    "Strassenbezeichnung": "Mecklenburgring",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200673",
+    "Strassenbezeichnung": "Memeler Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200674",
+    "Strassenbezeichnung": "n.n.b. St. Johann / Eschberg",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200675",
+    "Strassenbezeichnung": "Pommernring",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200676",
+    "Strassenbezeichnung": "Rostocker Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200677",
+    "Strassenbezeichnung": "Saalepfad",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200678",
+    "Strassenbezeichnung": "Schlesienring",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200679",
+    "Strassenbezeichnung": "Spreepfad",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200680",
+    "Strassenbezeichnung": "Stettiner Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200681",
+    "Strassenbezeichnung": "Tilsiter Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200682",
+    "Strassenbezeichnung": "Weimarer Straße",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200683",
+    "Strassenbezeichnung": "Westpreußenring",
+    "PLZ": "66121",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200684",
+    "Strassenbezeichnung": "Achtstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200685",
+    "Strassenbezeichnung": "Adalbertstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200686",
+    "Strassenbezeichnung": "Albert-Ruppersberg-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200687",
+    "Strassenbezeichnung": "Albrecht-Dürer-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200688",
+    "Strassenbezeichnung": "Am Blauberg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200689",
+    "Strassenbezeichnung": "Am Großen Hohlweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200690",
+    "Strassenbezeichnung": "Am Gutenbrunnen",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200691",
+    "Strassenbezeichnung": "Arnulfstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200692",
+    "Strassenbezeichnung": "Augustinerstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200693",
+    "Strassenbezeichnung": "Brebacher Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200694",
+    "Strassenbezeichnung": "Bruchstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200695",
+    "Strassenbezeichnung": "Brühlstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200696",
+    "Strassenbezeichnung": "Don-Bosco-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200697",
+    "Strassenbezeichnung": "Dryandertreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200698",
+    "Strassenbezeichnung": "Feldstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200699",
+    "Strassenbezeichnung": "Friedhofsweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200700",
+    "Strassenbezeichnung": "Grünewaldstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200701",
+    "Strassenbezeichnung": "Im Almet",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200702",
+    "Strassenbezeichnung": "Im Hartental",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200703",
+    "Strassenbezeichnung": "Johanna-Wendel-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200704",
+    "Strassenbezeichnung": "Julius-Kiefer-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200705",
+    "Strassenbezeichnung": "Kaspar-Pitz-Weg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200706",
+    "Strassenbezeichnung": "Kettenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200707",
+    "Strassenbezeichnung": "Lehmkaulweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200708",
+    "Strassenbezeichnung": "Lohmühlenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200709",
+    "Strassenbezeichnung": "Lucas-Cranach-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200710",
+    "Strassenbezeichnung": "Merkinger Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200711",
+    "Strassenbezeichnung": "Mühlenbergtreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200712",
+    "Strassenbezeichnung": "n.n.b. St. Arnual / Wackenberg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200713",
+    "Strassenbezeichnung": "Odakerstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200714",
+    "Strassenbezeichnung": "Pfälzer Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200715",
+    "Strassenbezeichnung": "Rubensstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200716",
+    "Strassenbezeichnung": "Saaralber Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200717",
+    "Strassenbezeichnung": "Saargemünder Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200718",
+    "Strassenbezeichnung": "Saarwerder Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200719",
+    "Strassenbezeichnung": "Schmidtbornstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200720",
+    "Strassenbezeichnung": "Schmidt-Fornaro-Weg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200721",
+    "Strassenbezeichnung": "Sigebertstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200722",
+    "Strassenbezeichnung": "Spicherer Weg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200723",
+    "Strassenbezeichnung": "St. Arnualer Markt",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200724",
+    "Strassenbezeichnung": "Stiftsgasse",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200725",
+    "Strassenbezeichnung": "Stiftstreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200726",
+    "Strassenbezeichnung": "Verläng. Julius-Kiefer-Str.",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200727",
+    "Strassenbezeichnung": "Weilburger Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200728",
+    "Strassenbezeichnung": "Zum Stiftswald",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200729",
+    "Strassenbezeichnung": "Alte Artilleriekaserne",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200730",
+    "Strassenbezeichnung": "An der Christ-König-Kirche",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200731",
+    "Strassenbezeichnung": "An der Mühle",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200732",
+    "Strassenbezeichnung": "Barbarastraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200733",
+    "Strassenbezeichnung": "Behringstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200734",
+    "Strassenbezeichnung": "Behringtreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200735",
+    "Strassenbezeichnung": "Birkenpfad",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200736",
+    "Strassenbezeichnung": "Birkenstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200737",
+    "Strassenbezeichnung": "Blücherstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200738",
+    "Strassenbezeichnung": "Denkmalstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200739",
+    "Strassenbezeichnung": "Dolomitenweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200740",
+    "Strassenbezeichnung": "Dunantstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200741",
+    "Strassenbezeichnung": "Elsässer Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200742",
+    "Strassenbezeichnung": "Gneisenaustraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200743",
+    "Strassenbezeichnung": "Hans-Dietlen-Weg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200744",
+    "Strassenbezeichnung": "Harthweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200745",
+    "Strassenbezeichnung": "Hindenburgstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200746",
+    "Strassenbezeichnung": "Hoederathstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200747",
+    "Strassenbezeichnung": "Im Kasental",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200748",
+    "Strassenbezeichnung": "Karl-Schleich-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200749",
+    "Strassenbezeichnung": "Klara-Marie-Fassbinder-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200750",
+    "Strassenbezeichnung": "Koßmannstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200751",
+    "Strassenbezeichnung": "Lützowstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200752",
+    "Strassenbezeichnung": "n.n.b. St. Arnual / Winterberg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200753",
+    "Strassenbezeichnung": "Pasteurpromenade",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200754",
+    "Strassenbezeichnung": "Petersberger Hof",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200755",
+    "Strassenbezeichnung": "Petersbergpfad",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200756",
+    "Strassenbezeichnung": "Petersbergstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200757",
+    "Strassenbezeichnung": "Puccinistraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200758",
+    "Strassenbezeichnung": "Quienstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200759",
+    "Strassenbezeichnung": "Robert-Koch-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200760",
+    "Strassenbezeichnung": "Scharnhorststraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200761",
+    "Strassenbezeichnung": "Schenkelbergstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200762",
+    "Strassenbezeichnung": "Schenkelbergtreppe",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200763",
+    "Strassenbezeichnung": "Schenkelbergweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200764",
+    "Strassenbezeichnung": "Sophie-Scholl-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200765",
+    "Strassenbezeichnung": "Stockenbruch",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200766",
+    "Strassenbezeichnung": "Theodor-Heuss-Straße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200767",
+    "Strassenbezeichnung": "Virchowstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200768",
+    "Strassenbezeichnung": "Wallerbrunnenplatz",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200769",
+    "Strassenbezeichnung": "Weinbergweg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200770",
+    "Strassenbezeichnung": "Winterberg",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200771",
+    "Strassenbezeichnung": "Winterbergpfad",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200772",
+    "Strassenbezeichnung": "Winterbergstraße",
+    "PLZ": "66119",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200773",
+    "Strassenbezeichnung": "Am Engenberg",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200774",
+    "Strassenbezeichnung": "Am großen Knopf",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200775",
+    "Strassenbezeichnung": "Am Güterbahnhof",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200776",
+    "Strassenbezeichnung": "Am Hasenbühl",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200777",
+    "Strassenbezeichnung": "Am Hirschenberg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200778",
+    "Strassenbezeichnung": "Am Matzenberg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200779",
+    "Strassenbezeichnung": "Am Sportplatz",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200780",
+    "Strassenbezeichnung": "Am Sprinkshaus",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200781",
+    "Strassenbezeichnung": "Am Ziegelhof",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200782",
+    "Strassenbezeichnung": "Am Zimmerplatz",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200783",
+    "Strassenbezeichnung": "An der Meierei",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200784",
+    "Strassenbezeichnung": "August-Müller-Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200785",
+    "Strassenbezeichnung": "Bergstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200786",
+    "Strassenbezeichnung": "Brunnenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200787",
+    "Strassenbezeichnung": "Burbacher Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200788",
+    "Strassenbezeichnung": "Dachsweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200789",
+    "Strassenbezeichnung": "Eichendorffstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200790",
+    "Strassenbezeichnung": "Feldstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200791",
+    "Strassenbezeichnung": "Friedhofsweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200792",
+    "Strassenbezeichnung": "Hauptstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200793",
+    "Strassenbezeichnung": "Heinestraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200794",
+    "Strassenbezeichnung": "Hermann-Löns-Weg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200795",
+    "Strassenbezeichnung": "Heuweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200796",
+    "Strassenbezeichnung": "Hindenburgstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200797",
+    "Strassenbezeichnung": "Hirschenbergstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200798",
+    "Strassenbezeichnung": "Hüttenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200799",
+    "Strassenbezeichnung": "In der Sitters",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200800",
+    "Strassenbezeichnung": "Karlstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200801",
+    "Strassenbezeichnung": "Kirchenstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200802",
+    "Strassenbezeichnung": "Krughütter Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200803",
+    "Strassenbezeichnung": "Lindenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200804",
+    "Strassenbezeichnung": "n.n.b. Gersweiler / Gersweiler-Mitte",
+    "PLZ": "66117",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200805",
+    "Strassenbezeichnung": "n.n.b. Gersweiler / Gersweiler-Mitte",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200806",
+    "Strassenbezeichnung": "Ottostraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200807",
+    "Strassenbezeichnung": "Pfählerstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200808",
+    "Strassenbezeichnung": "Rathausplatz",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200809",
+    "Strassenbezeichnung": "Rue Pasteur",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200810",
+    "Strassenbezeichnung": "Saaruferstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200811",
+    "Strassenbezeichnung": "Schulstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200812",
+    "Strassenbezeichnung": "Siemensstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200813",
+    "Strassenbezeichnung": "Talstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200814",
+    "Strassenbezeichnung": "Theresienstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200815",
+    "Strassenbezeichnung": "Waldstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200816",
+    "Strassenbezeichnung": "Am Ottenhausener Berg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200817",
+    "Strassenbezeichnung": "Am Steinbruch",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200818",
+    "Strassenbezeichnung": "An der Rotheck",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200819",
+    "Strassenbezeichnung": "Aschbachstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200820",
+    "Strassenbezeichnung": "Bergrat-Stutz-Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200821",
+    "Strassenbezeichnung": "Birkenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200822",
+    "Strassenbezeichnung": "Blumenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200823",
+    "Strassenbezeichnung": "Buchenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200824",
+    "Strassenbezeichnung": "Dürerstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200825",
+    "Strassenbezeichnung": "Eichenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200826",
+    "Strassenbezeichnung": "Grubenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200827",
+    "Strassenbezeichnung": "Hirtenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200828",
+    "Strassenbezeichnung": "Holbeinstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200829",
+    "Strassenbezeichnung": "In der Nachtweide",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200830",
+    "Strassenbezeichnung": "Klarenthaler Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200831",
+    "Strassenbezeichnung": "Kreisstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200832",
+    "Strassenbezeichnung": "Langheck",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200833",
+    "Strassenbezeichnung": "Mathildenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200834",
+    "Strassenbezeichnung": "n.n.b. Gersweiler / Ottenhausen",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200835",
+    "Strassenbezeichnung": "Ostschachtstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200836",
+    "Strassenbezeichnung": "Ringstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200837",
+    "Strassenbezeichnung": "Saaruferstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200838",
+    "Strassenbezeichnung": "Slevogtweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200839",
+    "Strassenbezeichnung": "St. Barbara Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200840",
+    "Strassenbezeichnung": "Weisgerberweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200841",
+    "Strassenbezeichnung": "Zolnhoferweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200842",
+    "Strassenbezeichnung": "Am Aschbacherhof",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200843",
+    "Strassenbezeichnung": "Am Wäldchen",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200844",
+    "Strassenbezeichnung": "Amselweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200845",
+    "Strassenbezeichnung": "Breslauer Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200846",
+    "Strassenbezeichnung": "Danziger Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200847",
+    "Strassenbezeichnung": "Finkenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200848",
+    "Strassenbezeichnung": "Gartenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200849",
+    "Strassenbezeichnung": "Görlitzer Weg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200850",
+    "Strassenbezeichnung": "Hofstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200851",
+    "Strassenbezeichnung": "Königsberger Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200852",
+    "Strassenbezeichnung": "Lerchenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200853",
+    "Strassenbezeichnung": "Meisenweg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200854",
+    "Strassenbezeichnung": "Memeler Straße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200855",
+    "Strassenbezeichnung": "Nelkenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200856",
+    "Strassenbezeichnung": "n.n.b. Gersweiler / Neu-Aschbach",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200857",
+    "Strassenbezeichnung": "Rosenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200858",
+    "Strassenbezeichnung": "Tannenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200859",
+    "Strassenbezeichnung": "Tilsiter Weg",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200860",
+    "Strassenbezeichnung": "Tulpenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200861",
+    "Strassenbezeichnung": "Weidenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200862",
+    "Strassenbezeichnung": "Wiesenstraße",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200863",
+    "Strassenbezeichnung": "Zum Teich",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200864",
+    "Strassenbezeichnung": "Alte Grube Velsen",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200865",
+    "Strassenbezeichnung": "Am Bruch",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200866",
+    "Strassenbezeichnung": "Am Dachshübel",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200867",
+    "Strassenbezeichnung": "Am Dietrichsberg",
+    "PLZ": "66333",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200868",
+    "Strassenbezeichnung": "Am Forst",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200869",
+    "Strassenbezeichnung": "Am Gehlenbach",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200870",
+    "Strassenbezeichnung": "Am Heckenberg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200871",
+    "Strassenbezeichnung": "Am Kalkofen",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200872",
+    "Strassenbezeichnung": "Am Rathaus",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200873",
+    "Strassenbezeichnung": "Am Schweizersberg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200874",
+    "Strassenbezeichnung": "Am Streb",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200875",
+    "Strassenbezeichnung": "Am tiefen Graben",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200876",
+    "Strassenbezeichnung": "Amselweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200877",
+    "Strassenbezeichnung": "An der Salzleck",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200878",
+    "Strassenbezeichnung": "Auf der Waldwiese",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200879",
+    "Strassenbezeichnung": "Barbaraweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200880",
+    "Strassenbezeichnung": "Birkenweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200881",
+    "Strassenbezeichnung": "Brunnenstubb",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200882",
+    "Strassenbezeichnung": "Brunnenweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200883",
+    "Strassenbezeichnung": "Clarastraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200884",
+    "Strassenbezeichnung": "Dellbrückstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200885",
+    "Strassenbezeichnung": "Feldstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200886",
+    "Strassenbezeichnung": "Fenner Straße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200887",
+    "Strassenbezeichnung": "Finkenweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200888",
+    "Strassenbezeichnung": "Fürstenhausener Pfad",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200889",
+    "Strassenbezeichnung": "Glückauf-Ring",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200890",
+    "Strassenbezeichnung": "Grubenweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200891",
+    "Strassenbezeichnung": "Hauerweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200892",
+    "Strassenbezeichnung": "Hauptstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200893",
+    "Strassenbezeichnung": "Jägerpfad",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200894",
+    "Strassenbezeichnung": "Karlstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200895",
+    "Strassenbezeichnung": "Knappenweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200896",
+    "Strassenbezeichnung": "Kokereistraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200897",
+    "Strassenbezeichnung": "Lerchenweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200898",
+    "Strassenbezeichnung": "Ludwigstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200899",
+    "Strassenbezeichnung": "Margarethenstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200900",
+    "Strassenbezeichnung": "Moselstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200901",
+    "Strassenbezeichnung": "Mühlenfeld",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200902",
+    "Strassenbezeichnung": "Nachtigallenweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200903",
+    "Strassenbezeichnung": "n.n.b. Klarenthal / Klarenthal",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200904",
+    "Strassenbezeichnung": "n.n.b. Klarenthal / Klarenthal",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200905",
+    "Strassenbezeichnung": "Pastor-Weber-Straße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200906",
+    "Strassenbezeichnung": "Peterstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200907",
+    "Strassenbezeichnung": "Pfalzweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200908",
+    "Strassenbezeichnung": "Rheinstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200909",
+    "Strassenbezeichnung": "Saarstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200910",
+    "Strassenbezeichnung": "Schachtstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200911",
+    "Strassenbezeichnung": "Schulweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200912",
+    "Strassenbezeichnung": "Stefanstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200913",
+    "Strassenbezeichnung": "Steigerweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200914",
+    "Strassenbezeichnung": "Talstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200915",
+    "Strassenbezeichnung": "Warndtstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200916",
+    "Strassenbezeichnung": "Wilhelmstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200917",
+    "Strassenbezeichnung": "Zimmerplatz",
+    "PLZ": "66128",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200918",
+    "Strassenbezeichnung": "Am Winterberg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200919",
+    "Strassenbezeichnung": "An den Ziegelhütten",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200920",
+    "Strassenbezeichnung": "Annastraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200921",
+    "Strassenbezeichnung": "Aschbachring",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200922",
+    "Strassenbezeichnung": "Auf der Trift",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200923",
+    "Strassenbezeichnung": "Beim Krugbäcker",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200924",
+    "Strassenbezeichnung": "Friedrichstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200925",
+    "Strassenbezeichnung": "Gersweilerstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200926",
+    "Strassenbezeichnung": "Götzweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200927",
+    "Strassenbezeichnung": "Heinrichstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200928",
+    "Strassenbezeichnung": "Hirtengasse",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200929",
+    "Strassenbezeichnung": "Jahnweg",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200930",
+    "Strassenbezeichnung": "n.n.b. Klarenthal / Krughütte",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200931",
+    "Strassenbezeichnung": "Parallelstraße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200932",
+    "Strassenbezeichnung": "Rosseler Straße",
+    "PLZ": "66127",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200933",
+    "Strassenbezeichnung": "Alleestraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200934",
+    "Strassenbezeichnung": "Altgasse",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200935",
+    "Strassenbezeichnung": "Am Alsbach",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200936",
+    "Strassenbezeichnung": "Am kühlen Brünnchen",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200937",
+    "Strassenbezeichnung": "Am Schwimmbad",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200938",
+    "Strassenbezeichnung": "Amselweg",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200939",
+    "Strassenbezeichnung": "Blumenstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200940",
+    "Strassenbezeichnung": "Coucy Platz",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200941",
+    "Strassenbezeichnung": "Drosselschlag",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200942",
+    "Strassenbezeichnung": "Ferbergasse",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200943",
+    "Strassenbezeichnung": "Finkenweg",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200944",
+    "Strassenbezeichnung": "Gartenstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200945",
+    "Strassenbezeichnung": "Gerhardstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200946",
+    "Strassenbezeichnung": "Goethestraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200947",
+    "Strassenbezeichnung": "Großwaldstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200948",
+    "Strassenbezeichnung": "Hasenstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200949",
+    "Strassenbezeichnung": "Jahnstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200950",
+    "Strassenbezeichnung": "Johannesstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200951",
+    "Strassenbezeichnung": "Josefaschacht",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200952",
+    "Strassenbezeichnung": "Karlstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200953",
+    "Strassenbezeichnung": "Kirchstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200954",
+    "Strassenbezeichnung": "Köhlerweg",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200955",
+    "Strassenbezeichnung": "Krausegasse",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200956",
+    "Strassenbezeichnung": "Leopoldtagesstrecke",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200957",
+    "Strassenbezeichnung": "Lessingstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200958",
+    "Strassenbezeichnung": "Luisenthaler Hütte",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200959",
+    "Strassenbezeichnung": "Luisenthaler Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200960",
+    "Strassenbezeichnung": "Michelsstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200961",
+    "Strassenbezeichnung": "Mittelstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200962",
+    "Strassenbezeichnung": "Moritz-Wilhelm-Straße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200963",
+    "Strassenbezeichnung": "n.n.b. Altenkessel / Altenkessel",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200964",
+    "Strassenbezeichnung": "Pfaffenkopfstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200965",
+    "Strassenbezeichnung": "Richardstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200966",
+    "Strassenbezeichnung": "Rosenstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200967",
+    "Strassenbezeichnung": "Schillerstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200968",
+    "Strassenbezeichnung": "Schubertstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200969",
+    "Strassenbezeichnung": "Schulstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200970",
+    "Strassenbezeichnung": "Stollenweg",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200971",
+    "Strassenbezeichnung": "Talstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200972",
+    "Strassenbezeichnung": "Uhlandstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200973",
+    "Strassenbezeichnung": "Waldstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200974",
+    "Strassenbezeichnung": "Am Dachsbau",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200975",
+    "Strassenbezeichnung": "Beethovenstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200976",
+    "Strassenbezeichnung": "In den Grasgärten",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200977",
+    "Strassenbezeichnung": "n.n.b. Altenkessel / Rockershausen",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200978",
+    "Strassenbezeichnung": "Ostschacht",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200979",
+    "Strassenbezeichnung": "Pestalozzistraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200980",
+    "Strassenbezeichnung": "Provinzialstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200981",
+    "Strassenbezeichnung": "Ringstraße",
+    "PLZ": "66126",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200982",
+    "Strassenbezeichnung": "Aachener Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200983",
+    "Strassenbezeichnung": "Ackerstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200984",
+    "Strassenbezeichnung": "Am Krenzelsberg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200985",
+    "Strassenbezeichnung": "Auf dem Acker",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200986",
+    "Strassenbezeichnung": "Auf der Höh",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200987",
+    "Strassenbezeichnung": "Bergstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200988",
+    "Strassenbezeichnung": "Brüderstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200989",
+    "Strassenbezeichnung": "Brunnenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200990",
+    "Strassenbezeichnung": "Burbacher Markt",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200991",
+    "Strassenbezeichnung": "Dillinger Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200992",
+    "Strassenbezeichnung": "Dr.-Tietz-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200993",
+    "Strassenbezeichnung": "Ernst-Abbe-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200994",
+    "Strassenbezeichnung": "Gersweilerbrücke",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200995",
+    "Strassenbezeichnung": "Große Weyersbergstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200996",
+    "Strassenbezeichnung": "Heinrich-Barth-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200997",
+    "Strassenbezeichnung": "Heinrichstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200998",
+    "Strassenbezeichnung": "Helgenbrunnen",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "200999",
+    "Strassenbezeichnung": "Hüttenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201000",
+    "Strassenbezeichnung": "Im Etzel",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201001",
+    "Strassenbezeichnung": "Im Höfchen",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201002",
+    "Strassenbezeichnung": "In den Hanfgärten",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201003",
+    "Strassenbezeichnung": "In den Weihergärten",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201004",
+    "Strassenbezeichnung": "Jakobstraße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201005",
+    "Strassenbezeichnung": "Käthe-Kollwitz-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201006",
+    "Strassenbezeichnung": "Kleine Weyersbergstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201007",
+    "Strassenbezeichnung": "Koblenzer Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201008",
+    "Strassenbezeichnung": "Konrad-Zuse-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201009",
+    "Strassenbezeichnung": "Krumme Gasse",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201010",
+    "Strassenbezeichnung": "Leibnizstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201011",
+    "Strassenbezeichnung": "Luisenthaler Straße",
+    "PLZ": "99999",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201012",
+    "Strassenbezeichnung": "Margarethenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201013",
+    "Strassenbezeichnung": "Marktsteig",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201014",
+    "Strassenbezeichnung": "Matthiasstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201015",
+    "Strassenbezeichnung": "Merziger Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201016",
+    "Strassenbezeichnung": "Mettlacher Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201017",
+    "Strassenbezeichnung": "Nell-Breuning-Allee",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201018",
+    "Strassenbezeichnung": "n.n.b. Burbach / Hochstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201019",
+    "Strassenbezeichnung": "Noldplatz",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201020",
+    "Strassenbezeichnung": "Saarburger Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201021",
+    "Strassenbezeichnung": "Schoodstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201022",
+    "Strassenbezeichnung": "Serriger Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201023",
+    "Strassenbezeichnung": "Theresienstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201024",
+    "Strassenbezeichnung": "Völklinger Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201025",
+    "Strassenbezeichnung": "Von-der-Heydt-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201026",
+    "Strassenbezeichnung": "Weyersbergtreppe",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201027",
+    "Strassenbezeichnung": "Zerfer Weg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201028",
+    "Strassenbezeichnung": "An der Grüneich",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201029",
+    "Strassenbezeichnung": "Colmarer Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201030",
+    "Strassenbezeichnung": "Dononstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201031",
+    "Strassenbezeichnung": "Flammstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201032",
+    "Strassenbezeichnung": "Gebweilerstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201033",
+    "Strassenbezeichnung": "Hubert-Müller-Platz",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201034",
+    "Strassenbezeichnung": "Im Weyerbachtal",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201035",
+    "Strassenbezeichnung": "Isenheimer Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201036",
+    "Strassenbezeichnung": "Langfuhrstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201037",
+    "Strassenbezeichnung": "Laufertstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201038",
+    "Strassenbezeichnung": "Molsheimer Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201039",
+    "Strassenbezeichnung": "Mülhauser Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201040",
+    "Strassenbezeichnung": "n.n.b. Burbach / Ottstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201041",
+    "Strassenbezeichnung": "n.n.b. Burbach / Ottstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201042",
+    "Strassenbezeichnung": "Obere Grüneichstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201043",
+    "Strassenbezeichnung": "Odilienbergstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201044",
+    "Strassenbezeichnung": "Ottstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201045",
+    "Strassenbezeichnung": "Raabestraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201046",
+    "Strassenbezeichnung": "Rappoltsweilerstraße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201047",
+    "Strassenbezeichnung": "Seebohmstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201048",
+    "Strassenbezeichnung": "Straßburger Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201049",
+    "Strassenbezeichnung": "Untere Grüneichstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201050",
+    "Strassenbezeichnung": "Viktor-Tesch-Allee",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201051",
+    "Strassenbezeichnung": "Von-der-Heydter-Brücke",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201052",
+    "Strassenbezeichnung": "Von-der-Heydt-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201053",
+    "Strassenbezeichnung": "Weisdorffstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201054",
+    "Strassenbezeichnung": "Weißenburger Straße",
+    "PLZ": "66113",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201055",
+    "Strassenbezeichnung": "Ahornstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201056",
+    "Strassenbezeichnung": "Alsbachstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201057",
+    "Strassenbezeichnung": "Altenkesseler Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201058",
+    "Strassenbezeichnung": "Alter Matzenberg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201059",
+    "Strassenbezeichnung": "Am Alsbach",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201060",
+    "Strassenbezeichnung": "Am Forst",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201061",
+    "Strassenbezeichnung": "Am Freibüsch",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201062",
+    "Strassenbezeichnung": "Am Kesselhaus",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201063",
+    "Strassenbezeichnung": "Am Kindergarten",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201064",
+    "Strassenbezeichnung": "An der Spielschul",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201065",
+    "Strassenbezeichnung": "Auf der Scheib",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201066",
+    "Strassenbezeichnung": "Buchenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201067",
+    "Strassenbezeichnung": "Caroline-Lüttgens-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201068",
+    "Strassenbezeichnung": "Eichenweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201069",
+    "Strassenbezeichnung": "Elbestraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201070",
+    "Strassenbezeichnung": "Emsweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201071",
+    "Strassenbezeichnung": "Erlenweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201072",
+    "Strassenbezeichnung": "Fenner Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201073",
+    "Strassenbezeichnung": "Fröbelweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201074",
+    "Strassenbezeichnung": "Füllengartenweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201075",
+    "Strassenbezeichnung": "Georg-Heckel-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201076",
+    "Strassenbezeichnung": "Gerhardstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201077",
+    "Strassenbezeichnung": "Gleisharfe",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201078",
+    "Strassenbezeichnung": "Güchenbacher Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201079",
+    "Strassenbezeichnung": "Heckenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201080",
+    "Strassenbezeichnung": "Holunderstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201081",
+    "Strassenbezeichnung": "Im Füllengarten",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201082",
+    "Strassenbezeichnung": "Im Malhofen",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201083",
+    "Strassenbezeichnung": "In den Hallen",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201084",
+    "Strassenbezeichnung": "Innovationsring",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201085",
+    "Strassenbezeichnung": "Jakobshütte",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201086",
+    "Strassenbezeichnung": "Jakobshütter Weg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201087",
+    "Strassenbezeichnung": "Julius-Arnoth-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201088",
+    "Strassenbezeichnung": "Kiefernweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201089",
+    "Strassenbezeichnung": "Lindenhofstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201090",
+    "Strassenbezeichnung": "Lindenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201091",
+    "Strassenbezeichnung": "Lippeweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201092",
+    "Strassenbezeichnung": "Matzenberg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201093",
+    "Strassenbezeichnung": "Neckarstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201094",
+    "Strassenbezeichnung": "Neudorfer Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201095",
+    "Strassenbezeichnung": "n.n.b. Burbach / Füllengarten",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201096",
+    "Strassenbezeichnung": "Pappelnweg",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201097",
+    "Strassenbezeichnung": "Pfaffenkopfstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201098",
+    "Strassenbezeichnung": "Püttlinger Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201099",
+    "Strassenbezeichnung": "Rockershauser Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201100",
+    "Strassenbezeichnung": "Saar-Lor-Lux-Straße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201101",
+    "Strassenbezeichnung": "Stahlwerkstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  },
+  {
+    "Title": "201102",
+    "Strassenbezeichnung": "Tannenstraße",
+    "PLZ": "66115",
+    "Postort": "Saarbrücken"
+  }
+]

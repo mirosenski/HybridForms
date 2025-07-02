@@ -1,0 +1,810 @@
+﻿[
+    {
+        "Title": "0",
+        "KatalogText": "Deutschland"
+    },
+    {
+        "Title": "121",
+        "KatalogText": "Albanien"
+    },
+    {
+        "Title": "122",
+        "KatalogText": "Bosnien und Herzegowina"
+    },
+    {
+        "Title": "123",
+        "KatalogText": "Andorra"
+    },
+    {
+        "Title": "124",
+        "KatalogText": "Belgien"
+    },
+    {
+        "Title": "125",
+        "KatalogText": "Bulgarien"
+    },
+    {
+        "Title": "126",
+        "KatalogText": "Dänemark"
+    },
+    {
+        "Title": "127",
+        "KatalogText": "Estland"
+    },
+    {
+        "Title": "128",
+        "KatalogText": "Finnland"
+    },
+    {
+        "Title": "129",
+        "KatalogText": "Frankreich"
+    },
+    {
+        "Title": "130",
+        "KatalogText": "Kroatien"
+    },
+    {
+        "Title": "131",
+        "KatalogText": "Slowenien"
+    },
+    {
+        "Title": "134",
+        "KatalogText": "Griechenland"
+    },
+    {
+        "Title": "135",
+        "KatalogText": "Irland"
+    },
+    {
+        "Title": "136",
+        "KatalogText": "Island"
+    },
+    {
+        "Title": "137",
+        "KatalogText": "Italien"
+    },
+    {
+        "Title": "139",
+        "KatalogText": "Lettland"
+    },
+    {
+        "Title": "140",
+        "KatalogText": "Montenegro"
+    },
+    {
+        "Title": "141",
+        "KatalogText": "Liechtenstein"
+    },
+    {
+        "Title": "142",
+        "KatalogText": "Litauen"
+    },
+    {
+        "Title": "143",
+        "KatalogText": "Luxemburg"
+    },
+    {
+        "Title": "144",
+        "KatalogText": "Mazedonien"
+    },
+    {
+        "Title": "145",
+        "KatalogText": "Malta"
+    },
+    {
+        "Title": "146",
+        "KatalogText": "Republik Moldau"
+    },
+    {
+        "Title": "147",
+        "KatalogText": "Monaco"
+    },
+    {
+        "Title": "148",
+        "KatalogText": "Niederlande"
+    },
+    {
+        "Title": "149",
+        "KatalogText": "Norwegen"
+    },
+    {
+        "Title": "150",
+        "KatalogText": "Kosovo"
+    },
+    {
+        "Title": "151",
+        "KatalogText": "Österreich"
+    },
+    {
+        "Title": "152",
+        "KatalogText": "Polen"
+    },
+    {
+        "Title": "153",
+        "KatalogText": "Portugal"
+    },
+    {
+        "Title": "154",
+        "KatalogText": "Rumänien"
+    },
+    {
+        "Title": "155",
+        "KatalogText": "Slowakei"
+    },
+    {
+        "Title": "156",
+        "KatalogText": "San Marino"
+    },
+    {
+        "Title": "157",
+        "KatalogText": "Schweden"
+    },
+    {
+        "Title": "158",
+        "KatalogText": "Schweiz"
+    },
+    {
+        "Title": "160",
+        "KatalogText": "Russische Föderation"
+    },
+    {
+        "Title": "161",
+        "KatalogText": "Spanien"
+    },
+    {
+        "Title": "163",
+        "KatalogText": "Türkei"
+    },
+    {
+        "Title": "164",
+        "KatalogText": "Tschechische Republik"
+    },
+    {
+        "Title": "165",
+        "KatalogText": "Ungarn"
+    },
+    {
+        "Title": "166",
+        "KatalogText": "Ukraine"
+    },
+    {
+        "Title": "167",
+        "KatalogText": "Vatikanstadt"
+    },
+    {
+        "Title": "168",
+        "KatalogText": "Vereinigtes Königreich (Großbritannien)"
+    },
+    {
+        "Title": "169",
+        "KatalogText": "Belarus"
+    },
+    {
+        "Title": "170",
+        "KatalogText": "Serbien"
+    },
+    {
+        "Title": "181",
+        "KatalogText": "Zypern"
+    },
+    {
+        "Title": "221",
+        "KatalogText": "Algerien"
+    },
+    {
+        "Title": "223",
+        "KatalogText": "Angola"
+    },
+    {
+        "Title": "224",
+        "KatalogText": "Eritrea"
+    },
+    {
+        "Title": "225",
+        "KatalogText": "Äthiopien"
+    },
+    {
+        "Title": "226",
+        "KatalogText": "Lesotho"
+    },
+    {
+        "Title": "227",
+        "KatalogText": "Botsuana"
+    },
+    {
+        "Title": "229",
+        "KatalogText": "Benin"
+    },
+    {
+        "Title": "230",
+        "KatalogText": "Dschibuti"
+    },
+    {
+        "Title": "231",
+        "KatalogText": "Cote D'Ivoire"
+    },
+    {
+        "Title": "232",
+        "KatalogText": "Nigeria"
+    },
+    {
+        "Title": "233",
+        "KatalogText": "Simbabwe"
+    },
+    {
+        "Title": "236",
+        "KatalogText": "Gabun"
+    },
+    {
+        "Title": "237",
+        "KatalogText": "Gambia"
+    },
+    {
+        "Title": "238",
+        "KatalogText": "Ghana"
+    },
+    {
+        "Title": "239",
+        "KatalogText": "Mauretanien"
+    },
+    {
+        "Title": "242",
+        "KatalogText": "Kap Verde"
+    },
+    {
+        "Title": "243",
+        "KatalogText": "Kenia"
+    },
+    {
+        "Title": "244",
+        "KatalogText": "Komoren"
+    },
+    {
+        "Title": "245",
+        "KatalogText": "Republik Kongo"
+    },
+    {
+        "Title": "246",
+        "KatalogText": "Demokratische Republik Kongo"
+    },
+    {
+        "Title": "247",
+        "KatalogText": "Liberia"
+    },
+    {
+        "Title": "248",
+        "KatalogText": "Libysch-Arabische Dsachmahirija"
+    },
+    {
+        "Title": "249",
+        "KatalogText": "Madagaskar"
+    },
+    {
+        "Title": "251",
+        "KatalogText": "Mali"
+    },
+    {
+        "Title": "252",
+        "KatalogText": "Marokko"
+    },
+    {
+        "Title": "253",
+        "KatalogText": "Mauritius"
+    },
+    {
+        "Title": "254",
+        "KatalogText": "Mosambik"
+    },
+    {
+        "Title": "255",
+        "KatalogText": "Niger"
+    },
+    {
+        "Title": "256",
+        "KatalogText": "Malawi"
+    },
+    {
+        "Title": "257",
+        "KatalogText": "Sambia"
+    },
+    {
+        "Title": "258",
+        "KatalogText": "Burkina Faso"
+    },
+    {
+        "Title": "259",
+        "KatalogText": "Guinea-Bissau"
+    },
+    {
+        "Title": "261",
+        "KatalogText": "Guinea"
+    },
+    {
+        "Title": "262",
+        "KatalogText": "Kamerun"
+    },
+    {
+        "Title": "263",
+        "KatalogText": "Südafrika"
+    },
+    {
+        "Title": "265",
+        "KatalogText": "Ruanda"
+    },
+    {
+        "Title": "267",
+        "KatalogText": "Namibia"
+    },
+    {
+        "Title": "268",
+        "KatalogText": "Sao Tome und Principe"
+    },
+    {
+        "Title": "269",
+        "KatalogText": "Senegal"
+    },
+    {
+        "Title": "271",
+        "KatalogText": "Seychellen"
+    },
+    {
+        "Title": "272",
+        "KatalogText": "Sierra Leone"
+    },
+    {
+        "Title": "273",
+        "KatalogText": "Somalia"
+    },
+    {
+        "Title": "274",
+        "KatalogText": "Äquatorialguinea"
+    },
+    {
+        "Title": "277",
+        "KatalogText": "Sudan"
+    },
+    {
+        "Title": "278",
+        "KatalogText": "Südsudan"
+    },
+    {
+        "Title": "281",
+        "KatalogText": "Swasiland"
+    },
+    {
+        "Title": "282",
+        "KatalogText": "Vereinigte Republik Tansania"
+    },
+    {
+        "Title": "283",
+        "KatalogText": "Togo"
+    },
+    {
+        "Title": "284",
+        "KatalogText": "Tschad"
+    },
+    {
+        "Title": "285",
+        "KatalogText": "Tunesien"
+    },
+    {
+        "Title": "286",
+        "KatalogText": "Uganda"
+    },
+    {
+        "Title": "287",
+        "KatalogText": "Ägypten"
+    },
+    {
+        "Title": "289",
+        "KatalogText": "Zentralafrikanische Republik"
+    },
+    {
+        "Title": "291",
+        "KatalogText": "Burundi"
+    },
+    {
+        "Title": "320",
+        "KatalogText": "Antigua und Barbuda"
+    },
+    {
+        "Title": "322",
+        "KatalogText": "Barbados"
+    },
+    {
+        "Title": "323",
+        "KatalogText": "Argentinien"
+    },
+    {
+        "Title": "324",
+        "KatalogText": "Bahamas"
+    },
+    {
+        "Title": "326",
+        "KatalogText": "Plurinationaler Staat Bolivien"
+    },
+    {
+        "Title": "327",
+        "KatalogText": "Brasilien"
+    },
+    {
+        "Title": "328",
+        "KatalogText": "Guyana"
+    },
+    {
+        "Title": "330",
+        "KatalogText": "Belize"
+    },
+    {
+        "Title": "332",
+        "KatalogText": "Chile"
+    },
+    {
+        "Title": "333",
+        "KatalogText": "Dominica"
+    },
+    {
+        "Title": "334",
+        "KatalogText": "Costa Rica"
+    },
+    {
+        "Title": "335",
+        "KatalogText": "Dominikanische Republik"
+    },
+    {
+        "Title": "336",
+        "KatalogText": "Ecuador"
+    },
+    {
+        "Title": "337",
+        "KatalogText": "El Salvador"
+    },
+    {
+        "Title": "340",
+        "KatalogText": "Grenada"
+    },
+    {
+        "Title": "345",
+        "KatalogText": "Guatemala"
+    },
+    {
+        "Title": "346",
+        "KatalogText": "Haiti"
+    },
+    {
+        "Title": "347",
+        "KatalogText": "Honduras"
+    },
+    {
+        "Title": "348",
+        "KatalogText": "Kanada"
+    },
+    {
+        "Title": "349",
+        "KatalogText": "Kolumbien"
+    },
+    {
+        "Title": "351",
+        "KatalogText": "Kuba"
+    },
+    {
+        "Title": "353",
+        "KatalogText": "Mexiko"
+    },
+    {
+        "Title": "354",
+        "KatalogText": "Nicaragua"
+    },
+    {
+        "Title": "355",
+        "KatalogText": "Jamaika"
+    },
+    {
+        "Title": "357",
+        "KatalogText": "Panama"
+    },
+    {
+        "Title": "359",
+        "KatalogText": "Paraguay"
+    },
+    {
+        "Title": "361",
+        "KatalogText": "Peru"
+    },
+    {
+        "Title": "364",
+        "KatalogText": "Suriname"
+    },
+    {
+        "Title": "365",
+        "KatalogText": "Uruguay"
+    },
+    {
+        "Title": "366",
+        "KatalogText": "St. Lucia"
+    },
+    {
+        "Title": "367",
+        "KatalogText": "Venezuela"
+    },
+    {
+        "Title": "368",
+        "KatalogText": "Vereinigte Staaten"
+    },
+    {
+        "Title": "369",
+        "KatalogText": "St. Vincent und die Grenadinen"
+    },
+    {
+        "Title": "370",
+        "KatalogText": "St. Kitts und Nevis"
+    },
+    {
+        "Title": "371",
+        "KatalogText": "Trinidad und Tobago"
+    },
+    {
+        "Title": "421",
+        "KatalogText": "Jemen"
+    },
+    {
+        "Title": "422",
+        "KatalogText": "Armenien"
+    },
+    {
+        "Title": "423",
+        "KatalogText": "Afghanistan"
+    },
+    {
+        "Title": "424",
+        "KatalogText": "Bahrain"
+    },
+    {
+        "Title": "425",
+        "KatalogText": "Aserbaidschan"
+    },
+    {
+        "Title": "426",
+        "KatalogText": "Bhutan"
+    },
+    {
+        "Title": "427",
+        "KatalogText": "Myanmar"
+    },
+    {
+        "Title": "429",
+        "KatalogText": "Brunei Darussalam"
+    },
+    {
+        "Title": "430",
+        "KatalogText": "Georgien"
+    },
+    {
+        "Title": "431",
+        "KatalogText": "Sri Lanka"
+    },
+    {
+        "Title": "432",
+        "KatalogText": "Vietnam"
+    },
+    {
+        "Title": "434",
+        "KatalogText": "Demokratische Volksrepublik Korea"
+    },
+    {
+        "Title": "436",
+        "KatalogText": "Indien"
+    },
+    {
+        "Title": "437",
+        "KatalogText": "Indonesien"
+    },
+    {
+        "Title": "438",
+        "KatalogText": "Irak"
+    },
+    {
+        "Title": "439",
+        "KatalogText": "Islamische Republik Iran"
+    },
+    {
+        "Title": "441",
+        "KatalogText": "Israel"
+    },
+    {
+        "Title": "442",
+        "KatalogText": "Japan"
+    },
+    {
+        "Title": "444",
+        "KatalogText": "Kasachstan"
+    },
+    {
+        "Title": "445",
+        "KatalogText": "Jordanien"
+    },
+    {
+        "Title": "446",
+        "KatalogText": "Kambodscha"
+    },
+    {
+        "Title": "447",
+        "KatalogText": "Katar"
+    },
+    {
+        "Title": "448",
+        "KatalogText": "Kuwait"
+    },
+    {
+        "Title": "449",
+        "KatalogText": "Demokratische Volksrepublik Laos"
+    },
+    {
+        "Title": "450",
+        "KatalogText": "Kirgisistan"
+    },
+    {
+        "Title": "451",
+        "KatalogText": "Libanon"
+    },
+    {
+        "Title": "454",
+        "KatalogText": "Malediven"
+    },
+    {
+        "Title": "456",
+        "KatalogText": "Oman"
+    },
+    {
+        "Title": "457",
+        "KatalogText": "Mongolei"
+    },
+    {
+        "Title": "458",
+        "KatalogText": "Nepal"
+    },
+    {
+        "Title": "460",
+        "KatalogText": "Bangladesch"
+    },
+    {
+        "Title": "461",
+        "KatalogText": "Pakistan"
+    },
+    {
+        "Title": "462",
+        "KatalogText": "Philippinen"
+    },
+    {
+        "Title": "465",
+        "KatalogText": "Taiwan"
+    },
+    {
+        "Title": "467",
+        "KatalogText": "Republik Korea"
+    },
+    {
+        "Title": "469",
+        "KatalogText": "Vereinigten Arabische Emirate"
+    },
+    {
+        "Title": "470",
+        "KatalogText": "Tadschikistan"
+    },
+    {
+        "Title": "471",
+        "KatalogText": "Turkmenistan"
+    },
+    {
+        "Title": "472",
+        "KatalogText": "Saudi-Arabien"
+    },
+    {
+        "Title": "474",
+        "KatalogText": "Singapur"
+    },
+    {
+        "Title": "475",
+        "KatalogText": "Arabische Republik Syrien"
+    },
+    {
+        "Title": "476",
+        "KatalogText": "Thailand"
+    },
+    {
+        "Title": "477",
+        "KatalogText": "Usbekistan"
+    },
+    {
+        "Title": "479",
+        "KatalogText": "China"
+    },
+    {
+        "Title": "482",
+        "KatalogText": "Malaysia"
+    },
+    {
+        "Title": "483",
+        "KatalogText": "Timor-Leste"
+    },
+    {
+        "Title": "523",
+        "KatalogText": "Australien"
+    },
+    {
+        "Title": "524",
+        "KatalogText": "Salomonen"
+    },
+    {
+        "Title": "525",
+        "KatalogText": "Nördliche Marianen"
+    },
+    {
+        "Title": "526",
+        "KatalogText": "Fidschi"
+    },
+    {
+        "Title": "527",
+        "KatalogText": "Cookinseln"
+    },
+    {
+        "Title": "530",
+        "KatalogText": "Kiribati"
+    },
+    {
+        "Title": "531",
+        "KatalogText": "Nauru"
+    },
+    {
+        "Title": "532",
+        "KatalogText": "Vanuatu"
+    },
+    {
+        "Title": "533",
+        "KatalogText": "Niue"
+    },
+    {
+        "Title": "536",
+        "KatalogText": "Neuseeland"
+    },
+    {
+        "Title": "537",
+        "KatalogText": "Palau"
+    },
+    {
+        "Title": "538",
+        "KatalogText": "Papua-Neuguinea"
+    },
+    {
+        "Title": "540",
+        "KatalogText": "Tuvalu"
+    },
+    {
+        "Title": "541",
+        "KatalogText": "Tonga"
+    },
+    {
+        "Title": "543",
+        "KatalogText": "Samoa"
+    },
+    {
+        "Title": "544",
+        "KatalogText": "Marshallinseln"
+    },
+    {
+        "Title": "545",
+        "KatalogText": "Föderierte Staaten von Mikronesien"
+    },
+    {
+        "Title": "997",
+        "KatalogText": "staatenlos"
+    },
+    {
+        "Title": "998",
+        "KatalogText": "ungeklärt"
+    },
+    {
+        "Title": "999",
+        "KatalogText": "sonstige/ohne Angabe"
+    }
+]

@@ -1,0 +1,11 @@
+[data-theme-type='classic'] {
+    --color-primary: #c94b4b;
+}
+
+[data-theme-type='modern'] {
+    --color-primary: #0a879d;
+}
+
+[data-theme-type='modern-dynamic'] {
+    --color-primary: #6b4088;
+}

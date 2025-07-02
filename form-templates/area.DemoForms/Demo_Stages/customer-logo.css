@@ -1,0 +1,22 @@
+﻿.hf-page-form .custom-pane-wrapper {
+    -ms-grid-rows: 48px 1fr 78px 96px;
+}
+
+.hf-page-form #splitViewCtrl .logo-area {
+    display: block;
+    -ms-grid-row: 3;
+    background: url("{{HFFormPath}}/form-logo.png") no-repeat center bottom; /* hier den Namen des von Ihnen verwendeten Bildes einsetzen */
+    background-size: 200px;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#splitViewCtrl .user-settings-area {
+    -ms-grid-row: 4;
+}
+
+/*Cordova*/
+.hf-formpage .win-splitview .win-splitview-pane {
+    background-image: url("{{HFFormPath}}/form-logo.png");
+}

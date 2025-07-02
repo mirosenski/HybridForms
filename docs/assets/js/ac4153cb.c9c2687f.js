@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[42469],{10844:e=>{e.exports=JSON.parse('{"tag":{"label":"flex","permalink":"/docs/9.1/tags/flex","allTagsPath":"/docs/9.1/tags","count":1,"items":[{"id":"style-guide/layout","title":"Layout","description":"Flex","permalink":"/docs/9.1/style-guide/layout"}],"unlisted":false}}')}}]);

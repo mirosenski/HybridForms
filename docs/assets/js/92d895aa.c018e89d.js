@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[64242],{54845:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/changelog","page":1,"postsPerPage":4,"totalPages":1,"totalCount":4,"blogDescription":"Changelog for HybridForms versions","blogTitle":"Changelog"}}')}}]);

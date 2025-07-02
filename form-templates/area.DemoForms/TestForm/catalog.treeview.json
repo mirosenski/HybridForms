@@ -1,0 +1,73 @@
+[{
+    "$level": "1",
+    "$sortpath": "0001",
+    "ID": "0001",
+    "ParentID": null,
+    "Text": "Wurzel",
+    "$children": [{
+            "$level": "2",
+            "$sortpath": "0001/0002",
+            "ID": "0002",
+            "ParentID": "0001",
+            "Text": "Punkt 1",
+            "$children": [{
+                    "$level": "3",
+                    "$sortpath": "0001/0002/0003",
+                    "ID": "0003",
+                    "ParentID": "0002",
+                    "Text": "Unterpunkt 1.1",
+                    "$children": [{
+                        "$level": "4",
+                        "$sortpath": "0001/0002/0003/0004",
+                        "ID": "0004",
+                        "ParentID": "0003",
+                        "Text": "Unterpunkt 1.1.1"
+                    }]
+                },
+                {
+                    "$level": "3",
+                    "$sortpath": "0001/0002/0005",
+                    "ID": "0005",
+                    "ParentID": "0002",
+                    "Text": "Unterpunkt 1.2"
+                }
+            ]
+        },
+        {
+            "$level": "2",
+            "$sortpath": "0001/0006",
+            "ID": "0006",
+            "ParentID": "0001",
+            "Text": "Punkt 2",
+            "$children": [{
+                    "$level": "3",
+                    "$sortpath": "0001/0006/0007",
+                    "ID": "0007",
+                    "ParentID": "0006",
+                    "Text": "Unterpunkt 2.1"
+                },
+                {
+                    "$level": "3",
+                    "$sortpath": "0001/0006/0008",
+                    "ID": "0008",
+                    "ParentID": "0006",
+                    "Text": "Unterpunkt 2.2"
+                }
+            ]
+        },
+        {
+            "$level": "2",
+            "$sortpath": "0001/0009",
+            "ID": "0009",
+            "ParentID": "0001",
+            "Text": "Punkt 3"
+        },
+        {
+            "$level": "2",
+            "$sortpath": "0001/0010",
+            "ID": "0010",
+            "ParentID": "0001",
+            "Text": "Punkt 4"
+        }
+    ]
+}]

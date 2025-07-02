@@ -1,0 +1,4 @@
+﻿/*Cordova*/
+.hf-formpage .win-splitview .win-splitview-pane {
+    background-image: url("{{HFFormPath}}/form-logo.png");
+}

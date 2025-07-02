@@ -1,0 +1,1 @@
+{"fields":{"email":{"data-win-options.validator.maxlength":100},"repeat1FooterBlock2_textfield":{"data-win-options.validator.maxlength":200},"add_parts_item1":{"data-win-options.validator.maxlength":50},"address_city":{"data-win-options.validator.maxlength":20}},"fieldsToMap":["data-win-options.validator.maxlength"]}

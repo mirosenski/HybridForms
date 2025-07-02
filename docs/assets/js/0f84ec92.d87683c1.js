@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[26256],{53765:e=>{e.exports=JSON.parse('{"tag":{"label":"align-self","permalink":"/docs/9.1/tags/align-self","allTagsPath":"/docs/9.1/tags","count":1,"items":[{"id":"style-guide/layout","title":"Layout","description":"Flex","permalink":"/docs/9.1/style-guide/layout"}],"unlisted":false}}')}}]);

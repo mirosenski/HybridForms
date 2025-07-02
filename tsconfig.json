@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "downlevelIteration": true,
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "target": "ES6",
+        "lib": ["dom", "es7", "scripthost", "es2015.iterable", "es2015.promise", "es2020", "es2022"],
+        "rootDir": "./",
+        "typeRoots": ["./typings/**/*", "./node_modules/@types"]
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}

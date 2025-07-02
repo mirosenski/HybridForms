@@ -1,0 +1,78 @@
+.grid .mt-2 {
+  margin-top: 36px;
+}
+
+.grid .mt-radiobox-label {
+  margin-top: 5px;
+}
+
+.ml-flucht {
+  padding-left: 27px !important;
+}
+
+/*ScanButton*/
+.get-row-combo > .hf-combobox {
+  width: calc(100% - 38px) !important;
+  float: left;
+}
+
+[id^=scanBtn] {
+  float: right;
+  padding: 0;
+}
+
+[id^=scanButton_rescan] {
+  float: right;
+  width: 35px;
+  padding-right: 5px;
+}
+
+[id^=scanButton_delete] {
+  float: left;
+  width: 35px;
+  padding: 0px 5px;
+}
+
+[id^=scanBtn] > div > button {
+  width: 30px !important;
+}
+
+.hf-button button {
+  width: 100%;
+}
+
+[data-theme^=modern-] .remark-wrapper {
+  margin-top: 30px;
+}
+@media screen and (min-width: 1110px) {
+  [data-theme^=modern-] .sign-row {
+    margin-top: 68px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  [data-theme=light] .sign-row,
+  [data-theme=dark] .sign-row {
+    margin-top: 40px;
+  }
+}
+
+[data-theme=modern-dark] .bg-white,
+[data-theme=modern-dynamic-dark] .bg-white,
+[data-theme=dark] .bg-white {
+  background: white !important;
+}
+
+.label-fix > div {
+  width: 460px !important;
+}
+
+.button-mt {
+    margin-top: 6px !important;
+}
+
+[data-theme^="modern-"] .button-mt{
+    margin-top: 9px !important;
+
+}
+/*# sourceMappingURL=fieldservice.css.map */

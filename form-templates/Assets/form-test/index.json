@@ -1,0 +1,10 @@
+{
+    "id": 7,
+    "name": "form-test",
+    "displayName": "Form Test",
+    "clientId": 1,
+    "description": "Bilder",
+    "settings": "",
+    "version": 1,
+    "sync": true
+}

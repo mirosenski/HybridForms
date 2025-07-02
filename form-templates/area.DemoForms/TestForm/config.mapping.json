@@ -1,0 +1,15 @@
+{
+    "fieldsToMap": [
+        {
+            "fieldName": "data-win-options.validator.maxlength",
+            "columnName": "C",
+            "type": "number"
+        }
+    ],
+    "idColumn": {
+        "name": "A",
+        "startRow": 2
+    },
+    "excelFilePath": "../TestForm.templ",
+    "worksheetName": "Mapping"
+}

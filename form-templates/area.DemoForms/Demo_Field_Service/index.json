@@ -1,0 +1,32 @@
+{
+    "title": "Demo Field Service FormDev",
+    "culture": "de-DE",
+    "flags": {
+        "Form.New": true,
+        "Form.ConflictHandling": false,
+        "Form.Copy": true,
+        "Form.Delete": true,
+        "Form.ReturnToGroup": true,
+        "Form.Save": true,
+        "Form.View": true,
+        "Form.SubscribeAlways": true,
+        "Feature.Audio": true,
+        "Feature.Document": true,
+        "Feature.Map": true,
+        "Feature.Picture": true,
+        "Feature.Sketch": true,
+        "Document.ReadOnly": false,
+        "Audio.ReadOnly": false,
+        "Picture.ReadOnly": false,
+        "Sketch.ReadOnly": false,
+        "Map.ReadOnly": false,
+        "PDF": true,
+        "PDF.Audio": true,
+        "PDF.Map": true,
+        "PDF.PageCounter": true,
+        "PDF.Picture": true,
+        "PDF.Sketch": true,
+        "PDF.Document": true,
+        "FormDev.PDFDebug": false
+    }
+}

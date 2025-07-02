@@ -1,0 +1,45 @@
+[{
+        "Title": "B",
+        "KatalogText": "blue",
+        "KatalogTextDE": "blau"
+    },
+    {
+        "Title": "g",
+        "KatalogText": "green",
+        "KatalogTextDE": "grün"
+    },
+    {
+        "Title": "K",
+        "KatalogText": "pink",
+        "KatalogTextDE": "rosa"
+    },
+    {
+        "Title": "O",
+        "KatalogText": "orange",
+        "KatalogTextDE": "orange"
+    }, {
+        "Title": "R",
+        "KatalogText": "red",
+        "KatalogTextDE": "rot"
+    }, {
+        "Title": "S",
+        "KatalogText": "silver",
+        "KatalogTextDE": "silber"
+    }, {
+        "Title": "W",
+        "KatalogText": "white",
+        "KatalogTextDE": "weiß"
+    }, {
+        "Title": "Y",
+        "KatalogText": "yellow",
+        "KatalogTextDE": "gelb"
+    }, {
+        "Title": "Z",
+        "KatalogText": "gold",
+        "KatalogTextDE": "gold"
+    }, {
+        "Title": "Ü",
+        "KatalogText": "cyan",
+        "KatalogTextDE": "cyan"
+    }
+]

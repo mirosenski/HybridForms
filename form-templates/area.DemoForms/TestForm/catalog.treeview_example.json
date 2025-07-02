@@ -1,0 +1,91 @@
+ [{
+         "id": 1,
+         "text": "Furniture",
+         "expanded": true,
+         "items": [{
+                 "id": 2,
+                 "text": "tables & chairs"
+             },
+             {
+                 "id": 3,
+                 "text": "sofas"
+             },
+             {
+                 "id": 4,
+                 "text": "occasional furniture"
+             },
+             {
+                 "id": 5,
+                 "text": "childrens furniture"
+             },
+             {
+                 "id": 6,
+                 "text": "beds"
+             }
+         ]
+     },
+     {
+         "id": 7,
+         "text": "Decor",
+         "expanded": true,
+         "items": [{
+                 "id": 8,
+                 "text": "bed linen"
+             },
+             {
+                 "id": 9,
+                 "text": "throws"
+             },
+             {
+                 "id": 10,
+                 "text": "curtains & blinds"
+             },
+             {
+                 "id": 11,
+                 "text": "rugs"
+             },
+             {
+                 "id": 12,
+                 "text": "carpets"
+             }
+         ]
+     },
+     {
+         "id": 13,
+         "text": "Storage",
+         "expanded": true,
+         "items": [{
+                 "id": 14,
+                 "text": "wall shelving"
+             },
+             {
+                 "id": 15,
+                 "text": "kids storage"
+             },
+             {
+                 "id": 16,
+                 "text": "multimedia storage"
+             },
+             {
+                 "id": 17,
+                 "text": "floor shelving"
+             },
+             {
+                 "id": 18,
+                 "text": "toilet roll holders"
+             },
+             {
+                 "id": 19,
+                 "text": "storage jars"
+             },
+             {
+                 "id": 20,
+                 "text": "drawers"
+             },
+             {
+                 "id": 21,
+                 "text": "boxes"
+             }
+         ]
+     }
+ ]

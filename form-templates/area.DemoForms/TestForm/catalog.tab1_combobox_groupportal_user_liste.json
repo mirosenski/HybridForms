@@ -1,0 +1,72 @@
+[
+    {
+        "id": 21,
+        "upn": "ag-tester123.bilbo.beutlin@try.hybridforms.net",
+        "name": "Bilbo Beutlin",
+        "email": "mario.weilguni@gmail.com",
+        "group": "AG-Tester123",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false
+    },
+    {
+        "id": 180,
+        "upn": "cekadm@icomedias.com",
+        "name": "Christian Ekhart (adm)",
+        "email": null,
+        "group": "AG-Tester123",
+        "flag1": false,
+        "flag2": false,
+        "flag3": true
+    },
+    {
+        "id": 20,
+        "upn": "customer-services-ico.m.m@try.hybridforms.net",
+        "name": "m m",
+        "email": "mario.weilguni@gmail.com",
+        "group": "Customer Services-ICO",
+        "flag1": true,
+        "flag2": false,
+        "flag3": true
+    },
+    {
+        "id": 91,
+        "upn": "mwe@icomedias.com",
+        "name": "Mario Weilguni",
+        "email": "mario.weilguni@icomedias.com",
+        "group": "AG-Tester123",
+        "flag1": true,
+        "flag2": true,
+        "flag3": false
+    },
+    {
+        "id": 91,
+        "upn": "mwe@icomedias.com",
+        "name": "Mario Weilguni",
+        "email": "mario.weilguni@icomedias.com",
+        "group": "Customer Services-ICO",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false
+    },
+    {
+        "id": 69,
+        "upn": "mas@icomedias.com",
+        "name": "Matthias Schröfelbauer",
+        "email": "matthias.schroefelbauer@icomedias.com",
+        "group": "AG-Tester123",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false
+    },
+    {
+        "id": 69,
+        "upn": "mas@icomedias.com",
+        "name": "Matthias Schröfelbauer",
+        "email": "matthias.schroefelbauer@icomedias.com",
+        "group": "Customer Services-ICO",
+        "flag1": false,
+        "flag2": false,
+        "flag3": false
+    }
+]

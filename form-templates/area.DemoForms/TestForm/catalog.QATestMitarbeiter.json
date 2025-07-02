@@ -1,0 +1,44 @@
+{
+	"Name": "QATestMitarbeiter",
+	"Version": "",
+	"Remark": "",
+	"entries": [
+		{
+			"Fields": {
+				"ID": "1",
+				"Title": "001",
+				"PersNr": "1234",
+				"Name": "Heribert Mayer",
+				"Department": "QA"
+			}
+		},
+		{
+			"Fields": {
+				"ID": "2",
+				"Title": "002",
+				"PersNr": "1235",
+				"Name": "Monika Muster",
+				"Department": "QA"
+			}
+		},
+		{
+			"Fields": {
+				"ID": "3",
+				"Title": "003",
+				"PersNr": "1233",
+				"Name": "Kunigunde Müller",
+				"Department": "HR"
+			}
+		},
+		{
+			"Fields": {
+				"ID": "4",
+				"Title": "004",
+				"PersNr": "2222",
+				"Name": "Bertram Simpson",
+				"Department": "HR"
+			}
+		}
+	],
+	"IgnoreColumns": []
+}

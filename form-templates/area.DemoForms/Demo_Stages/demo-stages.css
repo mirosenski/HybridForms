@@ -1,0 +1,34 @@
+﻿/*
+ * HybridForms.Custom CSS-Code
+ * Date: 08.03.2019
+ */
+
+ /* Reverse Geolocator Button*/
+ .get-location-row > .hf-textfield {
+    width: calc(100% - 34px) !important;
+    float: left;
+}
+
+.get-location-row .hf-reversegeolocatorbutton {
+    float: right;
+    width: 30px;
+    margin-left: 4px;
+}
+
+.get-location-progress {
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(50% + 3px);
+}
+
+.get-location-row {
+    position: relative;
+}
+
+/******************************************************************/
+
+/* Hide Buttons in PDF */
+
+.grid2bootstrap.pdf .hide-in-pdf {
+    display: none !important;
+}

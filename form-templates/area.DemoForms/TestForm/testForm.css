@@ -1,0 +1,207 @@
+[data-theme=dark] {
+  --color-primary-bg: var(--gradient-blue-green);
+}
+
+.test-class-page {
+  color: #25c73b;
+}
+
+.test-class-tab {
+  color: #257bc7;
+}
+
+.test-class-block {
+  color: #c72525;
+}
+
+.menu-icon-further {
+  max-width: 15px;
+  display: inline;
+  padding-bottom: 3px;
+}
+
+.testinitialyzr {
+  word-wrap: break-word;
+}
+
+/*** ComboBox mit SP-Liste jedes zweite Element grau hinterlegen zur besseren Lesbarkeit ***/
+#tab1_combobox_sp_liste .k-popup .k-list .k-item:nth-child(odd) {
+  background-color: #e4e4e4;
+}
+
+#tab1_combobox_sp_liste .k-popup .k-list .k-item.k-state-hover,
+#tab1_combobox_sp_liste .k-popup .k-list .k-item.k-state-focused {
+  background-color: #257bc7;
+  color: #fff;
+}
+
+/*** Ende ComboBox ***/
+/*** Open Mail ***/
+#mailButton {
+  margin-top: 32px;
+}
+
+[data-theme-type^=modern] #mailButton {
+  margin-top: 12px;
+}
+
+/*QR Scan-Button*/
+.get-row-combo > .hf-combobox {
+  width: calc(100% - 34px) !important;
+  float: left;
+}
+
+/* Reverse Geolocator Button*/
+.get-location-row > .hf-textfield {
+  width: calc(100% - 34px) !important;
+  float: left;
+}
+
+[data-theme-type^=modern] .two-buttons-inline .hf-label {
+  width: calc(100% - 21px - 68px) !important;
+}
+
+.red {
+  color: red !important;
+}
+
+.bg-red {
+  background-color: red !important;
+}
+
+.coords-btn button {
+  float: right;
+}
+
+.text-coords {
+  width: calc(100% - 35px) !important;
+  float: left;
+}
+
+/*Dashed lines*/
+.test-class-page .tab > .col-md-12 > .row,
+.test-class-page .form-row {
+  border-bottom: 20px solid var(--bg-body);
+  margin-bottom: 5px;
+}
+
+.test-class-page .tab > .col-md-12 > .row:last-child,
+.test-class-page .tab .form-row:last-child,
+.test-class-page .tab .form-row.remove-border,
+.test-class-page .tab .repeatingunit > .form-row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.tab > .col-md-12.hf-repeatingunit > .row {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
+
+.ru-headings {
+  margin-top: 15px !important;
+}
+
+.hf-tooltip-wrapper {
+  max-width: 430px;
+}
+
+.pageWidth {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .hf-tooltip-wrapper {
+    max-width: 90% !important;
+  }
+}
+.gelb {
+  background-color: rgba(255, 238, 0, 0.25);
+}
+
+.dkl {
+  background-color: rgb(255, 238, 0);
+}
+
+.inserted {
+  padding-top: 10px;
+}
+
+.company-info-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.company-info-wrapper .text-wrapper {
+  margin-left: 20px;
+  order: 2;
+}
+
+.company-info-wrapper .text-wrapper .address-text {
+  text-align: left;
+}
+
+.company-info-wrapper .logo-wrapper {
+  order: 1;
+}
+
+.company-info-wrapper .logo-wrapper img {
+  height: auto;
+  width: 120px;
+}
+
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.audio-player audio {
+  flex: 1;
+}
+.audio-player .audio-button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #969696;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.audio-player.stop .stop-icon {
+  display: none;
+}
+.audio-player.play .play-icon {
+  display: none;
+}
+
+.seperator-label {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--tab-content-bg);
+  padding: 0 10px;
+}
+
+.inline-sep-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bg-highlight {
+  background-color: #ffc6b3;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+[data-theme-mode=dark] .bg-highlight {
+  background-color: #5d210d;
+}
+
+/*# sourceMappingURL=testForm.css.map */

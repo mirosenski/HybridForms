@@ -1,0 +1,5 @@
+.tsd-theme-toggle,
+.tsd-navigation.settings,
+footer {
+    display: none !important;
+}

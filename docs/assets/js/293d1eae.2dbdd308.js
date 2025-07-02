@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[29077],{40112:e=>{e.exports=JSON.parse('{"tag":{"label":"hf-show","permalink":"/docs/9.1/tags/hf-show","allTagsPath":"/docs/9.1/tags","count":1,"items":[{"id":"style-guide/layout","title":"Layout","description":"Flex","permalink":"/docs/9.1/style-guide/layout"}],"unlisted":false}}')}}]);

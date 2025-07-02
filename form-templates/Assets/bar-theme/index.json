@@ -1,0 +1,11 @@
+{
+    "id": 8,
+    "name": "bar-theme",
+    "displayName": "Bar Theme",
+    "clientId": 1,
+    "description": "Das ist das zweite hochgeladene theme asset.",
+    "settings": "{ \"theme\": {\"default\": true, \"modes\": [\"light\"], \"types\": [\"modern\", \"modern-dynamic\", \"classic\"], \"show-default-themes\": true} }",
+    "version": 1,
+    "isReachoutExcluded": false,
+    "sync": true
+}

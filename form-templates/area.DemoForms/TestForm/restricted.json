@@ -1,0 +1,70 @@
+{
+    "name": "Colors",
+    "entries": {
+        "1": {
+            "fields": {
+                "Title": "R",
+                "KatalogText": "red"
+            },
+            "users": [
+                {
+                    "upn": "subcontractor1-comp.user.five@try.hybridforms.net"
+                },
+                {
+                    "upn": "fma@icomedias.com"
+                },
+                {
+                    "upn": "ehsa@icomedias.com"
+                }
+            ]
+        },
+        "2": {
+            "fields": {
+                "Title": "B",
+                "KatalogText": "blue"
+            },
+            "users": [
+                {
+                    "upn": "subcontractor2-comp.user.one@try.hybridforms.net"
+                },
+                {
+                    "upn": "fma@icomedias.com"
+                },
+                {
+                    "upn": "ehs@icomedias.com"
+                }
+            ]
+        },
+        "3": {
+            "fields": {
+                "Title": "Y",
+                "KatalogText": "yellow"
+            },
+            "users": [
+                {
+                    "upn": "subcontractor1-comp.user.five@try.hybridforms.net"
+                },
+                {
+                    "upn": "fma@icomedias.com"
+                },
+                {
+                    "upn": "jma@icomedias.com"
+                }
+            ]
+        },
+        "4": {
+            "fields": {
+                "Title": "g",
+                "KatalogText": "Green"
+            },
+            "users": [
+                {
+                    "upn": "subcontractor1-comp.user.five@try.hybridforms.net"
+                },
+                {
+                    "upn": "jma@icomedias.com"
+                }
+            ]
+        }
+    }
+}

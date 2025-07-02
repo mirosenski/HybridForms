@@ -1,0 +1,9 @@
+﻿<div class="pdf-header-footer pdf-header container-fluid">
+    <div class="row">
+        <div class="col-xs-8">
+            <h2>{{HFCustomString:HFFormdefinition.CustomCode.pdfReturn2}}</h2>
+        </div>
+        <div class="col-xs-4 text-right"
+            style="margin-top:10px">{{HFCustomString:HFFormdefinition.CustomCode.pdfReturn}}</div>
+    </div>
+</div>

@@ -1,0 +1,739 @@
+<!DOCTYPE html><!-- Last modified: 08.03.2019 -->
+<html>
+
+<head>
+    <title></title>
+
+    <link rel="stylesheet"
+        href="customer-logo.css">
+    <link rel="stylesheet"
+        href="demo-stages.css">
+
+    <script src="DemoQAStagesHelpers.js"></script>
+
+</head>
+
+<body>
+    <form>
+        <var data-hf-name="info"
+            data-hf-version="1.0.6"
+            data-hf-date="2020-05-18T15:51:00"
+            data-hf-min-app-version="7.0.0"
+            data-hf-min-server-version="7.2.1">
+        </var>
+
+        <var data-hf-name="Title">Demo Stages</var>
+
+        <!-- first level - pages -->
+        <ol>
+            <li data-hf-title="Customer data"
+                data-hf-condition='{
+                    "cond": [{
+                        "type": "stage",
+                        "id": "S1",
+                        "val": true
+                    }],
+                    "elseCallback": "HFFormdefinition.DemoQAStagesHelpers.getElseStateFirstPage"
+                }'>
+                <!-- second level - tabs -->
+                <ol>
+                    <li data-hf-title="Service Data">
+                        <!-- third level - blocks -->
+                        <a href="#operation-block1"></a>
+                        <a href="#operation-block2"></a>
+                    </li>
+                    <li data-hf-title="Customer"
+                        id="expand_customer">
+                        <!-- third level - blocks -->
+                        <a href="#customer-block1"></a>
+                        <a href="#customer-block2"></a>
+                    </li>
+
+                </ol>
+            </li>
+            <li data-hf-title="Service"
+                data-hf-condition='{
+                    "cond": [{
+                        "type": "stage",
+                        "id": "S2",
+                        "val": true
+                    }],
+                    "else": "invisible"
+                }'>
+                <ol>
+
+                    <li data-hf-title="Repair"
+                        id="expand_repair">
+                        <!-- third level - blocks -->
+                        <a href="#repair-block1"></a>
+                        <a href="#repair-block2"></a>
+                    </li>
+
+                    <li data-hf-title="Billing">
+                        <!-- third level - blocks -->
+                        <a href="#billing-block1"></a>
+                        <a href="#billing-block2"></a>
+                        <a href="#billing-block3"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "billing_use_different_billing_adress",
+                                    "val": true
+                                }],
+                                "else": "invisible"
+                            }'></a>
+                        <a href="#billing-block4"
+                            data-hf-condition='{
+                                "cond": [{
+                                    "type": "field",
+                                    "id": "billing_use_different_billing_adress",
+                                    "val": true
+                                }],
+                                "else": "invisible"
+                            }'></a>
+                    </li>
+
+                </ol>
+            </li>
+
+            <li data-hf-title="Clearing &amp; Finance"
+                data-hf-condition='{
+                    "cond": [{
+                        "type": "stage",
+                        "id": "S3",
+                        "val": true
+                    }],
+                    "else": "invisible"
+                }'>
+                <!-- second level - tabs -->
+                <ol>
+                    <li data-hf-title="Clearing">
+                        <!-- third level - blocks -->
+                        <a href="#clearing-block1"></a>
+                        <a href="#clearing-block2"></a>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </form>
+
+    <div data-hf-template="FormTitle">
+        <h1>
+            <span data-hf-bind="textContent: data.stage.id"></span>:&nbsp;<span data-hf-bind="textContent: data.stage.label"></span>
+        </h1>
+    </div>
+
+    <div data-hf-template="FormList">
+        <div>
+            <div class="imagecontainer left">
+                <img src="{{HFFormPath}}/waterworks-80x80.svg"
+                    class="smallListIconTextItem-Image"
+                    data-hf-control="Picture"
+                    data-hf-bind="winControl.props.ItemID : data.ItemID; winControl.props.src: data.MainImage"
+                    data-hf-options="{
+                        thumbnail: true
+                    }">
+            </div>
+            <div class="smallListIconTextItem-Detail left">
+                <h3 class="win-type-ellipsis">
+                    <span data-hf-control="Spacer">
+                        <span data-hf-bind="textContent: data.stage.id"></span>:&nbsp;<span data-hf-bind="textContent: data.stage.label"></span>
+                    </span>
+                </h3>
+                <h4 data-hf-control="Spacer"
+                    class="win-type-ellipsis">
+                    <strong>Customer: </strong>
+                    <span data-hf-bind="textContent: listData.customer_last_name"></span><span class="spacer">, </span>
+                    <span data-hf-bind="textContent: listData.customer_first_name"></span>
+                </h4>
+                <h5 data-hf-control="Spacer"
+                    class="win-type-ellipsis">
+                    <span data-hf-bind="textContent: listData.operation_date"
+                        data-hf-control="DateFormater"
+                        data-hf-options="{
+                            dateOnly: true
+                        }"></span>
+                </h5>
+            </div>
+            <div class="left symbol"><span style="display: none;"
+                    data-hf-control="FormStatusImage"
+                    data-hf-bind="innerText: listData.formCompletionStatus"></span></div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer operation block 1-->
+    <div id="operation-block1"
+        data-hf-block>
+        <div class="grid column3 yellow_bg">
+            <div class="r1 c1">
+                <div id="operation_date"
+                    data-hf-control="DatePicker"
+                    data-hf-options="{
+                        required: true,
+                        label: 'Date',
+                        emptyContent: 'Select...',
+                        defaultValue: 'now',
+                        list: true
+                    }"></div>
+            </div>
+            <div class="r1 c2">
+                <input type="text"
+                    id="operation_id"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        tooltip: 'The operation ID allows an unique identification of your field work. Please fill in this form field according to the specifications of your company/organization.',
+                        label: 'Operation ID'
+                    }">
+            </div>
+            <div class="r1 c3">
+                <div id="operation_technician"
+                    data-hf-control="ComboBox"
+                    data-hf-options="{
+                        label: 'Technician',
+                        list: true,
+                        tooltip: 'Please select the technician to assign this service task.',
+                        required: true,
+                        anytext: false,
+                        dataSource: [{
+                            name: 'Andersen, W',
+                            code: 'Andersen, W'
+                        }, {
+                            name: 'Martin, C',
+                            code: 'Martin, C'
+                        }, {
+                            name: 'Parker, D',
+                            code: 'Parker, D'
+                        }, {
+                            name: 'Simon, R',
+                            code: 'Simon, R'
+                        }, {
+                            name: 'Thomas, A',
+                            code: 'Thomas, A'
+                        }],
+                        dataTextField: 'name',
+                        dataValueField: 'code'
+                    }"></div>
+
+                <!--  <div id="operation_technician"
+                data-hf-control="ComboBox"
+                data-hf-options="{
+                label: 'Technician',
+                list: true,
+                tooltip: 'Please select the technician to assign this service task.',  
+                required: true,
+                anytext: false,
+                dataSource: [
+                   { name: 'jma', code: 'jma@icomedias.com' },
+                   { name: 'fma', code: 'fma@icomedias.com' },
+                   { name: 'fpr', code: 'fpr@icomedias.com' },
+                   { name: 'ehs', code: 'ehs@icomedias.com' },
+                   { name: 'mwe', code: 'mwe@icomedias.com' },
+                   { name: 'HFTestuser_3-2', code: 'hf-testuser_3-2@icomedias.com' }
+                ],
+                dataTextField: 'name',
+                dataValueField: 'code'
+           }"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer operation block 2-->
+    <div id="operation-block2"
+        data-hf-block>
+        <div class="grid column4 yellow_bg">
+            <div class="r1 c1">
+                <div id="operation_time_start"
+                    data-hf-control="TimePicker"
+                    data-hf-options="{
+                        list: true,
+                        defaultValue: 'now',
+                        label: 'Time start',
+                        onChanged: HFFormdefinition.DemoQAStagesHelpers.calculateDuration,
+                        calcDurationOptions: 'operation_time_start,operation_time_end,operation_duration'
+                    }"></div>
+            </div>
+            <div class="r1 c2">
+                <div id="operation_time_end"
+                    data-hf-control="TimePicker"
+                    data-hf-options="{
+                        list: true,
+                        defaultValue: 'now',
+                        label: 'Time end',
+                        onChanged: HFFormdefinition.DemoQAStagesHelpers.calculateDuration,
+                        calcDurationOptions: 'operation_time_start,operation_time_end,operation_duration'
+                    }"></div>
+            </div>
+            <div class="r1 c3">
+                <input type="text"
+                    id="operation_duration"
+                    class="disabled"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Duration',
+                        disabled: true
+                    }">
+            </div>
+            <div class="r1 c4">
+                <input type="text"
+                    id="operation_reading"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Read. m³'
+                    }">
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer customer block 1-->
+    <div id="customer-block1"
+        data-hf-block>
+        <div class="grid column2">
+            <div class="r1 c1">
+                <input type="text"
+                    id="customer_last_name"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        list: true,
+                        label: 'Last name'
+                    }">
+            </div>
+            <div class="r1 c2">
+                <input type="text"
+                    id="customer_first_name"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'First name',
+                        list: true
+                    }">
+            </div>
+            <div class="r2 c1 cspan2">
+                <textarea id="customer_problem_by_customer"
+                    style="min-height:110px; height:auto"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Problem reported by customer'
+                    }"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer customer block 2-->
+    <div id="customer-block2"
+        data-hf-block>
+
+        <div class="grid column4">
+            <div class="r1 c1 cspan2 get-location-row">
+                <input type="text"
+                    id="customer_address_city"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Address: City'
+                    }">
+                <div data-hf-control="ReverseGeolocatorButton"
+                    id="reverseGeolocator1"
+                    class="hide-in-pdf"
+                    data-hf-options="{
+                        buttonLabel: 'Get Location',
+                        buttonType: 'small',
+                        targetFields: {
+                            'customer_zip_code': 'postal_code',
+                            'customer_address_city': 'locality',
+                            'customer_address_street': 'route + street_number'
+                        },
+                        typesSeperator: ', '
+                    }">
+                </div>
+            </div>
+            <div class="r1 c3">
+                <input type="text"
+                    id="customer_zip_code"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'ZIP Code'
+                    }">
+            </div>
+            <div class="r1 c4 hide-in-pdf">
+                <div id="mapButton"
+                    class="hide-in-pdf"
+                    data-hf-control="MapButton"
+                    data-hf-options="{
+                        cityId: 'customer_address_city',
+                        zipCodeId: 'customer_zip_code',
+                        streetId: 'customer_address_street',
+                        buttonLabel: 'Route',
+                        buttonType: 'large',
+                        buttonHeading: 'Navigation'
+                    }">
+                </div>
+            </div>
+            <div class="r2 c1 cspan3">
+                <input type="text"
+                    id="customer_address_street"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Address: Street name + no.'
+                    }">
+            </div>
+            <div class="r2 c4 hide-in-pdf">
+                <div id="phoneButton1"
+                    class="hide-in-pdf"
+                    data-hf-control="PhoneButton"
+                    data-hf-options="{
+                        phoneId: 'customer_phone_number',
+                        buttonHeading: 'Customer',
+                        buttonLabel: 'Skype',
+                        buttonType: 'large'
+                    }">
+                </div>
+            </div>
+        </div>
+        <div class="grid column2">
+            <div class="r1 c1">
+                <input type="text"
+                    id="customer_email"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'E-mail address'
+                    }">
+            </div>
+            <div class="r1 c2">
+                <input type="text"
+                    id="customer_phone_number"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Phone no.'
+                    }">
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer repair block 1-->
+    <div id="repair-block1"
+        data-hf-block>
+        <div class="grid column2 c2auto">
+            <div class="r1 c1">
+                <div id="damage"
+                    data-hf-control="Label"
+                    data-hf-options="{
+                        label: 'Damage',
+                        tooltip: 'Please indicate at least one cause of damage.',
+                        requiredFields: 'repair_cover_glass_broken,repair_roll_counter_broken,repair_indicator_broken,repair_meter_joint_leaky'
+                    }"></div>
+                <input id="repair_cover_glass_broken"
+                    type="checkbox"
+                    data-hf-control="CheckBox"
+                    value="Cover glass broken"
+                    data-hf-options="{
+                        label: 'Cover glass broken',
+                        list: true
+                    }">
+                <input id="repair_roll_counter_broken"
+                    type="checkbox"
+                    data-hf-control="CheckBox"
+                    value="Roll counter broken"
+                    data-hf-options="{
+                        label: 'Roll counter broken',
+                        list: true
+                    }">
+                <input id="repair_indicator_broken"
+                    type="checkbox"
+                    data-hf-control="CheckBox"
+                    value="Indicator broken"
+                    data-hf-options="{
+                        label: 'Indicator broken',
+                        list: true
+                    }">
+                <input id="repair_meter_joint_leaky"
+                    type="checkbox"
+                    data-hf-control="CheckBox"
+                    value="Meter or joint leaky"
+                    data-hf-options="{
+                        label: 'Meter / joint leaky',
+                        list: true
+                    }">
+                <textarea id="repair_remark"
+                    style="min-height:150px; height:auto"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        barcodereader: true,
+                        barcodeappend: true,
+                        label: 'Remark'
+                    }"></textarea>
+            </div>
+            <div class="r1 c2">
+                <div id="mark_damage"
+                    data-hf-control="InkControl"
+                    data-hf-options="{
+                        label: 'Mark damage with pen',
+                        tooltip: 'You can additionally mark the position of the damage. The image with your annotations will be attached to the form.',
+                        width: 218,
+                        height: 350,
+                        image: '{{HFFormPath}}/water-meter-350.png',
+                        clearButton: true
+                    }"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo operationcustomer repair block 2-->
+    <div id="repair-block2"
+        data-hf-block>
+        <div class="grid column3">
+            <div class="r1 c1">
+                <div id="repair_picture_picker"
+                    data-hf-control="PicturePicker"
+                    data-hf-options="{
+                        label: 'Take picture'
+                    }"></div>
+            </div>
+
+            <div class="r1 c2">
+                <div id="activities"
+                    data-hf-control="Label"
+                    data-hf-options="{
+                        label: 'Activities',
+                        requiredFields: 'repair_cover_glass_replaced,repair_joint_replaced,repair_meter_replaced'
+                    }">
+                </div>
+                <input id="repair_cover_glass_replaced"
+                    type="checkbox"
+                    value="Cover glass replaced"
+                    data-hf-control="CheckBox"
+                    data-hf-options="{
+                        label: 'Glass replaced'
+                    }">
+                <input id="repair_joint_replaced"
+                    type="checkbox"
+                    value="Joint replaced"
+                    data-hf-control="CheckBox"
+                    data-hf-options="{
+                        label: 'Joint replaced'
+                    }">
+                <input id="repair_meter_replaced"
+                    type="checkbox"
+                    value="Meter replaced"
+                    data-hf-control="CheckBox"
+                    data-hf-options="{
+                        label: 'Meter replaced'
+                    }">
+            </div>
+
+            <div class="r1 c3">
+                <div id="follow_up"
+                    data-hf-control="Label"
+                    data-hf-options="{
+                        label: 'Follow up'
+                    }"></div>
+                <input id="repair_new_date"
+                    type="checkbox"
+                    value="New date"
+                    data-hf-control="CheckBox"
+                    data-hf-options="{
+                        label: 'New date'
+                    }">
+                <input id="repair_schedule_with_costumer"
+                    type="checkbox"
+                    value="Schedule with customer"
+                    data-hf-control="CheckBox"
+                    data-hf-options="{
+                        label: 'Call customer'
+                    }">
+                <input id="repair_urgent_replacement"
+                    type="checkbox"
+                    value="Urgent replacement"
+                    data-hf-control="CheckBox"
+                    data-hf-options="{
+                        label: 'Replacement!'
+                    }">
+            </div>
+
+            <div class="r2 c1 cspan3">
+                <div id="repair_customer_sign"
+                    data-hf-control="Signature"
+                    data-hf-options="{
+                        label: 'Customer\'s signature',
+                        width: 460,
+                        height: 160,
+                        clearButton: true,
+                        signingAsCallback: HFFormdefinition.DemoQAStagesHelpers.getSigner,
+                        getSignerOptions: 'customer_first_name,customer_last_name'
+                    }"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo billing block 1-->
+    <div id="billing-block1"
+        data-hf-block>
+        <div class="grid column1">
+            <div class="r1 c1">
+                <div id="billing_address"
+                    data-hf-control="Label"
+                    data-hf-options="{
+                        label: 'Billing address'
+                    }"></div>
+                <input id="billing_use_different_billing_adress"
+                    type="checkbox"
+                    data-hf-control="CheckBox"
+                    value="Different billing address"
+                    data-hf-options="{
+                        label: 'Use different billing address',
+                        defaultValue: false
+                    }">
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo billing block 2-->
+    <div id="billing-block2"
+        data-hf-block>
+        <div class="grid column2">
+            <div class="r1 c1 cspan2">
+                <div id="billing_mode"
+                    data-hf-control="Label"
+                    data-hf-options="{
+                        label: 'Billing mode',
+                        required: true,
+                        requiredFields: 'billing_free_warranty,billing_no_free'
+                    }"></div>
+            </div>
+            <div class="r2 c1">
+                <input id="billing_free_warranty"
+                    name="billing"
+                    value="free warranty"
+                    type="radio"
+                    data-hf-control="RadioBox"
+                    data-hf-options="{
+                        label: 'Free / warranty repair'
+                    }">
+            </div>
+            <div class="r2 c2">
+                <input id="billing_no_free"
+                    name="billing"
+                    type="radio"
+                    value="no free"
+                    data-hf-control="RadioBox"
+                    data-hf-options="{
+                        label: 'Invoice'
+                    }">
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo billing block 3-->
+    <div id="billing-block3"
+        data-hf-block>
+        <div class="grid column2">
+            <div class="r1 c1">
+                <input type="text"
+                    id="billing_last_name"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Last name',
+                        required: true
+                    }">
+            </div>
+            <div class="r1 c2">
+                <input type="text"
+                    id="billing_first_name"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'First name',
+                        required: true
+                    }">
+            </div>
+            <div class="r2 c1 cspan2">
+                <input type="text"
+                    id="billing_company"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Company'
+                    }">
+            </div>
+        </div>
+    </div>
+
+    <!--repairdemo billing block 4-->
+    <div id="billing-block4"
+        data-hf-block>
+        <div class="grid column4">
+            <div class="r1 c1 cspan3">
+                <input type="text"
+                    id="billing_adress_city"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Address: City',
+                        required: true
+                    }">
+            </div>
+            <div class="r1 c4">
+                <input type="text"
+                    id="billing_zip_code"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'ZIP Code',
+                        required: true
+                    }">
+            </div>
+            <div class="r2 c1 cspan3">
+                <input type="text"
+                    id="billing_adress_street_name"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Address: Street name',
+                        required: true
+                    }">
+            </div>
+            <div class="r2 c4">
+                <input type="text"
+                    id="billing_street_no"
+                    data-hf-control="TextField"
+                    data-hf-options="{
+                        label: 'Street no.'
+                    }">
+            </div>
+        </div>
+    </div>
+
+    <div id="clearing-block1"
+        data-hf-block>
+        <div class="grid column1">
+            <div class="r1 c1">
+                <div id="repair_technician_sign"
+                    data-hf-control="Signature"
+                    data-hf-options="{
+                        label: 'Technician\'s signature',
+                        required: true,
+                        width: 460,
+                        height: 160,
+                        clearButton: true,
+                        signingAsCallback: HFFormdefinition.DemoQAStagesHelpers.getSigner,
+                        getSignerOptions: 'operation_technician'
+                    }">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="clearing-block2"
+        data-hf-block>
+        <div class="grid column1">
+            <div class="r1 c1">
+                <div id="repair_controller_sign"
+                    data-hf-control="Signature"
+                    data-hf-options="{
+                        label: 'Controller\'s signature',
+                        required: true,
+                        width: 460,
+                        height: 160,
+                        clearButton: true,
+                        signingAsCallback: HFFormdefinition.DemoQAStagesHelpers.getSigner,
+                        getSignerOptions: 'controller_first_name,controller_last_name'
+                    }">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

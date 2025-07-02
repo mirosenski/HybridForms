@@ -1,0 +1,102 @@
+{
+    "stages": {
+        "ST1": {
+            "first": true,
+            "label": "Stage 1",
+            "next": {
+                "stage": "ST2",
+                "workflows": [
+                    "wf_copyToPDF",
+                    "wf_excel",
+                    "wf_reachout_cond",
+                    "wf_email"
+                ],
+                "buttonLabel": "{{@ApproveButtonST1.Label}}",
+                "dialogMessage": "{{@ApproveButtonST1.Message}}",
+                "dialogTitle": "{{@ApproveButtonST1.Title}}"
+            }
+        },
+        "ST2": {
+            "label": "Stage 2",
+            "appkioskmode": true,
+            "next": {
+                "stage": "ST3",
+                "workflows": [
+                    "wf_condSkipTest",
+                    "wf_skipStages",
+                    "wf_condSkipTestNew",
+                    "wf_skipStages"
+                ],
+                "buttonLabel": "{{@ApproveButtonST2.Label}}",
+                "dialogMessage": "{{@ApproveButtonST2.Message}}",
+                "dialogTitle": "{{@ApproveButtonST2.Title}}"
+            }
+        },
+        "ST3": {
+            "label": "Stage 3",
+            "next": {
+                "stage": "ST4",
+                "workflows": [],
+                "buttonLabel": "Finish Tests",
+                "dialogMessage": "Finish custom controls tests and start testing structural and form control conditions?",
+                "dialogTitle": "Finish Custom Controls Test"
+            }
+        },
+        "ST4": {
+            "label": "Stage final",
+            "next": {
+                "workflows": [],
+                "buttonLabel": "Finish",
+                "dialogMessage": "Finally finish the basic test?",
+                "dialogTitle": "Finish Test Suite"
+            }
+        }
+    },
+    "workflows": {
+        "wf_copyToPDF": {
+            "type": "copypdf",
+            "target": "Basistest-Controls_{tab1_datepicker2_HFDate}.pdf",
+            "errorAction": "ignore",
+            "errorNotify": "atp@icomedias.com,ena@icomedias.com"
+        },
+        "wf_email": {
+            "type": "email",
+            "from": "service@hybridforms.net",
+            "to": "{OwnerEmail}",
+            "subject": "Basistest Controls",
+            "bodyFile": "mailtemplate.txt",
+            "attachimages": false,
+            "attachimage": "form-logo.png",
+            "attachdocuments": "Basistest-Controls_{tab1_datepicker2_HFDate}.pdf",
+            "errorFeedback": "Workflow Stagewechsel fehlgeschlagen!",
+            "errorAction": "status=Group",
+            "errorNotify": "atp@icomedias.com,ena@icomedias.com"
+        },
+        "wf_condSkipTest": {
+            "type": "condition",
+            "condition": "{ru1_skiptest} == True"
+        },
+        "wf_condSkipTestNew": {
+            "type": "condition",
+            "condition": "{ru3_skiptest} == True"
+        },
+        "wf_skipStages": {
+            "type": "stagechange",
+            "stage": "ST4",
+            "errorFeedback": "Workflow Stagewechsel fehlgeschlagen!",
+            "errorAction": "status=Group",
+            "errorNotify": "atp@icomedias.com,ena@icomedias.com"
+        },
+        "wf_excel": {
+            "type": "createexcel",
+            "template": "excel_template.xlsx",
+            "filename": "form.xlsx",
+            "errorNotify": "fpr@icomedias.com",
+            "errorFeedback": "Fehler beim Erzeugen des Excel"
+        },
+        "wf_reachout_cond": {
+            "type": "condition",
+            "condition": "{tab1_prefilled_textfield} != anonymous"
+        }
+    }
+}

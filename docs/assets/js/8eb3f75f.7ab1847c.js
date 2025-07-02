@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[38283],{65720:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"FormDev","slug":"/category/formdev","permalink":"/docs/9.5/category/formdev","sidebar":"tutorialSidebar","navigation":{"next":{"title":"Quickstart","permalink":"/docs/9.5/formdev/quickstart"}}}}')}}]);

@@ -1,0 +1,39 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "html.format.wrapAttributes": "force",
+        "mjml.beautify": {
+            "indent_size": 4,
+            "wrap_attributes_indent_size": 4,
+            "wrap_attributes": "force",
+        },
+        "html-related-links.include": {
+            "html": [
+                { "find": "href=\"(.+)#(.*)\"", "lineSearch": "$2", "documentLink": true },
+                { "find": "\\{\\{HFFormPath\\}\\}/(.*)\"", "documentLink": true },
+                { "find": "data-hf-href=\"(.*)\"", "documentLink": true },
+                { "find": "data-hf-src=\"(.*)\"", "documentLink": true },
+            ],
+            "all": [
+                { "find": "\\{\\{HFFormPath\\}\\}/(.*)\"", "documentLink": true },
+            ]
+        },
+        "[html]": {
+            "editor.defaultFormatter": "icomedias.hfdevtools-extension",
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "extensions": {
+        "recommendations": [
+            "dbaeumer.vscode-eslint",
+            "icomedias.hfdevtools-extension",
+            "mjmlio.vscode-mjml",
+            "esbenp.prettier-vscode",
+            "rioj7.html-related-links"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+﻿<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text font-size="14px"
+                line-height="140%" />
+            <mj-button background-color="#73c9c9"
+                color="#000"
+                border-radius="4px"
+                border="1px solid #208d8d" />
+            <mj-all font-family="Arial, Helvetica, sans-serif" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#e7e7e7">
+        <mj-section background-color="white">
+            <mj-column width="400px">
+                <mj-image src="form-logo.png"
+                    alt="HybridForms" />
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="white">
+            <mj-column>
+                <mj-text>
+                    Sehr geehrte Damen und Herren,<br><br>
+                    im Anhang erhalten Sie das &uuml;bermittelte Formular:<br>
+                    <strong>{Title}</strong><br><br>
+                    Bei R&uuml;ckfragen stehen wir gerne zur Verf&uuml;gung.<br><br>
+                    Mit besten Gr&uuml;&szlig;en<br><br>
+                    <strong>Ihr HybridForms Team</strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

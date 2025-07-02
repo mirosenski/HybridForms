@@ -1,0 +1,15 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4">
+            {{HFCustomString:HFFormdefinition.CustomCode.pdfBranding}} | +43 (316) 721 671-0
+        </div>
+        <div class="col-xs-4">
+            <span class="Now date"></span> | <span class="Now datetime"></span> | <span class="Now time"></span> | <span class="Now datetime"
+                date-format="dd MMMM yyyy"
+                date-locale="de-DE"></span>
+        </div>
+        <div class="col-xs-4 text-right">
+            <a href="http://www.hybridforms.net">www.hybridforms.net</a> | <a href="mailto:info@hybridforms.net">info@hybridforms.net</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,203 @@
+﻿(function () {
+    'use strict';
+    /* ESLint no-undef-rule: define globals  */
+    /*global WinJS HybridForms HFFormdefinition $ Promise */
+
+    WinJS.Namespace.define('HFFormdefinition.DemoQAStagesHelpers', {
+
+        /*
+         * getSigner 
+         * Type: onChanged Method
+         * Description:
+         *      Gets the names from one or two fields and makes an additional stamp entry within the signature field 
+         * @data-win-options:
+         *      getSignerOptions[string](required) : comma-seperated list of formcontrol-ids; concatenated in order of appearance
+         */
+
+        getSigner: function () {
+            var thisCtrl = this,
+                name = [],
+                currentRU = '',
+                signerParts,
+                namePart;
+
+            if (!thisCtrl.getSignerOptions) {
+                return;
+            }
+
+            if (HybridForms.API.RepeatingUnits.isRepeatingUnit(thisCtrl.element)) {
+                currentRU = HybridForms.API.RepeatingUnits.getPostfixFieldId(thisCtrl.element);
+            }
+
+            signerParts = thisCtrl.getSignerOptions.split(',');
+            if (signerParts.length) {
+                signerParts.forEach(function (signingPart) {
+                    if (currentRU) {
+                        signingPart += currentRU;
+                    }
+
+                    namePart = HybridForms.API.Fields.getById(signingPart);
+                    if (namePart && namePart.value) {
+                        name.push(namePart.value);
+                    }
+                });
+            }
+
+            return $.trim(name.join(' '));
+        },
+
+        getElseStateFirstPage: function () {
+            let currStage = HybridForms.API.Stages.getFormStage();
+            // return 'readonly';
+            switch (currStage) {
+                case 'S2':
+                    return 'readonly';
+                case 'S3':
+                    return 'invisible';
+                default:
+                    return 'invisible';
+            }
+        },
+        /*
+         * User
+         * Description:
+         *      Gets the current User name from the person logged in.
+         * @data-win-options:
+         *      userId[string](required)    : id of formcontrol for the username
+         */
+        User: WinJS.Class.derive(HybridForms.API.UIControls.BaseControl, function (element, options) {
+            HybridForms.API.UIControls.BaseControl.call(this, element, options);
+        }, {
+            userId: null,
+
+            _init: function (element) {
+                var that = this;
+                if (!that.userId) {
+                    return;
+                }
+                HybridForms.API.UIControls.BaseControl.prototype._init.call(this, element);
+            },
+
+            _getUserOnApp: function () {
+                var user = HybridForms.API.User.get();
+
+                if (user && user.displayName) {
+                    return user.displayName;
+                }
+                return '';
+            },
+
+            createControl: function () {
+                var that = this;
+
+                if (HybridForms.API.RepeatingUnits.isRepeatingUnit(that.element)) {
+                    that.userId += HybridForms.API.RepeatingUnits.getPostfixFieldId(that.element);
+                }
+
+                var ctrl = HybridForms.API.FormControls.getCtrl(that.userId); //ID vom Control, in das der Username eingetragen werden soll
+                if (!ctrl.val()) {
+                    var user = that._getUserOnApp();
+
+                    if (user.length) {
+                        ctrl.val(user);
+                        HFFormdefinition.DemoQAStagesHelpers.User.user = user;
+                    } else {
+                        HFFormdefinition.DemoQAStagesHelpers.User.user = null;
+                    }
+                }
+                return Promise.resolve();
+            },
+        }, { //Static methods
+            user: null,
+        }),
+
+
+        Initializr: WinJS.Class.derive(
+            HybridForms.API.UIControls.BaseControl,
+            function (element, options) {
+                HybridForms.API.UIControls.BaseControl.call(this, element, options);
+            },
+            {
+                onRendered: null,
+
+                _init: function (element) {
+                    var that = this;
+                    that.element = element;
+                    if (typeof that.callback === 'function') {
+                        that.onRendered = function () {
+                            that.callback.call(that);
+                        };
+                        HybridForms.API.Page.addEventListener('rendered', that.onRendered);
+                    }
+                },
+
+                dispose: function () {
+                    var that = this;
+                    if (that.disposed) {
+                        return;
+                    }
+                    if (that.onRendered) {
+                        HybridForms.API.Page.removeEventListener('rendered', that.onRendered);
+                    }
+
+                    that.disposed = true;
+                },
+            },
+            {
+                //Static methods
+            }
+        ),
+
+        /*
+        * calculateDuration 
+        * Type: onChanged Method
+        * Description:
+        *      Gets the values of the two defined TimePicker fields, calculates the duration and places the result within a third field (mostly a disabled one).
+        * @data-win-options:
+        *      calcDurationOptions[string](required) : comma-seperated list of formcontrol-ids; 
+        *                                              first id is start, second is end time, third id is target field for calculated duration
+        */
+        calculateDuration: function () {
+
+            var that = this;
+            var ctrlIds = that.calcDurationOptions.split(',');
+            if (ctrlIds.length !== 3) {
+                return;
+            }
+
+            if (HybridForms.API.RepeatingUnits.isRepeatingUnit(this.element)) {
+                var currentRU = HybridForms.API.RepeatingUnits.getPostfixFieldId(this.element);
+
+                ctrlIds.forEach(function (ctrlId, idx) {
+                    ctrlId += currentRU;
+                    ctrlIds[idx] = ctrlId;
+                });
+            }
+
+            var ctrl1 = HybridForms.API.FormControls.getCtrl(ctrlIds[0]);
+            var ctrl2 = HybridForms.API.FormControls.getCtrl(ctrlIds[1]);
+
+            var start = moment(ctrl1.val());
+            var end = moment(ctrl2.val());
+
+            var duration;
+
+            if (start && end) {
+
+                duration = end.diff(start);
+                var duration_formatted = moment.utc(duration).format('HH:mm');
+
+                var ctrl3 = HybridForms.API.FormControls.getCtrl(ctrlIds[2]);
+                ctrl3.val(duration_formatted);
+            } else {
+                HybridForms.API.Fields.setField(ctrlIds[2], '');
+            }
+        },
+
+    });
+
+    WinJS.Utilities.markSupportedForProcessing(HFFormdefinition.DemoQAStagesHelpers.getSigner);
+    WinJS.Utilities.markSupportedForProcessing(HFFormdefinition.DemoQAStagesHelpers.calculateDuration);
+
+})();
+//# sourceURL=DemoQAStagesHelpers.js

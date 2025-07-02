@@ -1,0 +1,85 @@
+[
+    {
+        "$level": "1",
+        "$sortpath": "208191",
+        "id": "208191",
+        "ParentId": "0",
+        "Value_DE": "Classifications",
+        "$children": [
+            {
+                "$level": "2",
+                "$sortpath": "208191/10015718",
+                "id": "10015718",
+                "ParentId": "208191",
+                "Value_DE": "Unit Type",
+                "$children": [
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10015718/10016759",
+                        "id": "10016759",
+                        "ParentId": "10015718",
+                        "Value_DE": "US Dollars"
+                    },
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10015718/10016764",
+                        "id": "10016764",
+                        "ParentId": "10015718",
+                        "Value_DE": "Australia Dollars"
+                    },
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10015718/10020051",
+                        "id": "10020051",
+                        "ParentId": "10015718",
+                        "Value_DE": "square-feet"
+                    },
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10015718/10020052",
+                        "id": "10020052",
+                        "ParentId": "10015718",
+                        "Value_DE": "square-meters"
+                    }
+                ]
+            },
+            {
+                "$level": "2",
+                "$sortpath": "208191/10036317",
+                "id": "10036317",
+                "ParentId": "208191",
+                "Value_DE": "Guarantee Type",
+                "$children": [
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10036317/8570062",
+                        "id": "8570062",
+                        "ParentId": "10036317",
+                        "Value_DE": "Cash"
+                    },
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10036317/8570063",
+                        "id": "8570063",
+                        "ParentId": "10036317",
+                        "Value_DE": "Guarantor"
+                    },
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10036317/8570064",
+                        "id": "8570064",
+                        "ParentId": "10036317",
+                        "Value_DE": "Letter of Credit"
+                    },
+                    {
+                        "$level": "3",
+                        "$sortpath": "208191/10036317/8570065",
+                        "id": "8570065",
+                        "ParentId": "10036317",
+                        "Value_DE": "Other"
+                    }
+                ]
+            }
+        ]
+    }
+]

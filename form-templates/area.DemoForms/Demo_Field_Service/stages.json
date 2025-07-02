@@ -1,0 +1,25 @@
+{
+    "stages": {
+        "S1": {
+            "first": true,
+            "label": "Stage 1",
+            "next": {
+                "workflows": ["wf_email"]
+            }
+        }
+    },
+    "workflows": {
+        "wf_email": {
+            "type": "email",
+            "from": "service@hybridforms.net",
+            "to": "{customer_email}",
+            "cc": "christian.ekhart@icomedias.com",
+            "subject": "HybridForms: {TemplateName}",
+            "bodyFile": "mailtemplate.txt",
+            "attachimages": false,
+            "attachdocuments": "form.pdf",
+            "errorFeedback": "Email: Versand fehlgeschlagen!",
+            "errorAction": "ignore"
+        }
+    }
+}

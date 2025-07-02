@@ -1,0 +1,46 @@
+﻿.hf-page-form .custom-pane-wrapper {
+    -ms-grid-rows: 48px 1fr 78px 96px;
+}
+
+.hf-page-form #splitViewCtrl .logo-area {
+    display: block;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    background: url("{{HFFormPath}}/form-logo.svg") no-repeat center bottom;
+    /* hier den Namen des von Ihnen verwendeten Bildes einsetzen */
+    background-size: 200px;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#splitViewCtrl .user-settings-area {
+    -ms-grid-row: 4;
+    grid-row: 4;
+}
+
+/*Cordova*/
+[data-theme^='modern-'] {
+    .remark-wrapper {
+        margin-top: 30px;
+    }
+
+    .sign-row {
+        @media screen and (min-width: 1110px) {
+            margin-top: 68px;
+        }
+    }
+}
+
+.hf-formpage .win-splitview .win-splitview-pane {
+    background-image: url("{{HFFormPath}}/form-logo.svg");
+}
+
+[data-theme='modern-dark'],
+[data-theme='dark'],
+[data-theme="modern-dynamic-dark"] {
+    .hf-formpage .win-splitview .win-splitview-pane {
+        background-image: url("{{HFFormPath}}/form-logo_dark.svg");
+
+    }
+}
